@@ -1,17 +1,26 @@
-***Project: Portfolio Template***
+**HTML/CSS**
 ----------------------------------
 
-You’ll be building a portfolio template with HTML/CSS.
+Topics:  
+* Box Model
+* Flex Box
+* BEM Naming Conventions
+* Extra Credit: Media Queries
 
-Project Requirements:
-* List navigation
+You’ll be building a portfolio template with HTML/CSS. Apply what you've learned in the Intro to Topic lab and the lecture. The design is up to you, but your project should include the following features:
+
+* Implement Box Model or Flex Box
+* Use BEM Naming Conventions
+  * http://getbem.com/introduction/
+  * http://getbem.com/naming/
+* List Navigation
 * At least three sections: About Me, Projects, and Contact
-* Your About Me should include a paragraph about you and/or your professional goals and a picture of yourself.
-* The Projects section can include links to work you have online. If you don’t have any yet, you can leave it as a blank template.
-* The Contact section should have your contact information on it, and/or a contact form.
+  * About Me: Include a paragraph about yourself and/or your professional goals and a photo.
+  * Projects: Links to work you have online. If you don’t have any yet, you can leave it as a blank template.
+  * Contact: Your contact information and/or a contact form.
 
 
-If you prefer, you may follow the mockup below:
+If you don't know where to begin, you may follow the mockup below instead of creating your own design, or search the web for quick ideas. Make sure you leave yourself enough time to implement your ideas.
 
 <table>
   <tr>
@@ -23,8 +32,8 @@ If you prefer, you may follow the mockup below:
       <br>
       <ul>
         <li>Single page design</li>
-	<li>Fixed Navigation</li>
-	<li>Links anchored to sections</li>
+	<li>Fixed navigation</li>
+	<li>Links are anchored to sections</li>
 	</ul>
       <br><br>
       <b>What you'll need to know to reproduce the mockup:</b>
@@ -42,6 +51,5 @@ If you prefer, you may follow the mockup below:
 
 
 **References:**  
-[HTML](https://www.w3schools.com/html/html_intro.asp)  
 [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)  
 [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
