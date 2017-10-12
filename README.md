@@ -20,7 +20,7 @@ You’ll be building a portfolio template with HTML/CSS. Apply what you've learn
   * Contact: Your contact information and/or a contact form.
 
 
-If you don't know where to begin, you may follow the mockup below instead of creating your own design, or search the web for quick ideas. Make sure you leave yourself enough time to implement your ideas.
+If you don't know where to begin, you may follow the mockup below instead of creating your own design, or search the web for examples. Make sure you leave yourself enough time to implement your ideas.
 
 <table>
   <tr>
