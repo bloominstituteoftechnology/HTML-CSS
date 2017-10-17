@@ -83,3 +83,11 @@ footer {
  .project-content {
    justify-content: space-between;
  }
+
+ .back-to-top {
+  
+  position: fixed;
+  float: right;
+  left: 1200px;
+  bottom: 14%;
+ }
