@@ -13,3 +13,17 @@
   font-size: 30px;
   padding: 0;
 }
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+.aboutMe__p {
+  width: 50rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(106, 139, 248);
+  font-size: 14px;
+}
