@@ -59,6 +59,8 @@ li a.active {
   margin-bottom: 250px;
   align-items: center;
   justify-content: center;
+  display: flex;
+  padding-top: 50px;
 }
 
 footer {
@@ -73,7 +75,11 @@ footer {
 
 
 
- .__about-img {
+ /* .__about-img {
    width: 50px;
    height: 60px;
+ } */
+
+ .project-content {
+   justify-content: space-between;
  }
