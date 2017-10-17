@@ -1,1 +1,24 @@
 /* CSS for the navigation elements */
+.nav {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: auto;
+  height: 32px;
+  margin: 0;
+  background-color: rgb(4, 161, 161)
+}
+
+.nav--button {
+  padding: 5px;
+  height: 25px;
+  color: white;
+  background-color: rgb(106, 139, 248);
+}
+
+.nav--button #aboutMe {}
+
+.nav--button #projects {}
+
+.nav--button #contactMe {}
