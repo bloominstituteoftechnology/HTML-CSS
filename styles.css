@@ -3,8 +3,8 @@
 @import './components/section/section.css';
 
 body {
-  /* box-sizing: border-box; */
   min-width: 300px;
   margin: 0;
   padding: 0;
+  background: rgb(240, 240, 240);
 }

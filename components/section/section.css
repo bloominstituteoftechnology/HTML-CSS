@@ -18,12 +18,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: auto;
+  width: 100%;
+  padding: 30px 0 0 0;
 }
 
 .aboutMe__p {
-  width: 50rem;
+  max-width: 50rem;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(106, 139, 248);
   font-size: 14px;
+  margin: 5px auto;
 }
