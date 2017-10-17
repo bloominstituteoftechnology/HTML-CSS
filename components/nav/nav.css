@@ -3,6 +3,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-content: center;
   width: auto;
   height: 32px;
@@ -15,6 +16,7 @@
   height: 25px;
   color: white;
   background-color: rgb(106, 139, 248);
+  margin: 0 2%;
 }
 
 .nav--button #aboutMe {}
