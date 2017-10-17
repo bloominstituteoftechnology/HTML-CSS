@@ -5,3 +5,14 @@
   width: auto;
   margin: 0;
 }
+
+#splashPage {
+  background-image: url(../images/oxfordnewcollege.jpg);
+  background-repeat: no-repeat;
+}
+
+.section__image {
+  border: 5px solid black;
+  border-radius: 50%;
+  max-width: 250px;
+}
