@@ -1,5 +1,6 @@
 @import '.components/nav/nav.css';
 @import '.components/section/section.css';
+@import '.components/footer/footer.css';
 
 body {
   box-sizing: border-box;
