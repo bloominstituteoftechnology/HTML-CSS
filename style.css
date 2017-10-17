@@ -1,0 +1,13 @@
+@import url("navBar.css");
+@import url("body.css");
+
+body {
+    background: linear-gradient(-90deg, rgb(68, 68, 68), black);
+    box-sizing: border-box;
+    min-width: 300px;
+    margin: 0;
+}
+
+
+
+
