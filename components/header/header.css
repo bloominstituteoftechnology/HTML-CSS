@@ -1,1 +1,10 @@
 /* CSS for the header elements */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(106, 139, 248);
+  font-size: 48px;
+}
