@@ -5,7 +5,6 @@
   justify-content: center;
   width: auto;
   height: 32px;
-  /* background-color: rgb(4, 161, 161); */
   background-color: rgb(6, 177, 177);
 }
 
@@ -19,9 +18,7 @@
 }
 
 .nav__li {
-  /* display: flex; */
   box-sizing: border-box;
-  /* justify-content: space-around; */
   border-radius: 0 0 4px 4px;
   padding: 4px 10px;
   height: 25px;
@@ -35,7 +32,6 @@
 .nav__li:hover {
   color: rgb(7, 19, 180);
   font-weight: 500;
-  /* color: rgb(106, 139, 248); */
   background-color: rgb(6, 177, 177);
   transition-duration: 1s;
 }
