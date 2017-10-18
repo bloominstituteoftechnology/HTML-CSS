@@ -1,0 +1,16 @@
+.Box__title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.Box__description {
+	font-size: 1.25em;
+	padding: 20px;
+	margin: 20px;
+}
+
+.Box {
+	background-color: white;
+	opacity: 0.75;
+}
