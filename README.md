@@ -21,7 +21,7 @@ You’ll be building a portfolio template with HTML/CSS. Apply what you've learn
 
 
 If you don't know where to begin, you may follow the mockup below instead of creating your own design, or search the web for examples. Make sure you leave yourself enough time to implement your ideas.
-
+ 
 <table>
   <tr>
     <td>

@@ -1,0 +1,58 @@
+.nav {
+    display: flex;
+    float: right;
+    width: auto;
+    height: 2vw;
+    flex-direction: row;
+}
+
+
+.nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+}
+
+.nav__box {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 2vw;
+    color: rgb(228, 223, 169);
+    flex-direction: row;
+    margin: 8px;
+}
+
+.header {
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    display: flex;
+    font-size: 7vw;
+    font-family: 'Baloo Chettan', cursive;
+    color: rgb(201, 207, 208);
+}
+.container {
+    background: url("https://i.pinimg.com/736x/1d/5e/30/1d5e30fc6448595e4f20a3149caae56a--car-ui-miniature-golf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    
+}
+
+
+
+
+
+/*
+body {
+    background: url("http://cdn2.advergize.com/wp-content/uploads/technology-company-slogans-list.jpg?x66602") grey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ }
+ */
