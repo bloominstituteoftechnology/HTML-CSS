@@ -25,7 +25,7 @@ If you don't know where to begin, you may follow the mockup below instead of cre
 <table>
   <tr>
     <td>
-      <img src="http://i64.tinypic.com/14v4i0k.jpg" width="400"/>
+      <img src="https://github.com/Mikisho/HTML-CSS/blob/master/images/webpage.png" width="400"/>
     </td>
     <td align="left">
       <b>Mockup Details:</b>
