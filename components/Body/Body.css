@@ -86,7 +86,7 @@ body {
 
 #contact {
 	background: #F9F9F9;
-	padding: 50px;
+	padding: 30px;
 	margin: 50px 0;
 }
 
@@ -116,7 +116,7 @@ fieldset {
 	border: 1px solid #CCC;
 	background: #FFF;
 	margin: 0 0 5px;
-	padding: 10px;
+	padding: 3px;
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
@@ -138,7 +138,7 @@ fieldset {
 	border: none;
 	background: #0CF;
 	color: #FFF;
-	margin: 0 0 5px;
+	margin: 0 5px 5px;
 	padding: 10px;
 	font-size: 15px;
 }
