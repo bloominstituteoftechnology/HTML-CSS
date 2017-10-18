@@ -65,6 +65,8 @@ li a.active {
   justify-content: center;
   display: flex;
   padding-top: 50px;
+  font-family: 'Hind', sans-serif;
+  font-size: 22px;
 }
 
 footer {
