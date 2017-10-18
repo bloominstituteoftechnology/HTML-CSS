@@ -1,0 +1,68 @@
+.navbar {
+    overlow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Section {
+    box-sizing: border-box;
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    align-content: center;
+}
+
+.footer {
+    overlow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Box {
+    box-sizing: border-box;
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .Box--top {
+    float: center;
+  }
+  
+  .Box--AboutMe {
+    float: center;
+  }
+  
+  .Box--Projects {
+    float: center;
+  }
+
+  .Box--ContactMe {
+    float: center;
+  }
+
+  .Box--bordered {
+    display: inline-block;
+  }
+
+  body {
+      background-image: url("backgroundimage.jpg");
+      color: #D3CCCC;
+  }
