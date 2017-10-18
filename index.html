@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduction to the DOM</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="flex-wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><a id="home-btn" href="#">
+              <h3>Home</h3>
+              <i class="fa fa-home fa-lg"></i> 
+            </a></li>
+            <li><a id="about-btn" href="#about">
+              <h3>About Me</h3>
+              <i class="fa fa-info fa-lg"></i>   
+            </a></li>
+            <li><a id="projects-btn" href="#">
+              <h3>Projects</h3>
+              <i class="fa fa-code fa-lg"></i>     
+            </a></li>
+            <li><a id="contact-btn" href="#contact">
+              <h3>Contact Me</h3>
+              <i class="fa fa-envelope-o fa-lg"></i>     
+            </a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="Home">
+        <header>
+          <h1>Dan Volosnikov</h1>
+          <h3>Full-Stack Web Developer</h3>
+          <ul>
+            <li class="--arrow-up"><a href="https://www.facebook.com/dan.volosnikov" target="_blank"><i class="fa fa-facebook fa-lg --padding-top-sf"></i></a></li>
+            <li class="--arrow-down"><a href="https://github.com/lightofdavinci" target="_blank"><i class="fa fa-github fa-lg --padding-bottom-sf"></i></a></li>
+            <li class="--arrow-up"><a href="https://codepen.io/Volosnikov/" target="_blank"><i class="fa fa-codepen fa-lg --padding-top-sf"></i></a></li>
+            <li class="--arrow-down"><a href="#" target="_blank"><i class="fa fa-google-plus fa-lg --padding-bottom-sf"></i></a></li>
+            <li class="--arrow-up"><a href="https://vk.com/danymccoyvolosnikov" target="_blank"><i class="fa fa-vk a-lg --padding-top-sf"></i></a></li>
+          </ul>
+        </header>
+      </section>
+      <section id="about" class="About">
+        <h3>Let's create amazing things together</h3>
+        <p class="About-paragraph">I'm a junior Full Stack Developer, this page is a simple personal Porfolio project challenge for lambdaschool.com school that decided to join to recap and wrapup my mind on the skills I've learned.</p>
+        <h3>My Skills</h3>
+        <div class="About-logo-collection">
+          <div>
+            <img class ="logo6" src="https://github.com/lightofdavinci/photo/blob/master/HTML5_Logo_512.png?raw=true" alt="">
+            <img class ="logo10" src="https://github.com/lightofdavinci/photo/blob/master/css3new.png?raw=true" alt="">
+            <img class ="logo7" src="https://github.com/lightofdavinci/photo/blob/master/newjs.png?raw=true" alt="">
+            <img class ="logo2" src="https://github.com/lightofdavinci/photo/blob/master/17287-full.png?raw=true" alt="">
+          </div>
+          <div>
+            <img class="logo1" src="https://github.com/lightofdavinci/photo/blob/master/117367_logo_512x512.png?raw=true" alt="">
+            <img class ="logo12" src="https://github.com/lightofdavinci/photo/blob/master/logo.png?raw=true" alt="">
+            <img class ="logo3" src="https://github.com/lightofdavinci/photo/blob/master/32790-node.png?raw=true" alt="">
+            <img class ="logo5" src="https://github.com/lightofdavinci/photo/blob/master/Azure-SQL-Database.png?raw=true" alt="">          
+          </div>
+          <div>
+            <img class ="logo8" src="https://github.com/lightofdavinci/photo/blob/master/bootstrap-logo.png?raw=true" alt="">
+            <img class ="logo9" src="https://github.com/lightofdavinci/photo/blob/master/cpp.png?raw=true" alt="">      
+            <img class ="logo11" src="https://github.com/lightofdavinci/photo/blob/master/github-512.png?raw=true" alt="">
+            <img class ="logo4" src="https://github.com/lightofdavinci/photo/blob/master/8-2-photoshop-logo-png-hd.png?raw=true" alt="">
+          </div>        
+        </div>
+      </section>
+      <section id="contact" class="Contact">
+        <h1>Have a question?</h1>
+        <h3>get in touch</h3>
+        <form>
+          <div class="form-group form-group-lg"><label for="email" class="control-label">Email</label>
+            <input type="email" value="" placeholder="Email" id="email" class="form-control"></div>
+          <div class="form-group form-group-lg"><label for="subject" class="control-label">Subject</label>
+            <input type="text" value="" placeholder="Subject" id="subject" class="form-control"></div>
+          <div class="form-group form-group-lg"><label for="description" class="control-label">Description</label>
+            <textarea placeholder="Description" id="description" class="form-control"></textarea></div>
+          <button type="reset" class="btnClear btnClear-default">Clear</button>
+          <button type="button" class="btnSubmit btnSubmit-default">Send</button>
+        </form>
+      </section>
+      <footer></footer>
+    </div>
+  </body>
+</html>
