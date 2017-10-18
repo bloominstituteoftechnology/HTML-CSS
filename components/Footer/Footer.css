@@ -25,5 +25,5 @@ footer {
     _top:expression(eval(document.documentElement.scrollTop+
         (document.documentElement.clientHeight-this.offsetHeight)));
     height:25px;
-	color: green;
+	color: #43442B;
 }
