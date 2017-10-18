@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+}
+
+.nav__ul {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 0.5%;
+    margin: 0.5%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    white-space: nowrap;
+    background-color: black;
+}
+
+.nav__li {
+    width: 10%;
+    padding: 0.5%;
+    margin: 1.5%;
+    width: auto;
+    color: rgb(190, 170, 170);
+}
+
+.nav__li:hover {
+    color: white;
+    cursor: pointer;
+}
