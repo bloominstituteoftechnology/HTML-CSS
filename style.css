@@ -1,6 +1,7 @@
 @import './components/nav/nav.css';
 @import './components/header.css';
 @import './components/section.css';
+@import './components/footer.css';
 body {
   margin: 0;
   padding: 0;
@@ -12,4 +13,8 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
+}
+.logos img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
 }
