@@ -1,0 +1,218 @@
+body {
+	background-color: darkgray;
+	min-width: 300px;
+	margin: 0px;
+	position: relative;
+	display: flex;
+	min-width: 300px;
+}
+
+a:link, a:visited {
+	cursor: default;
+	font-family:"Lucida Console", "Monaco";
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 2px;
+	padding: 0px 0px;
+}
+
+a:hover, a:active {
+	cursor: default;
+    background-color: orange;
+}
+
+.sideBar {
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  height: 100%;
+  border-right: 1px solid #D7DBDD;
+  background-color: #FCFDFD;
+}
+
+  .sideBar__item {
+    padding: 5px 10px;
+    font-size: 20px;
+	text-decoration: none;
+}
+
+  .sideBar__item.is-side-bar-item-selected {
+    background-color: #EEF3F5;
+    border-radius: 4px;
+}
+
+.content {
+	position: relative;
+	padding: 20px;
+	margin-left: 175px;
+	margin-right: 25px;
+
+}
+
+.h0 {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+}
+.t0 {
+	color: white;
+	text-align: left;
+	font-size: 1.05em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+	width: 100%;
+}
+.form {
+
+}
+.form__field00 {
+	width: 100%;
+}
+
+.form__field01 {
+	width: 100%;
+	height: 200px;
+}
+/*************************************************
+	helper stuffs
+**************************************************/
+.flR {
+	float: right;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+/*************************************************
+	Unused helper stuffs
+**************************************************
+
+.boxS {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.boxSw {
+	clear:left;
+	background-color:orange;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.boxSw2 {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.t1 {
+	color: white;
+	font-size: 1.05em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+}
+
+.t2 {
+	text-align:left;
+}
+
+
+.newDiv {
+	display: inline;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: darkgray;
+	margin-right: -14px;
+	float: right;
+}
+
+.divSpacer {
+	width: 100%;
+	height: 30px;
+}
+
+.bord2p5 {
+	border: 2.5px solid black;	
+}
+
+.pad5 {
+	padding: 5px;	
+}
+
+.rect {
+	box-shadow: black;
+	margin: 0 auto;
+}
+
+.inL {
+}
+
+.flL {
+	float: left;
+	margin-left: 0px;
+	margin-right: auto;
+	max-width: 50%;
+}
+.flR {
+	float: right;
+	margin-left: auto;
+	margin-right: 0px;
+}
+.flC {
+	box-shadow: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.x4bords {
+	border-style:none;
+}
+.xTbord {
+	border-top-width: 0px;
+}
+.xBbord {
+	border-bottom-width: 0px;
+}
+.xLbord {
+	border-left-width: 0px;
+}
+.xRbord {
+	border-right-width: 0px;
+}
+
+
+.table {
+    display: table;
+	border-collapse: collapse;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+}
+
+.disI {
+	display:inline;
+}
+.disN {
+	display: none;
+}
+.visH {
+	visibility: hidden;
+}
+.visV {
+	visibility: visible;
+}
+
+.nW {
+	white-space: nowrap;
+}
+*************************************************/

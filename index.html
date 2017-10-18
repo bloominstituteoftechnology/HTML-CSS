@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<hml>
+  <head>
+    <title>Sondro</title>
+    <!-- Here we reference our styles.css for our page styling -->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <!-- This is where you will begin your solution -->
+  <div class = "layout">
+  <div class="sideBar flL">
+  <!-- This section gets pushed to the top-->
+  <div class="sideBar__section">
+  	<div class="sideBar__item is-side-bar-item-selected"><a id = "aHome" href = "#home">&nbsp;Home&nbsp;</a></div>
+    <div class="sideBar__item"><a id = "aAbout" href = "#about">&nbsp;About&nbsp;</a></div>
+    <div class="sideBar__item"><a id = "aProjects" href = "#projects">&nbsp;Projects&nbsp;</a></div>
+    <div class="sideBar__item"><a id = "aContact" href = "#contact">&nbsp;Contact&nbsp;</a></div>
+  </div>
+  <!-- This section gets pushed to the bottom-->
+  <div class="sideBar__section"></div>
+  </div><a name = "home"></a>
+      <div class = "content"><header class = "h0">:: Home :: </header>
+      <p name = "home" class = "t0"/>Lorem ipsum dolor sit amet, duo eu pertinacia appellantur vituperatoribus, vim ne omnes libris meliore. Duo eu sale tractatos, sit at intellegat reformidans. Amet virtute perpetua eos ut, eam minim postulant ea. Graeci maiorum eam te, sint atqui nonumy ei sed, postulant iracundia qui ne. Falli civibus cu vix.
+      <br/><br/><a name = "about"></a>
+      <header name = "about" class = "h0">/// About ///</header>
+      <p class = "t0"/>Lorem ipsum dolor sit amet, duo eu pertinacia appellantur vituperatoribus, vim ne omnes libris meliore. Duo eu sale tractatos, sit at intellegat reformidans. Amet virtute perpetua eos ut, eam minim postulant ea. Graeci maiorum eam te, sint atqui nonumy ei sed, postulant iracundia qui ne. Falli civibus cu vix.
+   <br/><br/><a name = "projects"></a>
+   <header class = "h0">{{ Projects }}</header><p class = "t0"/>Lorem ipsum dolor sit amet, duo eu pertinacia appellantur vituperatoribus, vim ne omnes libris meliore. Duo eu sale tractatos, sit at intellegat reformidans. Amet virtute perpetua eos ut, eam minim postulant ea. Graeci maiorum eam te, sint atqui nonumy ei sed, postulant iracundia qui ne. Falli civibus cu vix. 
+   	<br/><br/><a name = "contact"></a>
+    <header class = "h0">[ Contact ]</header>
+    <br/>
+  <form action="/contact.php">
+    <input class="form__field00" type="text" id="fname" name="firstname" placeholder="First Name"/>
+	<br/><br/>
+    <input class="form__field00" type="text" id="lname" name="lastname" placeholder="Last Name"/>
+	<br/><br/>
+    <input class="form__field00" type="text" id="subject" name="subject" placeholder="Subject"/>
+	<br/><br/>
+    <textarea class="form__field01" id="message" name="message" placeholder="Your message..."></textarea>
+    <br/><br/>
+  </form>
+      <a href = "" class = "flR">&nbsp;Submit&nbsp;</a>
+  <br/><br/>
+</div> 
+   </div>
+  </body>
+</hml>
