@@ -17,6 +17,7 @@ body {
     font-weight: 300;
 }
 
+/*----- NAVIGATION LINKS -----*/
 a {
     text-decoration: none;
     color: rgb(209, 199, 177);
@@ -24,10 +25,11 @@ a {
 
 a:hover {
     color: white;
+    font-weight: bold;
 }
 
 .Contact-Nav a {
-    color: rgb(255, 209, 111)
+    color: rgb(255, 209, 111);
 }
 
 .Contact-Nav a:hover {
@@ -49,11 +51,6 @@ a:hover {
     width: 18%;
     text-transform: uppercase;
     letter-spacing: 5px;
-}
-
-.Navigation-Main li:hover {
-    color: white;
-    font-weight: bold;
 }
 
 /*----- NAME DISPLAY -----*/
@@ -190,6 +187,10 @@ li .Intro {
 .Contact__Form ul {
     list-style: none;
     font-size: 150%;
+}
+
+.Contact__Form a {
+    color: white;
 }
 
 /*----- FOOTER -----*/
