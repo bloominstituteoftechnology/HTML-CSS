@@ -1,0 +1,60 @@
+* {visibility: hidden;}
+@font-face {
+  font-family: 'Gruppo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gruppo'), url(https://fonts.gstatic.com/s/gruppo/v8/Z8_XBnSobhWOH0HWw-L2BPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Gruppo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gruppo'), url(https://fonts.gstatic.com/s/gruppo/v8/EoL765IZSvUoJyAsw4h7ow.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+* {font-family: 'Gruppo', 'Courier New'; color: rgb(192, 192, 192); font-size: 16px;}
+html {background-color: rgb(0, 88, 128); overflow: hidden;}
+.Chat {position: absolute; top: 0px; display: flex; flex-flow: column; justify-content: flex-end; height: 100%; width: 250px; border-right: solid 1px rgb(160, 160, 160);}
+.Chat__message {list-style-type: none; padding: 0px 4px 0px 4px; margin-right: 8px; line-height: 20px;} .Chat__message:active, .Chat__message:focus, .Chat__input:active, .Chat__input:focus {background-color: rgb(44, 44, 44); border-radius: 4px;}
+.Chat__input {display: block; padding: 0px 4px 0px 4px; margin: 8px 8px 8px 0px; background: rgba(0,0,0,0); border: 1px solid rgb(160, 160, 160); border-radius: 4px; line-height: 32px;}
+.Navigation {position: absolute; display: flex; flex-flow: row; justify-content: space-around; top: 8px; left: 4px; width: 250px; line-height: 48px;}
+.Navigation__item {height: 50px; width: 52px; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; text-align: center; background: none;}
+.Navigation__item:hover, .Navigation__item:active, .Navigation__item:focus {background: rgb(0, 128, 88); border-radius: 4px; outline: none;}
+.Section {position: absolute; display: flex; flex-flow: row; padding-left: 272px; top: 0px; left: 0px; height: 100%; width: 100%; background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,0));}
+.Section__content {margin: 8px; max-width: calc(100% - 272px); border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+/*.Section__content:nth-of-type(1) {order: 2;} .Section__content:nth-of-type(2) {order: 1;}*/
+.Section__header-content--color, .Span--content, .Span--content-2 {font-size: 24px; font-weight: 700;}
+/*.Section__content:nth-of-type(2) {visibility: hidden;}
+*/
+@media only screen and (max-width: 515px) {
+	.Chat {min-width: calc(100% - 10px);}
+	.Section__content {display: none;}
+}
+
+@media only screen and (min-width: 1050px) {
+	.Section__content {margin: 8px; max-width: 50%;}
+	.Section__content:nth-of-type(2) {display: none;}
+
+}
+
+/* I know don't do this... well JAWs doesn't care anymore and no, I am for now, going to handle content programmaticly with CSS until I have the node equiv. to include.
+   This will be handled with another resource drawn from a database. Purely mockup/proxy implimentation. I get it. */
+.Chat__message:nth-of-type(1):before {color: rgb(200, 172, 88); content: 'etidew >> ';}
+.Chat__message:nth-of-type(1):after {content: 'Please bare with me as I find some time on here.';}
+.Chat__message:nth-of-type(2):before {color: rgb(200, 172, 88); content: 'etidew >> ';}
+.Chat__message:nth-of-type(2):after {content: 'Proud to say I am a cohort of Lambda School. #GoLambda';}
+.Chat__message:nth-of-type(3):before {color: rgb(200, 172, 88); content: '@Projects >> ';}
+.Chat__message:nth-of-type(3):after {content: 'What do you think of a big public wall we can share and draw on together, online? #lets-build-a-different-wall';}
+.Chat__message:nth-of-type(4):before {color: rgb(200, 172, 88); content: '@Promotions >> ';}
+.Chat__message:nth-of-type(5):before {color: rgb(200, 172, 88); content: 'etidew >> ';}
+.Chat__message:nth-of-type(5):after {content: 'I paid $10 for a year of hosting, two SSL, WhoIsGuard, and a domain.';}
+.Span--content:before { color: rgb(172, 200, 88); content: "etidew ";}
+.Span--content:after { color: rgb(200, 172, 88); content: " \{";}
+/* I'd like to standardize this format for my page to display objects. */
+.Section__header-content--color:nth-of-type(1):before { color: rgb(88, 172, 200); content: "author";}
+.Section__header-content--color:nth-of-type(1):after { color: rgb(192, 192, 192); content: "\"Jeff Schock II\" \,";}
+.Span--content-2:after { color: rgb(200, 172, 88); content: " \}";}
+.Section__image {position: relative; left: 0px; top: 16px; bottom: 16px; height: calc(66% - 100px); border-radius: 4px; box-shadow: 5px 5px 15px #000;}
+
+* {visibility: visible;}
