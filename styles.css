@@ -1,0 +1,31 @@
+body {
+  background-color: #161616;
+}
+.nav-bar-block {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-left {
+  float: left;
+}
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.header-text {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+.name {
+  padding: 2%;
+  margin-top: 5%;
+}
