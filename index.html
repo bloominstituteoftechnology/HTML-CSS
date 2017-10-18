@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cassidy Avery | Programmer</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Cassidy Avery | Portfolio</title>
+    <link rel='stylesheet' href='styles.css'>
+    <link href="https://fonts.googleapis.com/css?family=Philosopher:700|Raleway:500|Sansita" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
   </head>
   <body>
-    <div class="section">
-      <div class="nav">
-        <div class="nav__links">
-          <a href="#splashPage">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+    <div class='navcontainer'>
+      <div class='nav'>
+        <div class='nav--link'><a href='#home'>Home</a></div>
+        <div class='nav--link'><a href='#about'>About</a></div>
+        <div class='nav--link'><a href='#projects'>Projects</a></div>
+        <div class='nav--link'><a href='#contact'>Contact</a></div>
+      </div>
+    </div>
+    <div class='header-container' id='home'>
+      <div class='header'>
+        <div class='headline'>
+          <div class='header--main'>Cassidy S.N. Avery</div>
+          <div class='header--subheader'>Programmer / Developer</div>
         </div>
       </div>
-      <div class="section" id="splashPage">
-        <div class="section__name">Cassidy S.N. Avery</div>
-        <div class="section__job">Designer and Programmer</div>
+    </div>
+    <div class='section-container'>
+      <div class='section' id='about'>
+        <div class='section--body'>
+          <div class='section--title'>Meet Cassidy</div>
+          <div class='section--text'>
+            <hr/>
+            <p>I'm just waiting for the day when someone will pay me to play video games and eat burritos. In the meantime, I program and develop for the web.
+            <br/>I LOVE JavaScript and also know HTML, CSS, Bootstrap, Python and am looking forward to learning much, much more!</p>
+          </div>
+        </div>
+        <div class='section--image'><img class='sect_img' src="./images/cassidy.jpg" alt="Cassidy looking in mirror"></img></div>
       </div>
-      <div class="section" id="about">
-        <div class="secton section--content">
-          <div class="section section__title">
-            About<img src="https://www.shareicon.net/data/128x128/2015/09/01/94140_development_512x512.png">Who is Cassidy?
-          </div>
-          <div class="secton section__text">
-            texty text text
-          </div>
-          <div class="section section--image">
-            <img class="section__image" src="images/cassidy.jpg" alt="image of Cassidy looking into mirror">
+    </div>
+    <div class='projects-container' id='projects'>
+      <div class='projects'>
+        <div class='projects--title'>Cassidy's Projects</div>
+        <div class='projects--gridcontainer'>
+          <div class='projects--grid'>
+            <div class='projects--feature'>
+              <div class='project--image'><img class='proj_img' src="./images/placeholder.jpeg" alt="Placeholder"></img></div>
+              <div class='project--link'><a href='#'>Placeholder Link</a></div>
+            </div>
+            <div class='projects--feature'>
+              <div class='project--image'><img class='proj_img' src="./images/placeholder.jpeg" alt="Placeholder"></img></div>
+              <div class='project--link'><a href='#'>Placeholder Link</a></div>
+            </div>
+            <div class='projects--feature'>
+              <div class='project--image'><img class='proj_img' src="./images/placeholder.jpeg" alt="Placeholder"></img></div>
+              <div class='project--link'><a href='#'>Placeholder Link</a></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="section" id="projects">
-        <!--Projects-->
-      </div>
-      <div class="section" id="contact">
-        <div class="section section--content">
-          <div class="section section__title">
-            About<img src="https://www.shareicon.net/data/128x128/2015/09/01/94140_development_512x512.png">Who is Cassidy?
-          </div>
-          <div class="section section__text">
-            texty text text
-          </div>
-          <div class="section section--image">
-            <img class="section__image" src="images/woman_typing.jpg" alt="image of a woman typing">
+    </div>
+    <div class='section-container' id='contact'>
+      <div class='section'>
+        <div class='section--image'><img class='sect_img' src="./images/contact.jpeg" alt="Woman typing on phone"></img></div>
+        <div class='section--body'>
+          <div class='section--title'>Connect with Cassidy</div>
+          <div class='section--buttons'>
+            <div class='section__socialbutton'><a href="https://github.com/tacolim" role="button" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+            <div class='section__socialbutton'><a href="https://twitter.com/tacolimCass" role="button" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+            <div class='section__socialbutton'><a href="https://www.linkedin.com/in/cassidysnavery/" role="button" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <!--footer-->
+    </div>
+    <div class='footercontainer'>
+      <div class='footer'>
+        <div class='footer--content'>Coded by Cassidy S.N. Avery with  <i class="fa fa-heart" aria-hidden="true"></i></div>
       </div>
     </div>
   </body>
