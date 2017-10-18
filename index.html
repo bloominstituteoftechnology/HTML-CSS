@@ -1,59 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Perry Ahern: Developer</title>
-    <link rel="stylesheet" href="./styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <!-- Navigation -->
-    <div class="nav">
-      <ul class="nav__ul">
-        <li class="nav__li">Home</li>
-        <a href="#aboutMe"><li class="nav__li">About Me</li></a>
-        <a href="#projects"><li class="nav__li">Projects</li></a>
-        <a href="#contactMe"><li class="nav__li">Contact Me</li></a>
-      </ul>
-    </div>
-    <main class="mainContent">
-      <!-- Header -->
-      <div class="header">Perry Ahern</div>
-      <div class="header header--subHeader">Coding dreams into reality</div>
-      <!-- Welcome -->
 
-      <!-- About Me -->
-      <div class="aboutMe" id="aboutMe">
-        <div class="aboutMe--header">About Me:</div>
-        <p class="aboutMe__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu lacinia justo. Integer condimentum, quam at dignissim dictum, urna est varius dolor, eget lobortis felis libero eu mauris. Donec dictum metus arcu, a finibus massa sagittis et.</p>
-        <p class="aboutMe__p">Suspendisse vestibulum nibh ac massa rhoncus posuere. Sed ac mauris augue. Pellentesque fringilla mi id justo egestas, non rhoncus massa tempus. Vestibulum fringilla convallis magna, eu sagittis eros pulvinar vel. Morbi fermentum felis ut metus accumsan iaculis.</p>
+<head>
+  <title>Perry Ahern: Developer</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="nav">
+    <ul class="nav__ul">
+      <li class="nav__li">Home</li>
+      <a href="#aboutMe">
+        <li class="nav__li">About Me</li>
+      </a>
+      <a href="#projects">
+        <li class="nav__li">Projects</li>
+      </a>
+      <a href="#contactMe">
+        <li class="nav__li">Contact Me</li>
+      </a>
+    </ul>
+  </div>
+  <main class="mainContent">
+    <!-- Header -->
+    <div class="header">Perry Ahern</div>
+    <div class="header header--subHeader">Coding dreams into reality</div>
+    <!-- Welcome -->
+
+    <!-- About Me -->
+    <div class="aboutMe" id="aboutMe">
+      <div class="aboutMe--header">About Me:</div>
+      <p class="aboutMe__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu lacinia justo. Integer condimentum, quam at
+        dignissim dictum, urna est varius dolor, eget lobortis felis libero eu mauris. Donec dictum metus arcu, a finibus
+        massa sagittis et.</p>
+      <p class="aboutMe__p">Suspendisse vestibulum nibh ac massa rhoncus posuere. Sed ac mauris augue. Pellentesque fringilla mi id justo egestas,
+        non rhoncus massa tempus. Vestibulum fringilla convallis magna, eu sagittis eros pulvinar vel. Morbi fermentum felis
+        ut metus accumsan iaculis.</p>
+    </div>
+    <!-- Projects -->
+    <div class="projects--header" id="projects">Projects:</div>
+    <div class="projects">
+      <div class="projects--each">
+        <img src="./components/images/blocjams.png" width="215">
       </div>
-      <!-- Projects -->
-      <div class="projects--header" id="projects">Projects:</div>      
-      <div class="projects">
-        <div class="projects--each">Test 1</div>
-        <div class="projects--each">Test 2</div>
-        <div class="projects--each">Test 3</div>
-        <div class="projects--each">Test 4</div>
-        <div class="projects--each">Test 5</div>
-        <div class="projects--each">Test 6</div>
-        <div class="projects--each">Test 7</div>
+      <div class="projects--each">
+        <img src="./components/images/blocchat.png" width="215">
       </div>
-      <!-- Contact Me -->
-      <div class="contactMe--header" id="contactMe">Contact Me</div>
-      <div class="contactMe contactMe__fields">
-        <form action="mailto:pahern@gmail.com" method="post" enctype="text/plain">
-          <br>
-          <input type="text" name="name" placeholder="name..."><br>
-          <br>
-          <input type="text" name="mail" placeholder="email..."><br>
-          <br>
-          <input type="text" name="comment" size="50" placeholder="comment..."><br><br>
-          <input type="submit" value="Send">
-          <input type="reset" value="Reset">
-          </form>
+      <div class="projects--each">
+        <img src="./components/images/portfolio.png" width="215">
       </div>
-    </main>
-    <!-- Footer -->
-      <br><br><br><br><br>
-  </body>
+      <div class="projects--each">
+        <img src="./components/images/bloccit.png" width="215">
+      </div>
+      <div class="projects--each">Test 5</div>
+      <div class="projects--each">Test 6</div>
+      <div class="projects--each">Test 7</div>
+    </div>
+    <!-- Contact Me -->
+    <div class="contactMe--header" id="contactMe">Contact Me</div>
+    <div class="contactMe contactMe__fields">
+      <form action="mailto:pahern@gmail.com" method="post" enctype="text/plain">
+        <br>
+        <input type="text" name="name" placeholder="name...">
+        <br>
+        <br>
+        <input type="text" name="mail" placeholder="email...">
+        <br>
+        <br>
+        <input type="text" name="comment" size="50" placeholder="comment...">
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+  </main>
+  <!-- Footer -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+
 </html>
