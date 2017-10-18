@@ -2,10 +2,6 @@
 //    AlexCassell.com
 //    Created using Visual Studio Code and Mountain Dew
 //    © Alex Cassell 2017 All rights Reserved.
-//    Provided without warranty;
-//    If this script breaks your computer
-//    or knocks up your sister (has only happened twice), 
-//    you should have expected this and are on your own.
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
 /*jslint node: true */
