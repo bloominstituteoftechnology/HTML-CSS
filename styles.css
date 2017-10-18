@@ -25,7 +25,23 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
+.text {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  list-style-type: none;
+}
 .name {
   padding: 2%;
   margin-top: 5%;
+}
+hr {
+  border: 0;
+  height: 1px;
+  width: 70%;
+  background-image: linear-gradient(to right, rgba(255, 255,255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));;
+}
+
+a, a:active, a::after, a:hover {
+  color: white;
 }
