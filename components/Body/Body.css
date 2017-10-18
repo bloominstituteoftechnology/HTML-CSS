@@ -4,10 +4,11 @@ body {
 }
 
 .Description {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Arial, sans-serif, Helvetica;
 	line-height: 1.5;
 	font-size: 22px;
-	color: cyan;
+	color: #87A85C;
+	font-weight: 400;
 }
 
 .Absolute-Center {
