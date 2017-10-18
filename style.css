@@ -17,6 +17,23 @@ body {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(209, 199, 177);
+}
+
+a:hover {
+    color: white;
+}
+
+.Contact-Nav a {
+    color: rgb(255, 209, 111)
+}
+
+.Contact-Nav a:hover {
+    color: white;
+}
+
 /*----- NAVIGATION BAR -----*/
 .Navigation-Main {
     list-style: none;
@@ -37,10 +54,6 @@ body {
 .Navigation-Main li:hover {
     color: white;
     font-weight: bold;
-}
-
-.Contact-Nav {
-    color: rgb(255, 209, 111);
 }
 
 /*----- NAME DISPLAY -----*/
