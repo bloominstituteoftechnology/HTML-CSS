@@ -1,0 +1,133 @@
+@import './nav/nav.css';
+@import './Header/header.css';
+@import './Box/box.css';
+@import './Section/section.css';
+body {
+    display: flex;
+    box-sizing: border-box;
+    font: 300 14px "Lato", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: url(images/web.jpg) no-repeat center center fixed;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #d6d0d0;
+    font-size: 36pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background: url(images/name.jpg) center fixed;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    background: rgb(164, 219, 156);
+}
+
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 1020;
+    }
+    .welcome .about {
+        display: flex;
+        margin-top: 5%;
+    }
+    .proj {
+        display: flex;
+    }
+    ;
+}
+
+@media only screen and (max-width:900px) {
+    .welcome .about .res-menu {
+        display: flex;
+        margin-top: 10%;
+    }
+    .proj {
+        display: flex;
+        flex-flow: column;
+    }
+    .proj p {
+        font-size: 1.2em;
+    }
+    ;
+}
+
+@media only screen and (max-width: 750px) {
+    .about .proj .res-menu {
+        display: flex;
+        margin-top: 15%;
+    }
+    .welcome {
+        display: none;
+    }
+    .proj .picture {
+        display: flex;
+        flex-flow: column;
+    }
+    .res-menu {
+        display: flex;
+        flex-flow: column;
+    }
+    .proj p {
+        font-size: 1.5em;
+    }
+    ;
+}
+
+
+/*Style for footer */
+
+footer {
+    background-color: rgb(75, 83, 83);
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/*linkedin*/
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
