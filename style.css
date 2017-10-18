@@ -1,4 +1,3 @@
-
 html, body {
     background: #212121;
     margin: 0;
@@ -7,13 +6,66 @@ html, body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-.page {
-    width: 90%;
-    margin: 0 auto;
+
+@font-face {
+	font-family: 'Proxima Soft';
+	src: url('/assets/fonts/ProximaSoft-Regular.eot');
+	src: url('/assets/fonts/ProximaSoft-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/ProximaSoft-Regular.woff') format('woff'),
+		url('/assets/fonts/ProximaSoft-Regular.ttf') format('truetype'),
+		url('/assets/fonts/ProximaSoft-Regular.svg#ProximaSoft-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Proxima Soft';
+	src: url('/assets/fonts/ProximaSoft-Medium.eot');
+	src: url('/assets/fonts/ProximaSoft-Medium.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/ProximaSoft-Medium.woff') format('woff'),
+		url('/assets/fonts/ProximaSoft-Medium.ttf') format('truetype'),
+		url('/assets/fonts/ProximaSoft-Medium.svg#ProximaSoft-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Soft';
+	src: url('/assets/fonts/ProximaSoft-Bold.eot');
+	src: url('/assets/fonts/ProximaSoft-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/ProximaSoft-Bold.woff') format('woff'),
+		url('/assets/fonts/ProximaSoft-Bold.ttf') format('truetype'),
+		url('/assets/fonts/ProximaSoft-Bold.svg#ProximaSoft-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Soft';
+	src: url('/assets/fonts/ProximaSoft-Light.eot');
+	src: url('/assets/fonts/ProximaSoft-Light.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/ProximaSoft-Light.woff') format('woff'),
+		url('/assets/fonts/ProximaSoft-Light.ttf') format('truetype'),
+		url('/assets/fonts/ProximaSoft-Light.svg#ProximaSoft-Light') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Andale Mono';
+    src: url('/assets/fonts/AndaleMono.eot');
+    src: local('Andale Mono'), local('AndaleMono'),
+        url('/assets/fonts/AndaleMono.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/AndaleMono.woff') format('woff'),
+        url('/assets/fonts/AndaleMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 
 }
 header img {
@@ -31,11 +83,16 @@ nav a {
     text-decoration: none;
 }
 .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
     text-align: center;
     color: #ffffff;
     padding: 100px 0;
 }
 .hero h1, .hero h2 {
+    font-family: 'Proxima Soft';
+    font-weight: 300;
     margin: 0;
 }
 .hero h1 {
@@ -49,19 +106,21 @@ nav a {
     width: 90%;
     margin: 0 auto;
     max-width: 1000px;
+    padding-bottom: 20px;
 }
 .whoami h1, .projects h1, .contact h1 {
-    font-family: Proxima Soft;
+    font-family: 'Proxima Soft';
     font-size: 24px;
     font-weight: 500;
     color: #ffffff;
 }
 
 .whoami p {
-    font-family: Proxima Soft;    
+    font-family: 'Proxima Soft';    
     font-size: 24px;
-    font-weight: 300;    
-    color: #ffffff;    
+    font-weight: normal;    
+    color: #ffffff; 
+    line-height: 1.3;   
 }
 
 .projects ul {
@@ -72,7 +131,11 @@ nav a {
 }
 .projects ul li {
     width: 32%;
+    min-width: 227px;
     margin: 0 1.333333333% 15px 0;
+}
+.projects ul li img {
+    padding-right: 20px;
 }
 .projects ul a {
     background: #131313;
@@ -89,10 +152,14 @@ nav a {
     color: #ffffff;
 }
 .contact ul li {
+    font-family: 'Andale Mono';
     font-size: 20px;
 }
 .contact ul a {
     font-size: 18px;
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+
+/* 870 */
