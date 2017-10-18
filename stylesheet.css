@@ -55,6 +55,6 @@ html {background-color: rgb(0, 88, 128); overflow: hidden;}
 .Section__header-content--color:nth-of-type(1):before { color: rgb(88, 172, 200); content: "author";}
 .Section__header-content--color:nth-of-type(1):after { color: rgb(192, 192, 192); content: "\"Jeff Schock II\" \,";}
 .Span--content-2:after { color: rgb(200, 172, 88); content: " \}";}
-.Section__image {position: relative; left: 0px; top: 16px; bottom: 16px; height: 66%; border-radius: 4px; box-shadow: 5px 5px 15px #000;}
+.Section__image {position: relative; left: 0px; top: 16px; bottom: 16px; height: calc(66% - 100px); border-radius: 4px; box-shadow: 5px 5px 15px #000;}
 
 * {visibility: visible;}
