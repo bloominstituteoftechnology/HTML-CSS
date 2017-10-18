@@ -1,0 +1,15 @@
+@import './components/Nav/Nav.css';
+@import './components/Header/Header.css';
+@import './components/Section/Section.css';
+@import './components/Box/Box.css';
+@import './components/nav/nav.css';
+
+
+body {
+	box-sizing: border-box;
+	min-width: 300px;
+	margin: 0;
+	background-image: url(./images/ChiBG.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
