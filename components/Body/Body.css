@@ -1,7 +1,6 @@
 body {
 	background-color: black;
 	background-size: cover;
-
 }
 
 .Description {
@@ -83,7 +82,7 @@ body {
 
 fieldset {
 	border: medium none;
-	margin: 0 0 10px;
+	margin: 0 0 15px;
 	min-width: 100%;
 	padding: 0;
 	width: 100%;
@@ -94,7 +93,7 @@ fieldset {
 	border: 1px solid #CCC;
 	background: #FFF;
 	margin: 0 0 5px;
-	padding: 3px;
+	padding: 5px;
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {

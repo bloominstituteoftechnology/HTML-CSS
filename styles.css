@@ -9,7 +9,9 @@
 
 body {
 	min-width: 300px;
-	background:black;
+	background-image: url("background.jpg");
+    background-repeat: repeat-x;
+	background-size: cover;
 }
 
 
