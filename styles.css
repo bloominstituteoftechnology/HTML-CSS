@@ -30,6 +30,7 @@
     padding: 10px;
     margin: 10px;
     background-color: rgb(210,200,250);
+    flex-basis: auto;
     flex-grow: 1;
     align-items: center;
 }
@@ -59,3 +60,18 @@ h4 {
 a {
     text-decoration: none;
 }
+
+
+/* blink
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+*/
