@@ -5,12 +5,12 @@
   justify-content: center;
   width: auto;
   height: 32px;
-  background-color: rgb(6, 177, 177);
+  /* background-color: rgb(6, 177, 177); */
 }
 
 .nav__ul {
   display: flex;
-  width: 25rem;
+  width: 27rem;
   justify-content: space-between;
   padding: 0;
   margin: 0;
@@ -19,21 +19,28 @@
 
 .nav__li {
   box-sizing: border-box;
-  border-radius: 0 0 4px 4px;
-  padding: 4px 10px;
-  height: 25px;
+  border-radius: 0 0 8px 8px;
+  padding: 6px 10px;
+  height: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
   color: white;
   background-color: rgb(106, 139, 248);
   margin: 0;
   white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.nav__li a {
+  color: white;
+  text-decoration: none;
 }
 
 .nav__li:hover {
-  color: rgb(7, 19, 180);
+  /* color: rgb(7, 19, 180); */
   font-weight: 500;
-  background-color: rgb(6, 177, 177);
-  transition-duration: 1s;
+  background-color: rgb(3, 12, 105);
+  transition-duration: .5s;
 }
 
 .nav--button #aboutMe {}
