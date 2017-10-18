@@ -12,7 +12,7 @@
         <li class="nav__li">Home</li>
         <a href="#aboutMe"><li class="nav__li">About Me</li></a>
         <a href="#projects"><li class="nav__li">Projects</li></a>
-        <li class="nav__li">Contact Me</li>
+        <a href="#contactMe"><li class="nav__li">Contact Me</li></a>
       </ul>
     </div>
     <main class="mainContent">
@@ -39,7 +39,21 @@
         <div class="projects--each">Test 7</div>
       </div>
       <!-- Contact Me -->
+      <div class="contactMe--header" id="contactMe">Contact Me</div>
+      <div class="contactMe contactMe__fields">
+        <form action="mailto:pahern@gmail.com" method="post" enctype="text/plain">
+          <br>
+          <input type="text" name="name" placeholder="name..."><br>
+          <br>
+          <input type="text" name="mail" placeholder="email..."><br>
+          <br>
+          <input type="text" name="comment" size="50" placeholder="comment..."><br><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+          </form>
+      </div>
     </main>
     <!-- Footer -->
+      <br><br><br><br><br>
   </body>
 </html>

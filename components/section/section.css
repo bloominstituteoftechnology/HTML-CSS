@@ -12,16 +12,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 50px 0 10px 0;
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: rgb(68, 106, 228); */
+  padding: 100px 0 10px 0;
   font-size: 66px;
 }
 
 .header--subHeader {
   font-size: 30px;
-  /* color: rgb(106, 139, 248); */
-  padding: 0;
+  padding: 0 0 50px 0;
 }
 
 .aboutMe {
@@ -32,15 +29,11 @@
 }
 
 .aboutMe__p {
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: rgb(106, 139, 248); */
-  /* color: rgb(106, 139, 248); */
   font-size: 18px;
   margin: 5px auto;
 }
 
 .aboutMe--header {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   padding: 50px 0 0 0;
 }
@@ -55,8 +48,6 @@
 }
 
 .projects--header {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(68, 106, 228);
   font-size: 24px;
   padding: 50px 0 0 0;
 }
@@ -67,4 +58,51 @@
   color: white;
   background-color: rgb(68, 106, 228);
   margin: 0 10px 25px 10px;
+}
+
+.contactMe {
+  padding: 0 80px 0 80px;
+}
+
+.contactMe--header {
+  font-size: 24px;
+  padding: 50px 0 0 0;
+}
+
+.contactMe__fields input[type=text], select, textarea {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-bottom: 2px solid rgb(68, 106, 228);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 0 0 0 20px;
+}
+
+.contactMe__fields input::placeholder {
+  font-size: 24px;
+  font-style: italic;
+  color: rgb(68, 106, 228);
+  padding: 0 0 0 15px;
+}
+
+.contactMe__fields input[type=submit], input[type=reset] {
+  background-color: rgb(68, 106, 228);
+  /* padding: 10px 0 0 20px; */
+  padding: auto;
+  border: none;
+  border-radius: 8px;
+  width: 6rem;
+  height: 1.75rem;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  margin: 0 0 0 20px;
+}
+
+.contactMe__fields input[type=submit]:hover, input[type=reset]:hover {
+  font-weight: 500;
+  background-color: rgb(3, 12, 105);
+  transition-duration: .3s;
 }
