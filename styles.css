@@ -2,7 +2,8 @@ body {
   background-color: rgb(240, 240, 240);
 }
 .box {
-    width: 50%;
+  border-style: solid;
+  border-width: 2px;
 }
 nav {
   background-color: gray;
@@ -32,7 +33,7 @@ div.heading {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-p.heading {
+.box__heading {
   font-size: 14pt;
   text-align: center;
 }
