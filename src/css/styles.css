@@ -8,9 +8,20 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
+a {
+  color: #61afef;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  color: #c678dd;
+}
 footer {
   background-color: #282c34;
+  font-size: 1.2rem;
   margin: 0;
   width: 100%;
 }
@@ -21,13 +32,12 @@ hr {
 
 .content {
   margin: auto;
-  
 }
 
 .navbar {
-  background-color: rgba(45, 46, 51, 0.9);  
+  background-color: rgba(45, 46, 51, 0.9);
   /* background-color: #232a36;   */
-  color: #61afef;  
+  color: #61afef;
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,7 +62,7 @@ hr {
 }
 
 .navbar__item:hover {
-  color:#c678dd;
+  color: #c678dd;
 }
 
 .profile {
@@ -68,11 +78,9 @@ hr {
 }
 
 .profile__left {
-
 }
 
 .profile__right {
-  
 }
 
 .profile__image {
@@ -161,7 +169,6 @@ hr {
 
 @media screen and (max-width: 900) {
   .about {
-
   }
 }
 

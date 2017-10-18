@@ -15,10 +15,18 @@
   <!-- navbar -->
   <div class="navbar">
     <ul class="navbar__list">
-      <li class="navbar__item">home</li>
-      <li class="navbar__item">about</li>
-      <li class="navbar__item">portfolio</li>
-      <li class="navbar__item">contact</li>
+      <li class="navbar__item">
+        <a href="#">home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#about">about</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#projects">projects</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#contact">contact</a>
+      </li>
     </ul>
   </div>
   <!-- profile-->
@@ -28,7 +36,7 @@
         <img class="profile__image" src="https://raw.githubusercontent.com/davdaarn/assets/master/assets/profile-circle-web-8-30-2017.png"
           alt="profile picture">
       </div>
-      <div class="profile__right profile__child">
+      <div class="profile__right profile__child" id="about">
         <h1>David Long</h1>
         <h3>My portfolio page</h3>
       </div>
@@ -50,66 +58,73 @@
     </div>
     <hr>
     <!-- projects -->
-    <div class="project">
+    <div class="project" id="projects">
       <!-- project 1 -->
       <div class="project__item">
         <div class="project__item__img">Image</div>
         <div class="project__item__group">
           <div class="project__item__link">
             <i class="fa fa-globe" aria-hidden="true"></i>
-            Link to webpage
+            <a href="">Link to webpage</a>
           </div>
           <div class="project__item__link">
             <i class="fa fa-github" aria-hidden="true"></i>
-            Link to github
+            <a href="">Link to github</a>
           </div>
         </div>
       </div>
       <!-- project 2 -->
       <div class="project__item">
-          <div class="project__item__img">Image</div>
-          <div class="project__item__group">
-            <div class="project__item__link">
-              <i class="fa fa-globe" aria-hidden="true"></i>
-              Link to webpage
-            </div>
-            <div class="project__item__link">
-              <i class="fa fa-github" aria-hidden="true"></i>
-              Link to github
-            </div>
+        <div class="project__item__img">Image</div>
+        <div class="project__item__group">
+          <div class="project__item__link">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <a href="">Link to webpage</a>
+          </div>
+          <div class="project__item__link">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="">Link to github</a>
           </div>
         </div>
+      </div>
       <!-- project 3 -->
       <div class="project__item">
-          <div class="project__item__img">Image</div>
-          <div class="project__item__group">
-            <div class="project__item__link">
-              <i class="fa fa-globe" aria-hidden="true"></i>
-              Link to webpage
-            </div>
-            <div class="project__item__link">
-              <i class="fa fa-github" aria-hidden="true"></i>
-              Link to github
-            </div>
+        <div class="project__item__img">Image</div>
+        <div class="project__item__group">
+          <div class="project__item__link">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <a href="">Link to webpage</a>
+          </div>
+          <div class="project__item__link">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="">Link to github</a>
           </div>
         </div>
-    <!-- welcome message -->
-    <!-- about me -->
+      </div>
+      <!-- welcome message -->
+      <!-- about me -->
 
-    <!-- contact me -->
-    <!-- footer -->
+      <!-- contact me -->
+      <!-- footer -->
 
-  </div>
-  <footer class="footer">
-    <ul class="footer__list">
-      <li class="footer__list__item"><i class="fa fa-linkedin" aria-hidden="true"></i>
-        LinkedIn
-      </li>
-      <li class="footer__list__item"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-        Email
-      </li>
-    </ul>
-  </footer>
+    </div>
+    <footer class="footer" id="contact">
+      <ul class="footer__list">
+        <li class="footer__list__item">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <a href="https://www.linkedin.com/in/david-a-long/" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+        <li class="footer__list__item">
+          <i class="fa fa-envelope-o" aria-hidden="true">
+          </i>
+          <a href="mailto:davdaarn@live.com?Subject=Developer Portfolio" target="_top">
+            davdaarn@live.com
+          </a>
+        </li>
+      </ul>
+    </footer>
 </body>
 
 </html>
