@@ -1,0 +1,82 @@
+ul.navigation{
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  margin: 5px;
+  border: 5px solid black;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.navigation a {
+  text-align:center;
+  padding-bottom:13px;
+  padding-top:12px;
+  margin: auto;            
+}
+
+.Header{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;  
+  padding: 0px;
+  margin: 5px;
+  border: 5px solid black;
+  background-color: white;
+  text-align: center;
+  color: black;
+  overflow: hidden;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.Section{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+  border: 5px solid black;
+  color: black;
+}
+
+.Section--Welcome{
+  background-color: white;
+  text-align: left;
+  opacity: 0.9;
+
+}
+ .Section--aboutMe{
+  background-color: white;
+  opacity: 0.9;
+  display: inline-block;
+  text-align: left; 
+}
+ .Section--Projects{
+  background-color: white;
+  text-align: left;
+  opacity: 0.9;
+} 
+ .Section--contactMe{
+  background-color: white;
+  opacity: 0.9;
+}
+
+.footer{
+display: flex;
+flex-direction: column;
+padding: 5px;
+margin: 5px;
+border: 5px solid black;
+color: black;
+text-align: center;
+background-color:white;
+opacity: 0.9;
+text-weight: bold;
+}
+
+.style{
+background-image: contain;
+}
