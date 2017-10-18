@@ -1,0 +1,31 @@
+body {
+	box-sizing: border-box;
+	min-width: 300px;
+	margin: 0;
+}
+
+
+.Page {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.Navigation {
+	background-color: gray;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.NavItem {
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	height: 10px;
+}
+
+.Header {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
