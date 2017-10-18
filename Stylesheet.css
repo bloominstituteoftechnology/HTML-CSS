@@ -1,8 +1,9 @@
 .container{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     margin: auto;
     border: black 2.5px solid;
+    height: 1500px;
 }
 .container__header {
     display: flex;
@@ -12,6 +13,7 @@
 .container__header-font {
     display: flex;
     justify-content: center;
+    font: Tahoma;
     font-size:30px;
     margin: auto;
     width:100%;
@@ -70,4 +72,7 @@
 .container-bolden {
     font-size: 21px;
     font-weight: bold;
+}
+.container__header-font:hover{
+    color:grey;
 }
