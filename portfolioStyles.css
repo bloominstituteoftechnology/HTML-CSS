@@ -1,0 +1,15 @@
+.Box {
+	width: 400px;
+	border: solid 1px black;
+	display: inline-block;
+}
+
+.Box-text {
+	width: 50%;
+	float: right;
+}
+
+.img {
+	width: 400px;
+	float: right;
+}
