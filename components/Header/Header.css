@@ -1,0 +1,30 @@
+.HeaderL {
+    color: rgb(255, 66, 66);
+	text-align: left;
+	font-size: 2em;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	float: left;
+	position: relative;
+	left: 50%;
+	margin: 5px;
+	margin-bottom: 30px;
+	border: 2.5px solid rgb(253, 0, 0);
+	border-bottom: 2.5px solid rgb(253, 0, 0);
+	padding: 10px;
+}
+.HeaderR {
+    color: rgb(255, 66, 66);
+	text-align: right;
+	font-size: 2em;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	float: right;
+	position: relative;
+	right: 50%;
+	margin: 5px;
+	margin-bottom: 30px;
+	border: 2.5px solid rgb(253, 0, 0);
+	border-bottom: 2.5px solid rgb(253, 0, 0);
+	padding: 10px;
+}
