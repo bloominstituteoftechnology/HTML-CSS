@@ -61,14 +61,14 @@ body {
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background: grey;
+	background: #6A6A68;
 	padding: 30px;
 	margin: 50px 0;
 }
 
 #contact h3 {
 	text-align: center;
-	color: cyan;
+	color: #43442B;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -115,7 +115,7 @@ fieldset {
 	width: 100%;
 	border: none;
 	background: #0CF;
-	color: #FFF;
+	color: #43442B;
 	margin: 0 5px 5px;
 	padding: 10px;
 	font-size: 15px;
