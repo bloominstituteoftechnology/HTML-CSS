@@ -3,6 +3,7 @@
 	text-align: center;
 	font-size: 2.5em;
 	font-weight: bold;
+	overflow: auto;
 }
 
 .Header1 {
@@ -10,4 +11,5 @@
 	text-align: center;
 	font-size: 2em;
 	font-weight: bold;
+	overflow: auto;
 }
