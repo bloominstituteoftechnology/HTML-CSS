@@ -1,7 +1,7 @@
-@import './components/nav/nav.css';
-@import './components/header.css';
-@import './components/section.css';
-@import './components/footer.css';
+@import "./components/nav/nav.css";
+@import "./components/header.css";
+@import "./components/section.css";
+@import "./components/footer.css";
 body {
   margin: 0;
   padding: 0;
