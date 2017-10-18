@@ -1,0 +1,183 @@
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Megrim', cursive;
+*/
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+/*----- NAVIGATION BAR -----*/
+.Navigation-Main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 0.8% 0;
+    color: rgb(209, 199, 177);
+}
+
+.Navigation-Main li {
+    display: inline-block;
+    width: 18%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.Navigation-Main li:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.Contact-Nav {
+    color: rgb(255, 209, 111);
+}
+
+/*----- NAME DISPLAY -----*/
+.Name-Display {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.40)), url(Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+    padding: 14% 0;
+}
+
+.Name-Display h2 {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 300;
+}
+
+.Name-Display hr {
+    width: 80%;
+    display: inline-block;
+    margin: -0.2% 0;
+    border: 1px solid rgba(255, 207, 111, 0.507);
+}
+
+.Name {
+    font-family: 'Megrim', cursive;
+    text-transform: lowercase;
+    margin: -7% 0;
+}
+.Name h1{
+    font-size: 700%;
+    letter-spacing: 30px;
+}
+
+/*----- GENERAL INFORMATION TAB -----*/
+.Info-Box {
+    border-radius: 25px;
+    border: 2px solid rgba(9, 109, 79, 0.712);
+    margin: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+.Info-Box p {
+    font-size: 120%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Info-Box h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(209, 199, 177);
+    font-size: 280%;
+    letter-spacing: 20px;
+}
+
+hr {
+    width: 8%;
+    margin-top: -1%;
+    border: 1px solid rgb(255, 209, 111);
+}
+
+/*----- ABOUT ME -----*/
+.Kia-Logo {
+    height: 25px;
+    width: auto;
+    position: relative;
+    top: 8px;
+}
+
+.Personal-Box {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    font-size: 180%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    padding: 0;
+    text-align: left;
+}
+
+.Personal-Box li {
+    list-style-type: none;
+    margin-top: 1%;
+    font-weight: 300;
+}
+
+.Personal-Box img{
+    height: 100%;
+    width: auto;
+    float: right;
+    margin-left: 7%;
+    margin-top: 0;
+}
+
+li .Intro {
+    text-align: center;
+}
+
+.list {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(209, 199, 177);
+}
+
+/*----- PROJECTS -----*/
+.Project-Detail img {
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -3%;
+}
+
+.Project-Detail p{
+    margin-top: 6%;
+    color: white;
+    margin-right: 5%;
+    text-align: left;
+    margin-bottom: 8%;
+}
+
+/*----- CONTACT INFO -----*/
+.Contact__Form p{
+    color: white;
+}
+
+.Contact-List {
+    color: rgb(209, 199, 177);
+    text-transform: uppercase;
+}
+
+/*----- FOOTER -----*/
+.Footer {
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 1%;
+    margin: 0;
+    color: rgb(209, 199, 177);
+}
