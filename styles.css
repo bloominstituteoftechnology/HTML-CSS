@@ -5,25 +5,21 @@
   min-width: 250px;
 }
 
-.navcontainer {
-  color: #fff;
-  background-color: #000;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  width: 100%;
-}
 
 .nav {
-  width: auto;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 0;
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  width: 100%;
   flex-wrap: wrap;
 }
 
 .nav--link {
-  display: flex;
+  border: 3px solid yellow;
+  width: 20px;
 }
 
 .nav--link a {
@@ -36,20 +32,14 @@ div.nav--link a:hover {
   color: #009999;
 }
 
-.header-container {
+.header {
   background-image: url(./images/oxfordnewcollege.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
-}
-
-.header {
-  width: 80%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -74,13 +64,8 @@ div.nav--link a:hover {
   font-size: 30px;
 }
 
-.section-container {
-  background-color: #006666;
-  display: flex;
-  justify-content: space-around;
-}
-
 .section {
+  background-color: #006666;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -90,12 +75,17 @@ div.nav--link a:hover {
   flex-wrap: wrap-reverse;
 }
 
+#contact .section {
+  flex-wrap: wrap;
+}
+
 .section--body {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 5px solid blue;
 }
 
 .section--image {
@@ -105,11 +95,12 @@ div.nav--link a:hover {
   font-family: 'Sansita', sans-serif;
   font-size: 30px;
   align-self: flex-start;
+  margin: 0px 0px 20px 0px;
 }
 
 .section--text {
   font-family: 'Raleway', sans-serif;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .sect_img {
@@ -123,26 +114,24 @@ div.nav--link a:hover {
 .section--buttons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 50%;
-  height: 30px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /*width: 50%;*/
+  border: 5px solid red;
+}
+
+.section__socialbutton {
 }
 
 .section__socialbutton a {
+  border: 5px solid yellow;
   color: #000;
-  display: flex;
-  align-self: center;
+  display: inline-block;
   text-decoration: none;
-  font-size: : 1.5em;
 }
 
 div.section__socialbutton a:hover {
   color: #fff;
-}
-
-.projects-container {
-  display: flex;
-  justify-content: center;
 }
 
 .projects {
@@ -158,25 +147,21 @@ div.section__socialbutton a:hover {
   align-items: center;
   font-family: 'Sansita', sans-serif;
   font-size: 30px;
-}
-
-.projects--gridcontainer {
-  display: flex;
-  justify-content: space-around;
+  margin: 0px 0px 20px 0px;
 }
 
 .projects--grid {
   width: auto;
+  padding: 0px 0px 0px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .projects--feature {
-  margin: 20px;
-  width: 250px;
-  height: 200px;
+  margin: 0px 10px 0px 10px;
+  border: 5px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -185,7 +170,8 @@ div.section__socialbutton a:hover {
   border-color: #000;
   border-width: 2px;
   border-style: solid;
-  max-width: 2px;
+  min-width: 75px;
+  max-width: 200px;
 }
 
 .project--link a {
@@ -198,21 +184,18 @@ div.project--link a:hover {
   color: #000;
 }
 
-.footercontainer {
+.footer {
   color: #fff;
   background-color: #000;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-}
-
 .footer--content {
   display: flex;
   align-self: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
 }
