@@ -6,66 +6,58 @@
 
   <title>Thomas Dillard - Portfolio</title>
   <meta name="description" content="Thomas Dillard - Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <nav>
-    <ul class="main-menu">
-      <li class="menu-element"><a href="#Home">Home</a></li>
-      <li class="menu-element"><a href="#About-Me">About Me</a></li>
-      <li class="menu-element"><a href="#Projects">Projects</a></li>
-      <li class="menu-element"><a href="#Contact-Me">Contact Me</a></li>
+  <!-- Navigation -->
+  <nav class="nav" role="navigation">
+    <ul class="nav__ul">
+      <li class="nav__li"><a href="#">Home</a></li>
+      <li class="nav__li"><a href="#about_me">About Me</a></li>
+      <li class="nav__li"><a href="#">Projects</a></li>
+      <li class="nav__li"><a href="#">Contact Me</a></li>
     </ul>
   </nav>
+  <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+  <label for="nav-trigger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <!-- End Navigation -->
 
-  <header>
-    <div class="header">
-      <h1 class="header-text">Thomas Dillard</h1>
+  <div class="site-wrap">
+    <!-- Header -->
+    <header class="header__bg">
+      <div class="header__box">
+        <h1 class="header__text">Thomas Dillard<span class="blinking-cursor">|</span></h1>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- About Me -->
+    <div id="about_me" class="section">
+      <div class="section__title__box">
+        <h2 class="section__title">About Me</h2>
+      </div>
+      <div class="section__paragraph__box">
+        <div class="section__paragraph__prettifiers">
+          <p class="section__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt lorem felis, non tincidunt nulla tempus eget. Vestibulum scelerisque et justo eget venenatis. Ut ac massa diam. Nulla et iaculis lorem, ut eleifend nunc. Nam mattis libero vitae venenatis vestibulum. Nullam nisl erat, malesuada sit amet urna consequat, sollicitudin efficitur dolor. Morbi efficitur malesuada nulla sit amet porttitor. Ut in erat erat.</p>
+
+          <p class="section__paragraph">Maecenas sit amet ex eu augue consequat mattis quis id elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ipsum ligula, maximus ut rutrum aliquam, pharetra in ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus id odio ut lacus aliquam pellentesque eu in libero. Ut efficitur pulvinar nisi, sed sodales velit. Ut nec finibus neque. Phasellus suscipit eu urna vitae fringilla. Aenean posuere, tortor eu blandit tincidunt, arcu nibh tempus dui, eget ullamcorper risus orci a sem. Suspendisse dapibus dui turpis, et lacinia lorem molestie sagittis. Donec luctus fermentum bibendum. Duis nec condimentum magna.</p>
+        </div>
+      </div>
     </div>
-  </header>
-  <section>
-
-    <article>
-      <div class="article-title">
-        <h2 class="article-title__text">Welcome</h2>
-      </div>
-      <p>Thank you for visiting my portfolio.
-      </p>
-    </article>
-
-    <article id="About-Me">
-      <div class="article-title">
-        <h2 class="article-title__text">About Me</h2>
-      </div>
-      <p>
-        I've worked semi-professionally on websites for four years. I am currently in a prestigious accelerated academy for JavaScript programming.
-      </p>
-    </article>
-
-    <article id="Projects">
-      <div class="article-title">
-        <h2 class="article-title__text">Projects</h2>
-      </div>
-      <p>
-        Currently... None. Vist my <a href="https://github.com/HTMLGhozt">GitHub</a> for previous projects.
-      </p>
-    </article>
-
-    <article id="Contact Me">
-      <div class="article-title">
-        <h2 class="article-title__text">Contact Me</h2>
-      </div>
-      <p>
-        More to come later!
-      </p>
-    </article>
-  </section>
-  <footer>
-    <div>
-    </div>
-  </footer>
+    <!-- End About Me -->
+    <!-- Projects -->
+    <!-- End Projects -->
+    <!-- Contact -->
+    <!-- End Contact -->
+    <footer>
+    </footer>
+  </div>
 </body>
-</html>
+</html> 

@@ -1,0 +1,40 @@
+.section__title, .section__paragraph {
+  margin: 15px;
+  color: white;
+}
+.section__title {
+  font-family: "Courier", serif;
+}
+.section__title__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30%;
+}
+#about_me {
+  background: linear-gradient(30deg, 
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.60) 70%,
+    rgba(0, 0, 0, 1) 100%),
+    url('images/aboutMe.gif');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#about_me .section__paragraph__box {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.63);
+  align-content: center;
+  display: flex;
+}
+#about_me .section__paragraph__prettifiers {
+  width: 60%;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
