@@ -1,16 +1,26 @@
 /* CSS for the section elements */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 50rem;
+  padding: 0 30px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 50px 0 10px 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(106, 139, 248);
+  /* color: rgb(68, 106, 228); */
   font-size: 66px;
 }
 
 .header--subHeader {
   font-size: 30px;
+  /* color: rgb(106, 139, 248); */
   padding: 0;
 }
 
@@ -19,24 +29,20 @@
   flex-direction: column;
   justify-content: center;
   width: auto;
-  padding: 30px 10px 0 10px;
 }
 
 .aboutMe__p {
-  max-width: 50rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(106, 139, 248);
+  /* color: rgb(106, 139, 248); */
+  /* color: rgb(106, 139, 248); */
   font-size: 18px;
   margin: 5px auto;
 }
 
 .aboutMe--header {
-  max-width: 50rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(106, 139, 248);
   font-size: 24px;
-  margin: auto;
-  justify-content: flex-start;
+  padding: 50px 0 0 0;
 }
 
 .projects {
@@ -44,15 +50,21 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 50rem;
-  padding: 30px 0 0 0;
+  padding: 30px 10px 0 10px;
   margin: auto;
+}
+
+.projects--header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(68, 106, 228);
+  font-size: 24px;
+  padding: 50px 0 0 0;
 }
 
 .projects--each {
   width: 225px;
   height: 225px;
   color: white;
-  background-color: blue;
-  margin: 0 10px 42px 10px;
+  background-color: rgb(68, 106, 228);
+  margin: 0 10px 25px 10px;
 }
