@@ -1,51 +1,70 @@
-.nav {
-    display: flex;
-    float: right;
-    width: auto;
-    height: 2vw;
-    flex-direction: row;
+body {
+  background-color: rgba(183, 223, 248, 0.742);
 }
 
+.nav {
+  display: flex;
+  float: right;
+  width: auto;
+  height: 2vw;
+  flex-direction: row;
+}
 
 .nav__ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
 }
 
 .nav__box {
-    font-family: 'Josefin Sans', sans-serif;
-    height: 2vw;
-    color: rgb(228, 223, 169);
-    flex-direction: row;
-    margin: 8px;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 2vw;
+  color: rgb(228, 223, 169);
+  flex-direction: row;
+  margin: 8px;
 }
 
 .header {
-    position:absolute;
-    top:35%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%);
-    display: flex;
-    font-size: 7vw;
-    font-family: 'Baloo Chettan', cursive;
-    color: rgb(201, 207, 208);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  font-size: 5em;
+  font-family: 'Baloo Chettan', cursive;
+  color: rgb(201, 207, 208);
 }
 .container {
-    background: url("https://i.pinimg.com/736x/1d/5e/30/1d5e30fc6448595e4f20a3149caae56a--car-ui-miniature-golf.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-
-    
+  background: url('https://i.pinimg.com/736x/1d/5e/30/1d5e30fc6448595e4f20a3149caae56a--car-ui-miniature-golf.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
 }
 
+#hello article h3 {
+  text-align: center;
+  padding: 0.5em 0;
+}
 
+h3 {
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  padding: 0.1em 0;
+  font-size: 2.5em;
+  color: #45b29a;
+}
 
-
+p {
+  font-family: 'Changa', sans-serif;
+  text-align: center;
+  color: rgb(11, 11, 11);
+  padding: 0.5em 0;
+  display: block;
+  font-size: 1em;
+}
 
 /*
 body {
