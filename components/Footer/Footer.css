@@ -1,9 +1,29 @@
-.Row {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+footer {
+    position: absolute;
+    left: 100;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    overflow:hidden;
+}
+
+.copyright {
+	position: absolute;
+    left: 100;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    overflow:hidden;
+
+}
+
+.Bottombar {
+    bottom:0;
+    position:fixed;
+    z-index:150;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+    height:25px;
+	color: green;
 }

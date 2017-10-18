@@ -2,12 +2,14 @@
 @import './components/Header/Header.css';
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
-@import './components/Button/Button.css';
+@import './components/Nav/Nav.css';
 @import './components/Body/Body.css';
+@import './components/Footer/Footer.css';
 
 
 body {
-	box-sizing: border-box;
 	min-width: 300px;
-	margin: 5px;
+	background:black;
 }
+
+
