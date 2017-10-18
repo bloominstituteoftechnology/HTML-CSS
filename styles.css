@@ -1,25 +1,31 @@
 body {
-  background-color: rgba(183, 223, 248, 0.742);
+  background-color: rgba(69, 107, 130, 0.742);
 }
-
 .nav {
   display: flex;
   float: right;
   width: auto;
-  height: 2vw;
+  height: 3vw;
   flex-direction: row;
 }
 
-.nav__ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  flex-direction: row;
+.nav__box a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;  
+  color: rgb(228, 223, 169);
+  text-decoration: none;
+}
+
+.nav__box:hover {
+  background: #0c0019;
+  transition: background 1s ease-out;
+  outline: 1px solid rgb(228, 223, 169);
 }
 
 .nav__box {
+  padding: 2px;
   font-family: 'Josefin Sans', sans-serif;
-  height: 2vw;
+  height: 1em;
   color: rgb(228, 223, 169);
   flex-direction: row;
   margin: 8px;
@@ -36,15 +42,26 @@ body {
   font-family: 'Baloo Chettan', cursive;
   color: rgb(201, 207, 208);
 }
+.header_under {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  font-size: 3em;
+  font-family: 'Baloo Chettan', cursive;
+  color: rgb(227, 167, 104);
+}
 .container {
   background: url('https://i.pinimg.com/736x/1d/5e/30/1d5e30fc6448595e4f20a3149caae56a--car-ui-miniature-golf.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
 }
 
-#hello article h3 {
+#about_me section h3 {
   text-align: center;
   padding: 0.5em 0;
 }
@@ -54,16 +71,48 @@ h3 {
   text-align: center;
   padding: 0.1em 0;
   font-size: 2.5em;
-  color: #45b29a;
+  color: #77cbb7;
 }
 
 p {
   font-family: 'Changa', sans-serif;
   text-align: center;
-  color: rgb(11, 11, 11);
+  color: rgb(135, 208, 230);
   padding: 0.5em 0;
+  margin: 0 10em;
   display: block;
   font-size: 1em;
+}
+
+p1 {
+  font-family: 'Changa', sans-serif;
+  text-align: center;
+  color: rgb(196, 236, 247);
+  padding: 0.5em 0;
+  margin: 0 10em;
+  display: block;
+  font-size: 1.22em;
+}
+
+.btn-hldr {
+  text-align: center;
+}
+.btn-hldr .main-btn {
+  font-size: .8em;
+  text-align: center;
+  display: block;
+  position: relative;
+  background: #77cbb7;
+  padding: .75em 2em .75em 3.5em;
+  color: #1b7f69;
+  text-decoration: none;
+  margin: 1.5em 0 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-weight: 600;
+  border: 0;
+  text-transform: uppercase;
 }
 
 /*
