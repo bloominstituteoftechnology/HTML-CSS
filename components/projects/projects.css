@@ -1,0 +1,50 @@
+.projects {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects--title {
+  align-items: center;
+  font-family: 'Sansita', sans-serif;
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+.projects--grid {
+  width: auto;
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.projects--feature {
+  margin: 0px 10px 0px 10px;
+  /*border: 5px solid red;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.proj_img {
+  border-color: #000;
+  box-shadow: 4px 4px 4px #000;
+  border-width: 2px;
+  border-style: solid;
+  min-width: 75px;
+  max-width: 200px;
+}
+
+.project--link a {
+  text-decoration: none;
+  font-family: 'Sansita', sans-serif;
+  color: #009999;
+}
+
+div.project--link a:hover {
+  color: #000;
+}
