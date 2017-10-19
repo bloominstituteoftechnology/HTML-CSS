@@ -5,11 +5,12 @@
 @import './components/Nav/Nav.css';
 @import './components/Body/Body.css';
 @import './components/Footer/Footer.css';
+@import './components/Tabs/Tabs.css';
 
 
 body {
 	min-width: 300px;
-	background-image: url("background.jpg");
+	background-image: url("img/background.jpg");
     background-repeat: repeat-y;
 	background-size: cover;
 }
