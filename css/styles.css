@@ -9,7 +9,7 @@ body {
   
   
  }
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ li a:hover:not(.active) {
 li a.active {
   color: white;
   background-color: rgb(7, 17, 7) ;
-}
+} */
 
 .header {
   font-family: 'Alegreya', serif;
