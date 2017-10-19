@@ -2,6 +2,7 @@
 @import "./components/header.css";
 @import "./components/section.css";
 @import "./components/footer.css";
+/* define main colour */
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@ body {
   left: 0;
   z-index: 1;
 }
+/* Should be font awesome */
 .logos img {
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
