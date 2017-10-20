@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="188px" viewBox="0 0 256 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>circuit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0853713768">
+        <g id="Desktop-HD" transform="translate(-1.000000, -248.000000)">
+            <g id="circuit" transform="translate(129.000000, 342.000000) scale(-1, 1) translate(-129.000000, -342.000000) translate(1.000000, 248.000000)">
+                <g id="Group-4">
+                    <polyline id="Path-23" stroke="#FFFFFF" stroke-width="5" points="0.0710720486 32.2801764 140.078725 32.2801764 153.688033 7.12632387 248.888889 7.12207031"></polyline>
+                    <ellipse id="Oval-4" fill="#FFFFFF" cx="248.888889" cy="7.15789474" rx="7.11111111" ry="7.15789474"></ellipse>
+                </g>
+                <g id="Group-4" transform="translate(126.000000, 171.500000) scale(1, -1) translate(-126.000000, -171.500000) translate(0.000000, 155.000000)">
+                    <polyline id="Path-23" stroke="#FFFFFF" stroke-width="5" points="0.0709469218 32.2801764 139.832108 32.2801764 153.417455 7.12632387 248.450704 7.12207031"></polyline>
+                    <ellipse id="Oval-4" fill="#FFFFFF" cx="244.901408" cy="7.15789474" rx="7.09859155" ry="7.15789474"></ellipse>
+                </g>
+                <g id="Group-5" transform="translate(0.000000, 44.000000)" stroke-width="5" stroke="#FFFFFF">
+                    <polyline id="Path-21" points="0 49.9833064 34.0375167 49.9833064 47.9816756 25.394267 167.939099 25.394267 180.734342 0.805227638 217 0.805227638"></polyline>
+                </g>
+                <g id="Group-5" transform="translate(108.500000, 118.500000) scale(1, -1) translate(-108.500000, -118.500000) translate(0.000000, 94.000000)" stroke-width="5" stroke="#FFFFFF">
+                    <polyline id="Path-21" points="0 48.983259 34.0375167 48.983259 47.9816756 24.4916295 167.939099 24.4916295 180.734342 0 217 0"></polyline>
+                </g>
+                <circle id="Oval-4" fill="#FFFFFF" cx="219" cy="44" r="7"></circle>
+                <circle id="Oval-4" fill="#FFFFFF" cx="219" cy="143" r="7"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
