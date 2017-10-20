@@ -2,6 +2,7 @@
 @import './Header/header.css';
 @import './Box/box.css';
 @import './Section/section.css';
+@import './tabs/Tabs.css';
 body {
     display: flex;
     box-sizing: border-box;
@@ -24,7 +25,7 @@ h1 {
 
 h2 {
     font-family: 'Indie Flower', cursive;
-    background: rgb(164, 219, 156);
+    background: rgb(224, 190, 163);
 }
 
 

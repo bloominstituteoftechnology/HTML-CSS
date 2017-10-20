@@ -20,6 +20,9 @@
 </head>
 
 <body>
+    <script defer="defer" src="./JavaScript/jquery.js"></script>
+    <script defer="defer" src="./JavaScript/jquery-ui.js"></script>
+    <script defer="defer" src="./JavaScript/Tabs.js"></script>
     <!--open flix box container-->
     <div class="container">
         <header class="menu">
@@ -61,17 +64,29 @@
         <!-- Projects-->
         <h2>Projects</h2>
         <div class="proj">
-            <div>
-                <img src="images/port.jpg" alt="place holder">
-                <p>Created an wepage as part of Udacity's Front-End Web Developer Nanodegree.</p>
-            </div>
-            <div>
-                <img src="images/pro.jpg" alt="place holder">
-                <p>Project done as part of GIS Specialization Cource by UCDAVIS on coursera.</p>
-            </div>
-            <div>
-                <img src="images/rszgame.jpg" alt="place holder">
-                <p>Created an application web as part of Udacity's Front-End Web Developer Nanodegree.</p>
+            <div class="tabs">
+                <ul class="tab-links">
+                    <li class="active"><a href="#tab1">Project-1</a></li>
+                    <li><a href="#tab2">Project-2</a></li>
+                    <li><a href="#tab3">Project-3</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="tab1" class="tab active">
+                        <img src="images/brit.jpg" alt="portifolio">
+                        <p>Created an wepage as part of Udacity's Front-End Web Developer Nanodegree.</p>
+                    </div>
+
+                    <div id="tab2" class="tab">
+                        <img src="images/pro.jpg" alt="GIS">
+                        <p>Project done as part of GIS Specialization Cource by UCDAVIS on coursera.</p>
+                    </div>
+
+                    <div id="tab3" class="tab">
+                        <img src="images/rszgame.jpg" alt="Game">
+                        <p>Created an application web as part of Udacity's Front-End Web Developer Nanodegree.</p>
+                    </div>
+                </div>
             </div>
         </div>
 

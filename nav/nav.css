@@ -3,6 +3,7 @@
     flex-direction: row;
     width: 100%;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .res-menu a {
@@ -17,6 +18,11 @@
     text-decoration: none;
     font-family: 'Poiret One', cursive;
     font-size: 1.5em;
+}
+
+.res-menu a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 .res-menu li {
