@@ -158,6 +158,18 @@ nav a {
     text-decoration: none;
     color: rgba(255,255, 255, .30);
 }
+.projects .filters button {
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    background: #333333;
+    color: #fff;
+
+}
+.projects .filters button.active {
+    background: #fff;
+    color: #000;
+}
 
 .contact ul {
     padding: 0;
@@ -173,7 +185,9 @@ nav a {
     color: #ffffff;
     text-decoration: none;
 }
-
+.hide {
+    display: none;
+}
 
 /* 870 */
 @media all and (max-width: 870px) {
