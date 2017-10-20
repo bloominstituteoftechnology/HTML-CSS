@@ -8,41 +8,49 @@
     <script src="script.js" charset="utf-8"></script>
   </head>
   <body>
-<!-- NAV BAR -->
-<ul class = "nav-bar-block header-text">
-  <a href="#home"><li class = "nav-left nav-link">Home</li></a>
-  <a href="#aboutMe"><li class = "nav-left nav-link">About Me</li></a>
-  <a href="#previousWork"><li class = "nav-left nav-link">Projects</li></a>
-  <a href="#contactMe"><li class = "nav-left nav-link">Contact</li></a>
-</ul>
+<!-- SIDE NAV -->
+<div class="side-nav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#home">Home</a>
+  <a href="#aboutMe">About Me</a>
+  <a href="#previousWork">Previous Work</a>
+  <a href="#contactMe">Contact</a>
+</div>
+<!-- STARS -->
 <div class="stars"></div>
 <div class="twinkling"></div>
-<!-- TITLE -->
-<h1 class = "header-text name" id = "home">Austin French: Software Engineer and eSports Professional.</h1>
-<!-- ABOUT ME -->
-<h2 class = "header-text" id = "aboutMe">About Me</h2>
-<hr>
-<ul class = "text">
-  <li class = "body-text">19 years old.</li>
-  <li class = "body-text">Succesfully played and coached Starcraft 2, League of Legends, and Overwatch at the highest levels.</li>
-  <li class = "body-text">Self-taught full stack developer transitioning into LambdaSchool after freelancing</li>
-</ul>
-<!-- PROJECTS -->
-<h2 class = "header-text" id = "previousWork">Previous Work</h2>
-<hr>
-<ul class = "text">
-  <li class = "body-text">Signed to [list of esports orgs] as a player or coach</li>
-  <li class = "body-text">Craigslist Car Search Project</li>
-  <li class = "body-text">Intern at TryTreats</li>
-  <li class = "body-text">Junior Web Developer at Scrimbox</li>
-</ul>
-<!-- CONTACT -->
-<h2 class = "header-text" id = "contactMe">Contact</h2>
-<hr>
-<p class = "text">If necessary, feel free to contact me by <a href="mailto:austindanielfrench@gmail.com">email</a></p>
-  </body>
+<div class="main">
+  <!-- TITLE -->
+  <h1 class = "header-text name" id = "home">Austin French: Software Engineer and eSports Professional.</h1>
+  <!-- ABOUT ME -->
+  <h2 class = "header-text" id = "aboutMe">About Me</h2>
+  <hr>
+  <ul class = "text">
+    <li class = "body-text">19 years old.</li>
+    <li class = "body-text">Succesfully played and coached Starcraft 2, League of Legends, and Overwatch at the highest levels.</li>
+    <li class = "body-text">Self-taught full stack developer transitioning into LambdaSchool after freelancing</li>
+  </ul>
+  <!-- PROJECTS -->
+  <h2 class = "header-text" id = "previousWork">Previous Work</h2>
+  <hr>
+  <ul class = "text">
+    <li class = "body-text">Signed to [list of esports orgs] as a player or coach</li>
+    <li class = "body-text">Craigslist Car Search Project</li>
+    <li class = "body-text">Intern at TryTreats</li>
+    <li class = "body-text">Junior Web Developer at Scrimbox</li>
+  </ul>
+  <!-- CONTACT -->
+  <h2 class = "header-text" id = "contactMe">Contact</h2>
+  <hr>
+  <p class = "text">If necessary, feel free to contact me by <a href="mailto:austindanielfrench@gmail.com">email</a></p>
 
-  <!-- TODO:
+</div>
+  </body>
+  <!-- TODO (for school):
+  Add javascript "tab" functionality
+  Translate that functionality into ES6 class syntax -->
+  <!--              -->
+  <!-- TODO (personal):
   Add the list of esports orgs
   Elaborate on the projects
   Add thumbnails and modals

@@ -1,6 +1,9 @@
 body {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
   background-color: #161616;
 }
+/* NAV MENU */
 .nav-bar-block {
   list-style-type: none;
   margin: 0;
@@ -20,15 +23,12 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* PAGE TEXT */
 .header-text {
-  color: white;
-  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   margin-left:2%;
 }
 .text {
-  color: white;
-  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   list-style-type: none;
 }
@@ -45,10 +45,10 @@ hr {
   width: 70%;
   background-image: linear-gradient(to right, rgba(255, 255,255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));;
 }
-
 a, a:active, a::after, a:hover {
   color: white;
 }
+/* STAR BACKGROUND */
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -65,7 +65,6 @@ a, a:active, a::after, a:hover {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
-
 @keyframes move-clouds-back {
     from {background-position:0 0;}
     to {background-position:10000px 0;}
@@ -82,7 +81,6 @@ a, a:active, a::after, a:hover {
     from {background-position: 0;}
     to {background-position:10000px 0;}
 }
-
 .stars, .twinkling, .clouds {
   position:absolute;
   top:0;
@@ -94,12 +92,10 @@ a, a:active, a::after, a:hover {
   display: block;
   background-size: cover;
 }
-
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
   z-index:-5;
 }
-
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:-1;
