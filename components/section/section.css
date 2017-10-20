@@ -69,7 +69,9 @@
   padding: 50px 0 0 0;
 }
 
-.contactMe__fields input[type=text], select, textarea {
+.contactMe__fields input[type='text'],
+select,
+textarea {
   width: 100%;
   height: 2rem;
   border: none;
@@ -84,10 +86,11 @@
   font-size: 24px;
   font-style: italic;
   color: rgb(68, 106, 228);
-  padding: 0 0 0 15px;
+  padding: 0 0 0 10px;
 }
 
-.contactMe__fields input[type=submit], input[type=reset] {
+.contactMe__fields input[type='submit'],
+input[type='reset'] {
   background-color: rgb(68, 106, 228);
   /* padding: 10px 0 0 20px; */
   padding: auto;
@@ -101,8 +104,9 @@
   margin: 0 0 0 20px;
 }
 
-.contactMe__fields input[type=submit]:hover, input[type=reset]:hover {
+.contactMe__fields input[type='submit']:hover,
+input[type='reset']:hover {
   font-weight: 500;
   background-color: rgb(3, 12, 105);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
