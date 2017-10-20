@@ -1,0 +1,17 @@
+@import './components/Nav/Nav.css';
+@import './components/Header/Header.css';
+@import './components/Section/Section.css';
+@import './components/Box/Box.css';
+@import './components/Nav/Nav.css';
+@import './components/Body/Body.css';
+@import './components/Footer/Footer.css';
+
+
+body {
+	min-width: 300px;
+	background-image: url("background.jpg");
+    background-repeat: repeat-y;
+	background-size: cover;
+}
+
+
