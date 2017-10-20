@@ -9,8 +9,8 @@
   flex-wrap: wrap;
 }
 
+
 .nav--link {
-  /*border: 3px solid yellow;*/
   width: 20px;
 }
 
@@ -22,4 +22,4 @@
 
 div.nav--link a:hover {
   color: #009999;
-}
+}*/
