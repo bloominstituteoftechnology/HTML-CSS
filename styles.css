@@ -6,6 +6,7 @@
 @import './components/Body/Body.css';
 @import './components/Footer/Footer.css';
 @import './components/Tabs/Tabs.css';
+@import './components/List/List.css';
 
 
 body {
