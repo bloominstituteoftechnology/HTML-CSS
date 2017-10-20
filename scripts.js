@@ -1,40 +1,46 @@
-// let projects = document.querySelector('.projects');
-
-// let all = document.getElementsByClassName('projects--each');
-// let project5 = all[4];
-// project5.classList.remove('hide');
-
 let initProjects = showNumProjects => {
+  console.log('Initialized!');
   for (let i = 0; i < showNumProjects; i++) {
     allProjects[i].classList.remove('hide');
   }
 };
 
 let shiftRight = showNumProjects => {
-  // for (let i = 0; i < showNumProjects; i++) {
-  //   allProjects[i].classList.add('hide');
-  //   allProjects[i + 3].classList.remove('hide');
-  // }
-  // const visible = [];
-  // for (let i = 0; i < allProjects.length; i++) {
-  //   if (!allProjects[i].classList.contains('hide')) visible.push(i);
-  //   if (visible.length === showNumProjects) break;
-  // }
-  // console.log(visible);
+  let allProjects = document.getElementsByClassName('projects--each');
+  // console.log(allProjects);
   for (let i = 0; i < showNumProjects; i++) {
-    // allProjects[visible[i]].classList.add('hide');
+    // remove each visible project as encountered
     if (!allProjects[i].classList.contains('hide')) allProjects[i].classList.add('hide');
-    let projectNum = i + showNumProjects >= allProjects.length ? (i + showNumProjects) - 1 : i + showNumProjects;
+    // find the corrected project number if it wraps past the right end
+    let projectNum = i + showNumProjects >= allProjects.length ? (i + showNumProjects) - showNumProjects.length : i + showNumProjects;
+    // console.log('sr1: ' + i, projectNum);
+    // display each hidden element (limited by showNumProjects loop)
     allProjects[projectNum].classList.remove('hide');
   }
+  // console.log(allProjects);
 };
 
-let shiftLeft = showNumProjects => {
+let shiftRight2 = showNumProjects => {
+  let allProjects = document.getElementsByClassName('projects--each');
+  // console.log(allProjects);
   for (let i = 0; i < showNumProjects; i++) {
-    allProjects[i + showNumProjects].classList.add('hide');
-    allProjects[i].classList.remove('hide');
+    // remove each visible project as encountered
+    if (!allProjects[i].classList.contains('hide')) allProjects[i].classList.add('hide');
+    // find the corrected project number if it wraps past the right end
+    let projectNum = i + showNumProjects >= allProjects.length ? (i + showNumProjects) - showNumProjects.length : i + showNumProjects;
+    // console.log('sr2: ' + i, projectNum);
+    // display each hidden element (limited by showNumProjects loop)
+    allProjects[projectNum].classList.remove('hide');
   }
+  // console.log(allProjects);
 };
+
+// let shiftLeft = showNumProjects => {
+//   for (let i = 0; i < showNumProjects; i++) {
+//     allProjects[i + showNumProjects].classList.add('hide');
+//     allProjects[i].classList.remove('hide');
+//   }
+// };
 
 let allProjects = document.getElementsByClassName('projects--each');
 // console.log(allProjects);
@@ -44,13 +50,8 @@ initProjects(numProjectsToShow);
 console.log(allProjects);
 shiftRight(numProjectsToShow);
 console.log(allProjects);
-shiftRight(numProjectsToShow);
+
+// shiftRight2(numProjectsToShow);
 // shiftLeft(numProjectsToShow);
 
-let hiddenProjects = document.getElementsByClassName('hide');
-// console.log(hiddenProjects);
-
-// let visibleProjects = document.querySelectorAll('.projects--each:not(.hide)');
-// console.log(visibleProjects);
-
-// console.log(allProjects.classList !== 'projects--each.hide');
+// let hiddenProjects = document.getElementsByClassName('hide');
