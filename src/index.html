@@ -8,123 +8,41 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
     crossorigin="anonymous">
-  <title>Document</title>
+  <script defer="defer" src="js/app.js"></script>
+  <title>David Long Portfolio</title>
 </head>
 
 <body>
   <!-- navbar -->
   <div class="navbar">
-    <ul class="navbar__list">
-      <li class="navbar__item">
-        <a href="#">home</a>
+    <ul class="links">
+      <li class="link__item" data-link="about">
+        <a href="#">about</a>
       </li>
-      <li class="navbar__item">
-        <a href="#about">about</a>
+      <li class="link__item" data-link="portfolio">
+        <a href="#">portfolio</a>
       </li>
-      <li class="navbar__item">
-        <a href="#projects">projects</a>
-      </li>
-      <li class="navbar__item">
-        <a href="#contact">contact</a>
-      </li>
+      <li class="link__item" data-link="contact">
+        <a href="#"></a>contact</li>
     </ul>
   </div>
-  <!-- profile-->
-  <div class="content">
-    <div class="profile">
-      <div class="profile__left profile__child">
-        <img class="profile__image" src="https://raw.githubusercontent.com/davdaarn/assets/master/assets/profile-circle-web-8-30-2017.png"
-          alt="profile picture">
-      </div>
-      <div class="profile__right profile__child" id="about">
-        <h1>David Long</h1>
-        <h3>My portfolio page</h3>
-      </div>
+  <!-- end navbar -->
+  <!-- content -->
+  <div class="content__pages">
+    <!-- content__about -->
+    <div class="content__page content__pages__about" data-page="about">
+      <h1>about</h1>
     </div>
-    <hr>
-    <div class="about">
-      <div class="about__child">
-        <h2>A little about myself</h2>
-      </div>
-      <div class="about__child">
-        <h3>Bacon ipsum dolor amet sirloin burgdoggen pork belly chicken tri-tip turkey. Pork loin pork belly hamburger corned
-          beef capicola chuck pig drumstick bacon pork chop bresaola spare ribs. Chicken pork belly spare ribs meatball chuck.
-          T-bone ball tip pork boudin, biltong bresaola pastrami fatback pig prosciutto. Andouille ball tip brisket sausage
-          picanha, bacon beef ribs pancetta turkey tri-tip. Swine porchetta spare ribs, jowl t-bone capicola salami bresaola
-          cupim shankle sausage landjaeger ground round leberkas pig. Filet mignon pork corned beef shank cow prosciutto
-          shankle beef meatloaf turducken bacon</h3>
-      </div>
-
+    <!-- content__portfolio -->
+    <div class="content__page content__pages__portfolio" data-page="protfolio">
+      <h1>portfolio</h1>
     </div>
-    <hr>
-    <!-- projects -->
-    <div class="project" id="projects">
-      <!-- project 1 -->
-      <div class="project__item">
-        <div class="project__item__img">Image</div>
-        <div class="project__item__group">
-          <div class="project__item__link">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <a href="">Link to webpage</a>
-          </div>
-          <div class="project__item__link">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="">Link to github</a>
-          </div>
-        </div>
-      </div>
-      <!-- project 2 -->
-      <div class="project__item">
-        <div class="project__item__img">Image</div>
-        <div class="project__item__group">
-          <div class="project__item__link">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <a href="">Link to webpage</a>
-          </div>
-          <div class="project__item__link">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="">Link to github</a>
-          </div>
-        </div>
-      </div>
-      <!-- project 3 -->
-      <div class="project__item">
-        <div class="project__item__img">Image</div>
-        <div class="project__item__group">
-          <div class="project__item__link">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <a href="">Link to webpage</a>
-          </div>
-          <div class="project__item__link">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="">Link to github</a>
-          </div>
-        </div>
-      </div>
-      <!-- welcome message -->
-      <!-- about me -->
-
-      <!-- contact me -->
-      <!-- footer -->
-
+    <!-- content__contact -->
+    <div class="content__page content__pages__contact" data-page="contact">
+      <h1>contact</h1>
     </div>
-    <footer class="footer" id="contact">
-      <ul class="footer__list">
-        <li class="footer__list__item">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <a href="https://www.linkedin.com/in/david-a-long/" target="_blank">
-            LinkedIn
-          </a>
-        </li>
-        <li class="footer__list__item">
-          <i class="fa fa-envelope-o" aria-hidden="true">
-          </i>
-          <a href="mailto:davdaarn@live.com?Subject=Developer Portfolio" target="_top">
-            davdaarn@live.com
-          </a>
-        </li>
-      </ul>
-    </footer>
+  </div>
+  <!-- end content -->
 </body>
 
 </html>
