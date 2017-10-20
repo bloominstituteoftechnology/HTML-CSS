@@ -1,0 +1,13 @@
+@import './components/nav/nav.css';
+@import './components/header/header.css';
+@import './components/section/section.css';
+@import './components/projects/projects.css';
+@import './components/tabs/tabs.css';
+@import './components/footer/footer.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 250px;
+}

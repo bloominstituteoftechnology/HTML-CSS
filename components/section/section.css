@@ -1,0 +1,73 @@
+.section {
+  background-image: url(waterdrop.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+#contact .section {
+  flex-wrap: wrap;
+}
+
+.section--body {
+  background: rgba(255,255,255,0.7);
+  box-shadow: 10px 10px 7px #003333;
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 5px solid blue;*/
+}
+
+.section--image {
+}
+
+.section--title {
+  font-family: 'Sansita', sans-serif;
+  font-size: 30px;
+  align-self: flex-start;
+  margin: 0px 0px 20px 0px;
+}
+
+.section--text {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.8;
+}
+
+.sect_img {
+  border: 3px solid #000;
+  box-shadow: 8px 8px 5px #003333;
+  border-radius: 50%;
+  max-height: 250px;
+}
+
+.section--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /*border: 5px solid red;*/
+}
+
+.section__socialbutton {
+}
+
+.section__socialbutton a {
+  /*border: 5px solid yellow;*/
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+div.section__socialbutton a:hover {
+  color: #fff;
+}
