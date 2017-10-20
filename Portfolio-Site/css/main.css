@@ -1,0 +1,196 @@
+body,
+html {
+    margin: 0;
+    padding: 20px 0;
+    font: 300 14px "Lato", sans-serif;
+    background: rgba(255, 255, 255, 0.445);
+    width: 100%;
+    color: #666756;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.style {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0 auto 1em auto;
+    text-align: justify;
+}
+
+h3,
+.link {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Eth*/
+
+.Eth {
+    margin-top: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.Eth-by {
+    margin: 5px;
+    font-size: 1.429em;
+}
+
+.res-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.res-menu a {
+    display: flex;
+    list-style-type: none;
+    border-radius: 5px;
+    color: #FFF;
+    display: block;
+    margin: 5px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    background: black;
+    font-size: 1.5em;
+}
+
+.res-menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.res-menu li {
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: auto;
+}
+
+
+/*Tablets*/
+
+@media only screen and (max-width: 768px) {
+    .Eth {
+        text-align: center;
+    }
+    .Eth-f {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/*Phones*/
+
+@media only screen and (max-width: 480px) {
+    .Eth {
+        text-align: center;
+    }
+    .Eth-f {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Eth-by {
+        font-size: 2.857em;
+    }
+}
+
+
+/* Responsive for Desktops*/
+
+@media only screen and (max-width: 992px) {
+    .Eth {
+        text-align: center;
+    }
+    .Eth-f {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/*Iphone*/
+
+@media only screen and (max-width: 360px) {
+    .Eth {
+        text-align: center;
+    }
+    .Eth-f {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Eth-by {
+        font-size: 2.857em;
+    }
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/*linkedin*/
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
