@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body onload="init()">
+    <script type="text/javascript" src="./script.js"></script>
     <div class="flex-wrapper">
       <header>
         <nav>
@@ -18,7 +19,7 @@
               <h3>About Me</h3>
               <i class="fa fa-info fa-lg"></i>   
             </a></li>
-            <li><a id="projects-btn" href="#">
+            <li><a id="projects-btn" href="#projects">
               <h3>Projects</h3>
               <i class="fa fa-code fa-lg"></i>     
             </a></li>
@@ -29,7 +30,7 @@
           </ul>
         </nav>
       </header>
-      <section class="Home">
+      <section id="home" class="Home">
         <header>
           <h1>Dan Volosnikov</h1>
           <h3>Full-Stack Web Developer</h3>
@@ -67,6 +68,34 @@
           </div>        
         </div>
       </section>
+      <section id="projects" class="Projects">
+        <h3>My projects</h3>
+        <div class="Tabs">
+              <div class="List">
+                <div class="List__item Tabs__link" data-tab="1"></div>
+                <div class="List__item Tabs__link" data-tab="2"></div>
+                <div class="List__item Tabs__link" data-tab="3"></div>
+              </div>
+    
+              <div class="Tabs__item" data-tab="1">
+                <div class="Box Box--placeholder Box--grey">
+                  <div class="Box__image" style="background: url('https://cdn.dribbble.com/users/1068166/screenshots/3884374/prototype.gif') center center no-repeat; background-size: 100%"></div>
+                </div>
+              </div>
+          
+              <div class="Tabs__item" data-tab="2">
+                <div class="Box Box--placeholder Box--blue">
+                  <div class="Box__image" style="background: url('https://cdn.dribbble.com/users/321434/screenshots/3883536/dribbble.gif') center center no-repeat; background-size: 100%"></div>
+                </div>
+              </div>
+        
+              <div class="Tabs__item" data-tab="3">
+                <div class="Box Box--placeholder Box--blue">
+                  <div class="Box__image" style="background: url('https://cdn.dribbble.com/users/124059/screenshots/3885280/shot.gif') center center no-repeat; background-size: 100%"></div>
+                </div>
+              </div>
+        </div>
+      </section>
       <section id="contact" class="Contact">
         <h1>Have a question?</h1>
         <h3>get in touch</h3>
@@ -83,5 +112,5 @@
       </section>
       <footer></footer>
     </div>
-  </body>
+    </body>
 </html>
