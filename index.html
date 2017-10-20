@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <script defer="defer" src="./components/Tabs/Tabs.js"></script>
     <nav>
         <a href='#home'>Home</a>
         <a href='#welcome'>Welcome</a>
@@ -22,29 +23,34 @@
         <a href='https://lambdaschool.com/'>Lambda School!</a>
     </div>
     <div id='aboutMe' class='heading'>About me</div>
-    <div class='aboutMe text'>
-        <img src='./markOliver.jpg' alt='Mark Oliver' height='256' width='171'> Looking for a Functional Programming front-end job with HTML, JavaScript, React, React-Native, and Redux.
+    <div class='aboutMe text' id='markoliver-container'>
+        <img src='./markOliver.jpg' alt='Mark Oliver' id='markoliver'>Looking for a Functional Programming front-end job with HTML, JavaScript, React, React-Native, and Redux.
     </div>
     <div id='projects' class='heading'>Projects</div>
     <div class='projects text'>
-        <table>
-            <tr>
-                <td class='box'>
-                    <p class='box__heading'>US Department of Defense and Accounting Service</p>
-                    <p>Drum, AFP-DS and raw PCL Data printers - Data General Assembly Language, C, C++, and C# WPF applictions
-                        for printing and processing US Treasury Checks</p>
-                </td>
-                <td class='box'>
-                    <p class='box__heading'>US Treasury</p>
-                    <p>Drum and AFP-DS printers - Data General Assembly Language, C, and C+ applictions for printing and processing
-                        US Treasury Checks. SSA, SSI, IRS, and VA applications</p>
-                </td>
-                <td class='box'>
-                    <p class='box__heading'>Troy Division of Pierce Co Inc</p>
-                    <p>Worldwide on-site programming for Troy Printer installations</p>
-                </td>
-            </tr>
-            <table>
+        <div class="Tabs">
+            <div class="List">
+                <div class="List__item Tabs__link">DOD</div>
+                <div class="List__item Tabs__link">UST</div>
+                <div class="List__item Tabs__link">Troy</div>
+            </div>
+
+
+            <div class='box Tabs__item' data-tab="DOD">
+                <p class='box__heading'>US Department of Defense and Accounting Service</p>
+                <p>Drum, AFP-DS and raw PCL Data printers - Data General Assembly Language, C, C++, and C# WPF applictions for
+                    printing and processing US Treasury Checks</p>
+            </div>
+            <div class='box Tabs__item' data-tab="UST">
+                <p class='box__heading'>US Treasury</p>
+                <p>Drum and AFP-DS printers - Data General Assembly Language, C, and C+ applictions for printing and processing
+                    US Treasury Checks. SSA, SSI, IRS, and VA applications</p>
+            </div>
+            <div class='box Tabs__item' data-tab="Troy">
+                <p class='box__heading'>Troy Division of Pierce Co Inc</p>
+                <p>Worldwide on-site programming for Troy Printer installations</p>
+            </div>
+        </div>
     </div>
     <div id='contactMe' class='heading'>Contact Me</div>
     <div>

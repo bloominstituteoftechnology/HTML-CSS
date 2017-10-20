@@ -1,3 +1,7 @@
+@import './components/Box/Box.css';
+@import './components/Tabs/Tabs.css';
+@import './components/List/List.css';
+
 body {
   background-color: rgb(240, 240, 240);
   font-family: 'Roboto', sans-serif;
@@ -6,10 +10,7 @@ body {
  /* font-family: "Trebuchet MS"; */
   font-weight: 500;
 }
-.box {
-  border-style: solid;
-  border-width: 2px;
-}
+
 nav {
   background-color: gray;
   width: 100%;
@@ -38,10 +39,7 @@ div.heading {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.box__heading {
-  font-size: 14pt;
-  text-align: center;
-}
+
 .text {
   font-size: 12pt;
 }
@@ -49,8 +47,37 @@ div.heading {
     text-align: center;
     background-color: rgb(215, 215, 215);
 }
+#markoliver-container {
+  height:256px;
+  width: auto;
+}
+#markoliver {
+  height: 100%;
+  width: auto;
+}
 @media (max-width: 600px) {
-  td {
-    display: block;
+  .text {
+    font-size: 8pt
   }
+  .home {
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  div.heading {
+    font-size: 10pt;
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  nav a {
+    font-size: 9pt;
+  }  
+  #markoliver-container {
+    height:128px;
+    width: auto;
+  }  
 }
