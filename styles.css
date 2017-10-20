@@ -1,6 +1,9 @@
 body {
   background-color: rgba(69, 107, 130, 0.742);
+  background-size: cover;
 }
+
+/* NAV BAR */
 .nav {
   display: flex;
   float: right;
@@ -17,7 +20,7 @@ body {
 }
 
 .nav__box:hover {
-  background: #0c0019;
+  background: #947200;
   transition: background 1s ease-out;
   outline: 1px solid rgb(228, 223, 169);
 }
@@ -30,6 +33,31 @@ body {
   flex-direction: row;
   margin: 8px;
 }
+.nav2 {
+  display: flex;
+}
+
+.back-to-top-button a{
+  position: fixed;
+  padding: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 1em;
+  color: rgb(228, 223, 169);
+  margin: 8px;
+  text-decoration: none;
+}
+.back-to-top-button a:hover {
+  background: #947200;
+  transition: background 1s ease-out;
+  outline: 1px solid rgb(228, 223, 169);
+}
+
+@media (min-width: 900px) {
+}
+
+/* END NAV BAR */
+
+/* HEADER BOX */
 
 .header {
   position: absolute;
@@ -61,6 +89,8 @@ body {
   height: 100vh;
 }
 
+/* END HEADER BOX */
+
 #about_me section h3 {
   text-align: center;
   padding: 0.5em 0;
@@ -88,28 +118,35 @@ p1 {
   font-family: 'Changa', sans-serif;
   text-align: center;
   color: rgb(196, 236, 247);
-  padding: 0.5em 0;
-  margin: 0 10em;
+  padding: 0.4em 0;
+  margin: 0 5em;
   display: block;
   font-size: 1.22em;
 }
 
-.btn-hldr {
+.space-filler {
+  height: 200px;
+}
+
+
+
+
+
+/*Email Button*/
+.email-button {
   text-align: center;
 }
-.btn-hldr .main-btn {
+.email-button .main-email-lnk {
   font-size: .8em;
   text-align: center;
   display: block;
-  position: relative;
+  position: center;
   background: #77cbb7;
   padding: .75em 2em .75em 3.5em;
   color: #1b7f69;
   text-decoration: none;
   margin: 1.5em 0 0;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   font-weight: 600;
   border: 0;
   text-transform: uppercase;
