@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.--arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 55px solid #FB667A;
+}
+
+.--arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 55px solid #FB667A;
+}
+
+.--padding-top-sf {
+  padding-top: 65px;
+}
+
+.--padding-bottom-sf {
+  padding-bottom: 65px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #FB667A;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #323C50;
+}
+nav ul li a:hover {
+  color: #1F2739;
+}
+nav ul li a h3 {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+nav ul li a i {
+  display: none !important;
+}
+
+.Home, .About, .Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: auto;
+  padding-top: 60px;
+  background-color: #1F2739;
+}
+.Home header, .About header, .Contact header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Home header h1, .About header h1, .Contact header h1 {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: #323C50;
+  color: #14f1b9;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.Home header h3, .About header h3, .Contact header h3 {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  padding: 15px;
+  background-color: #14f1b9;
+  color: #323C50;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0;
+  display: flex;
+}
+.Home header ul, .About header ul, .Contact header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.Home header ul li, .About header ul li, .Contact header ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home header ul li a, .About header ul li a, .Contact header ul li a {
+  text-decoration: none;
+  color: #1F2739;
+}
+.Home header ul li a:hover, .About header ul li a:hover, .Contact header ul li a:hover {
+  color: #323C50;
+}
+.Home header ul li a i, .About header ul li a i, .Contact header ul li a i {
+  font-size: 30px;
+}
+
+.About {
+  background-color: #FB667A;
+  justify-content: start;
+  flex-direction: column;
+  height: auto;
+}
+.About h3 {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #1F2739;
+  text-transform: uppercase;
+  color: #14f1b9;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.About .About-paragraph {
+  padding: 10px 60px;
+  font-size: 21px;
+  font-family: "Lato", sans-serif;
+  color: #323C50;
+  text-align: center;
+  max-width: 500px;
+}
+.About .About-logo-collection {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.About .About-logo-collection img {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+}
+
+.Projects {
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FB667A;
+  height: auto;
+}
+.Projects h3 {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #1F2739;
+  text-transform: uppercase;
+  color: #14f1b9;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.Projects .Tabs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.Projects .Tabs__item {
+  display: none;
+}
+.Projects .Tabs__item .Box__image {
+  margin-top: 20px;
+  height: 300px;
+  width: 500px;
+  border: 6px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.26);
+}
+.Projects .Tabs__item-selected {
+  display: block;
+}
+.Projects .Tabs__link {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: #1F2739;
+  border: solid 3px #FB667A;
+  display: inline-block;
+}
+.Projects .Tabs__link-selected {
+  background-color: #323C50;
+  border: solid 3px #14f1b9;
+}
+
+.Contact {
+  justify-content: start;
+  flex-direction: column;
+  height: auto;
+}
+.Contact h1 {
+  background-color: #323C50;
+  color: #14f1b9;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+.Contact h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  background-color: #14f1b9;
+  color: #323C50;
+}
+.Contact form {
+  margin-bottom: 40px;
+}
+.Contact form .form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.Contact form .form-group .form-control {
+  height: 40px;
+  width: 380px;
+  background-color: #1F2739;
+  border: 2px solid #14f1b9;
+  color: #fff;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.Contact form textarea {
+  height: 100px !important;
+  padding: 10px 0;
+  outline: red;
+}
+.Contact form label {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #14f1b9;
+  margin-bottom: 3px;
+}
+.Contact form button {
+  height: 40px;
+  width: 80px;
+  margin-top: 10px;
+  background-color: #14f1b9;
+  color: #1F2739;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: inherit !important;
+}
+
+@media (max-width: 500px) {
+  .--arrow-up {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid #FB667A;
+  }
+
+  .--arrow-down {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 40px solid #FB667A;
+  }
+
+  .--padding-top-sf {
+    padding-top: 55px;
+  }
+
+  .--padding-bottom-sf {
+    padding-bottom: 55px;
+  }
+
+  nav ul li a h3 {
+    display: none;
+  }
+  nav ul li a i {
+    display: block !important;
+    color: #323C50;
+    font-size: 40px !important;
+  }
+
+  .Home header h1, .About header h1, .Contact header h1 {
+    font-size: 26px;
+  }
+  .Home header h3, .About header h3, .Contact header h3 {
+    font-size: 18px;
+  }
+  .Home header ul li a i, .About header ul li a i, .Contact header ul li a i {
+    font-size: 20px;
+  }
+
+  .About .About-paragraph {
+    padding: 10px 20px;
+  }
+  .About .About-logo-collection div {
+    text-align: center;
+  }
+
+  .Projects .Tabs {
+    margin-bottom: 40px;
+  }
+  .Projects .Tabs__item .Box__image {
+    width: 260px;
+    height: 190px;
+  }
+
+  .Contact {
+    padding-top: 20px;
+  }
+  .Contact form .form-group .form-control {
+    width: 240px;
+  }
+}
