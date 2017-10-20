@@ -21,6 +21,7 @@
 	float: right;
 }
 
+
 @media (min-width: 600px) {
 	.Section__half-left {
 		box-sizing: border-box;
