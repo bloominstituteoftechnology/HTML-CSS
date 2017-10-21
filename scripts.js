@@ -5,9 +5,9 @@ let initProjects = showNumProjects => {
 };
 
 let shiftRight = showNumProjects => {                      // Shift project display right!
-  let projectCount = allProjects.length;                   // Replace duplicate length calculations
+  let projectCount = allProjects.length;                   // Used to replace duplicate length calculations below
   
-  if (projectCount <= showNumProjects) return;             // If all projects are displayed, exit
+  if (projectCount <= showNumProjects) return;             // If all projects can be displayed at once, exit
 
   for (let i = 0; i < projectCount; i++) {                 // Loop to adjust visible projects
     if (!allProjects[i].classList.contains('hide')) {      // If the current project is not hidden
@@ -63,6 +63,8 @@ let shiftLeft = showNumProjects => {                       // Shift project disp
     }
   }
 };
+
+// Needed: code shift left/right buttons to only display if # of projects > numProjectsToShow
 
 const allProjects = document.querySelectorAll('.projects--each');
 let numProjectsToShow = 3;

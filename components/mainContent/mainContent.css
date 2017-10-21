@@ -1,0 +1,41 @@
+/* CSS for the mainContent elements */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 50rem;
+  padding: 0 30px;
+}
+
+/* header CSS */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px 0 10px 0;
+  font-size: 66px;
+}
+
+.header--subHeader {
+  font-size: 30px;
+  padding: 0 0 50px 0;
+}
+
+/* about me CSS */
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+.aboutMe__p {
+  font-size: 18px;
+  margin: 5px auto;
+}
+
+.aboutMe--header {
+  font-size: 24px;
+  padding: 50px 0 0 0;
+}

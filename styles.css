@@ -1,6 +1,7 @@
 @import './components/nav/nav.css';
-@import './components/header/header.css';
-@import './components/section/section.css';
+@import './components/mainContent/mainContent.css';
+@import './components/mainContent/projectSection/projects.css';
+@import './components/mainContent/contactMe.css';
 
 body {
   min-width: 415px;

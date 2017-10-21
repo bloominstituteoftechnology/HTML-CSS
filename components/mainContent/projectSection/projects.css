@@ -1,0 +1,22 @@
+/* CSS for the project elements */
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 10px 0 10px;
+  margin: auto;
+}
+
+.projects--header {
+  font-size: 24px;
+  padding: 50px 0 0 0;
+}
+
+.projects--each {
+  width: 225px;
+  height: 225px;
+  color: white;
+  background-color: rgb(68, 106, 228);
+  margin: 0 10px 25px 10px;
+}
