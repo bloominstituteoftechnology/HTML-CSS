@@ -1,9 +1,12 @@
 body {
-  color: white;
+  color: #84A0c0;
   font-family: 'Ubuntu', sans-serif;
-  background-color: #84A0c0;
+  background-color: #172842;
 }
 /* NAV MENU */
+.nav-active {
+  border-bottom: 1px solid #FFD700;
+}
 .nav-bar-block {
   list-style-type: none;
   margin: 0;
@@ -15,13 +18,12 @@ body {
 }
 .nav-left {
   float: left;
+  margin-left: 75px;
 }
 .nav-link {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 /* ICONS */
 .skills {
@@ -52,8 +54,11 @@ hr {
   border: 0;
   height: 1px;
   width: 70%;
-  background-image: linear-gradient(to right, rgba(255, 255,255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));;
+  background-image: linear-gradient(to right, rgba(255, 215, 0,0), rgba(255, 215, 0,0.75), rgba(255, 215, 0,0));
 }
-a, a:active, a::after, a:hover {
-  color: white;
+a {
+  color: #84A0c0;
+}
+a:active, a::after, a:hover {
+  color: #FFD700;
 }
