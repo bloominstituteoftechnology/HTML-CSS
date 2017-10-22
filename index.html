@@ -1,91 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Kia's Portfolio</title>
-        <link rel = "stylesheet" href = "./style.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Megrim|Permanent+Marker|Press+Start+2P|Share+Tech+Mono|Special+Elite" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class = "Navigation-Main">
-                    <ul class = "Navigation-Main">
-                        <li><a href = "#home">Home</a></li>
-                        <li><a href = "#Welcome">About Me</a></li>
-                        <li><a href = "#projects">Projects</a></li>
-                        <li class = "Contact-Nav"><a href = "#contact">Say Hello</a></li>
-                    </ul>
-                </div>
-                <a id = "home"></a>
-                <div class = "Name-Display">
-                    <hr>
-                    <h2>Hi there, I'm</h2>
-                    <div class = "Name">
-                        <h1>Sarah <b>Kia</b> Choi</h1>
-                    </div>
-                    <hr>
-                </div>
-            </nav>
-        </header>
 
-        <div class = "Information">
-            <a id = "Welcome"></a>
-            <div class = "Info-Box">
-                <h2>Welcome</h2>
-                <hr>
-                <p>Aspiring Software Developer and currently a student at Lambda School.
-                    <br>Not sponsored by <img src= "Kia-Motors.png" class = "Kia-Logo" alt = "Car-Logo"> Motors.
+<head>
+    <title>Kia's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Megrim|Permanent+Marker|Press+Start+2P|Share+Tech+Mono|Special+Elite"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Navigation-Main">
+                <ul class="Navigation-Bar">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Welcome">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="Contact-Nav">
+                        <a href="#contact">Say Hello</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="Name-Display">
+            <hr>
+            <img src="./Images/KiaChoiName.png" alt="myName">
+            <hr>
+        </div>
+    </header>
+
+    <div id="Welcome">&nbsp;</div>
+    <div class="Info-Box">
+        <h2>Welcome</h2>
+        <hr>
+        <p>Aspiring Software Developer and currently a student at Lambda School.
+            <br>Not sponsored by
+            <img src="./Images/Kia-Motors.png" class="Kia-Logo" alt="Car-Logo"> Motors.
+        </p>
+
+        <div class="Personal-Box">
+            <ul>
+                <li>
+                    <span class="list">
+                        </a>Current Location:</span> Arizona</li>
+                <li>
+                    <span class="list">Hobbies:</span> Tennis, Astronomy
+                    <b>&</b> FFXIV</li>
+                <li>
+                    <span class="list">Passions:</span> Dogs, Hot Cheetos,
+                    <b>&</b> Animals </li>
+                <li>
+                    <span class="list">Some Other Facts:</span> I love small dogs, medium dogs,
+                    <b>&</b> large dogs. I do not drive a KIA. My best friend is Christina. </li>
+            </ul>
+
+            <img src="./Images/picOfMe1.png" alt="This girl does not drive a Kia">
+        </div>
+    </div>
+
+
+    <div id="projects">&nbsp;</div>
+    <div class="Info-Box">
+        <h2>Project(s)</h2>
+        <hr>
+        <p>Will be adding more along the way! :D</p>
+        <div class="Projects">
+            <div class="Project-Detail">
+                <img src="./Images/AstronomyProject.png" alt="Not my Personal skyCat">
+                <p> Created a program that processed star catalogs from multiple sources to the program skyCat.
+                    <br>The program was also adjusted accordingly to the researchers preference and also to minimize the amount
+                    to data that was passed through.
+                    <br>My team and I analyzed M0647 to understand how galaxies form and evolve from gravitational-lensing in
+                    the z, rc, b, and ic bands.
                 </p>
-                
-                <div class = "Personal-Box">
-                    <ul>
-                        <li><span class = "list"></a>Current Location:</span> Arizona</li>
-                        <li><span class = "list">Hobbies:</span> Tennis <b>&</b> FFXIV</li>
-                        <li><span class = "list">Passions:</span> Dogs, Hot Cheetos, <b>&</b> Animals </li>
-                        <li><span class = "list">Facts:</span> I love small dogs, medium dogs, 
-                            <br><b>&</b> large dogs. I do not own a KIA.
-                        </li>
-                    </ul>
-                    
-                    <img src = "myImage1.jpg" alt = "This girl does not drive a Kia">
-                </div>
             </div>
-
-            <div class = "Info-Box">
-                <a id = "projects"></a>
-                <h2>Project(s)</h2>
-                <hr>
-                <p>Will be adding more along the way! :D</p>
-                <div class = "Projects">
-                    <div class = "Project-Detail">
-                        <img src ="AstronomyProject.png">
-                        <p> My main objective and job was to create a program that will be able to process star catalogs from multiple sources to the program skyCat.
-                            <br>The program was also adjusted accordingly to the researchers preference and also to minimize the amount to data that was passed through.
-                            <br>From there, my team and I analyzed M0647 to understand how galaxies form and evolve from gravitational-lensing in the z, rc, b, and ic bands.
-                        </p>
-                    </div>
-                </div>
+            <div class="Project-Detail">
+                <img src="./Images/k2Image.png" alt="Image of K2-22b data">
+                <p>Main objective was to create a transit period of the exoplanet K2-22b with my team.
+                    <br>Had an opportunity to capture real time images and data from Mount Lemmon on our target.
+                    <br>Produced a transit path of K2-22b coming out of an eclipse mainly using IRAF.
+                </p>
             </div>
-
-            <div class = "Info-Box">
-                <a id = "contact"></a>
-                <h2>Contact Info</h2>
-                <hr>
-                <p>Find me at any one of these links or send me an email!</p>
-                <div class = "Contact__Form">
-                    <ul>
-                        <li><span class = "Contact-List">Email: </span>abcdefg@abcd.com</li>
-                        <li><span class = "Contact-List">Github: </span><a href = "www.github.com">github.com/abcdefg</a></li>
-                        <li><span class = "Contact-List">Linkedin: </span><a href = "www.linkedin.com">linkedin.com/abcdefg</a></li>
-                    </ul>
-                </div>
+            <div class="Project-Detail">
+                <br>
+                <br>
+                <img src=".Images/Telescope.jpg" alt="Not mine, but looked very similar">
+                <p>Built a telescope with an 8'in primary mirror which was polished and figured by hand.
+                    <br> Extensive optical testing was done on the primary mirror to ensure quality.
+                    <br> Designed the mirror to lean towards observation of galaxies with a customized optical tube.
+                    <br> Also created a telescope mount and base from scratch with items purchased at a local hardware store.
+                </p>
             </div>
         </div>
+    </div>
 
-        <div class ="Footer">
-            <p>Footer Stuff</p>
+    <div id="contact">&nbsp;</div>
+    <div class="Info-Box">
+
+        <h2>Get in Touch</h2>
+        <hr>
+        <p>Find me at any one of these links or send me an email!</p>
+        <div class="Contact__Form">
+            <ul>
+                <li>
+                    <span class="Contact-List">Email: </span>abcdefg@abcd.com</li>
+                <li>
+                    <span class="Contact-List">Github: </span>
+                    <a href="www.github.com">github.com/abcdefg</a>
+                </li>
+                <li>
+                    <span class="Contact-List">Linkedin: </span>
+                    <a href="www.linkedin.com">linkedin.com/abcdefg </a>
+                </li>
+            </ul>
         </div>
-    </body>
+    </div>
+    </div>
+
+    <div class="Footer">
+        <p>Footer Stuff</p>
+    </div>
+</body>
+
 </html>

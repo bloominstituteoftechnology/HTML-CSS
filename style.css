@@ -17,15 +17,17 @@ body {
     font-weight: 300;
 }
 
-/*----- NAVIGATION LINKS -----*/
+/*----- NAVIGATION -----*/
 a {
-    text-decoration: none;
+    text-decoration: none;  
     color: rgb(209, 199, 177);
 }
 
 a:hover {
-    color: white;
+    color: rgb(106, 212, 175);
     font-weight: bold;
+    /* text-shadow: 4px 4px #cf5300; */
+    text-shadow: 2px 2px rgb(87, 255, 87);
 }
 
 .Contact-Nav a {
@@ -33,66 +35,50 @@ a:hover {
 }
 
 .Contact-Nav a:hover {
-    color: white;
+    color: rgb(255, 192, 19);
+    text-shadow: -2px 2px aquamarine;
+    font-weight: bold;
 }
 
-/*----- NAVIGATION BAR -----*/
-.Navigation-Main {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    padding: 0.8% 0;
-    color: rgb(209, 199, 177);
-}
-
-.Navigation-Main li {
+.Navigation-Bar li {
     display: inline-block;
-    width: 18%;
+    width: 23%;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
-/*----- NAME DISPLAY -----*/
-.Name-Display {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.40)), url(Background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    width: 100%;
-    padding: 14% 0;
+.Navigation-Main ul {
+    padding: 0;
 }
 
-.Name-Display h2 {
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    font-weight: 300;
+/*----- NAME DISPLAY -----*/
+.Name-Display {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.40)), url(./Images/Background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 5.4% 0;
+}
+
+.Name-Display img {
+    margin-bottom: -1.7%;
 }
 
 .Name-Display hr {
     width: 80%;
     display: inline-block;
-    margin: -0.2% 0;
-    border: 1px solid rgba(255, 207, 111, 0.507);
-}
-
-.Name {
-    font-family: 'Megrim', cursive;
-    text-transform: lowercase;
-    margin: -7% 0;
-}
-.Name h1{
-    font-size: 700%;
-    letter-spacing: 30px;
+    margin: 0;
+    border: 1px solid rgba(255, 197, 111, 0.507);
 }
 
 /*----- GENERAL INFORMATION TAB -----*/
 .Info-Box {
     border-radius: 25px;
-    border: 2px solid rgba(9, 109, 79, 0.712);
-    margin: 5%;
-    width: 90%;
+    border: 2px solid rgba(179, 101, 12, 0.712);
+    margin: 3% 3% 3% 3%;
     height: 100%;
+    background: rgba(255, 255, 255, 0.12);
 }
 
 .Info-Box p {
@@ -106,6 +92,7 @@ a:hover {
     color: rgb(209, 199, 177);
     font-size: 280%;
     letter-spacing: 20px;
+    text-shadow: -2px 2px #cf5300;
 }
 
 hr {
@@ -133,18 +120,24 @@ hr {
     text-align: left;
 }
 
+.Personal-Box ul {
+    width: 300%;
+}
+
 .Personal-Box li {
     list-style-type: none;
     margin-top: 1%;
     font-weight: 300;
+    width: 100%;
 }
 
 .Personal-Box img{
-    height: 100%;
+    height: 120%;
     width: auto;
     float: right;
-    margin-left: 7%;
-    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 14%;
+    margin-top: -5%;
 }
 
 li .Intro {
@@ -191,6 +184,11 @@ li .Intro {
 
 .Contact__Form a {
     color: white;
+}
+
+.Contact__Form a:hover {
+    color: rgb(0, 255, 166);
+    text-shadow: 2px 2px rgb(200, 19, 255);
 }
 
 /*----- FOOTER -----*/
