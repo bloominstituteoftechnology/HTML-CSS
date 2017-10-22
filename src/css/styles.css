@@ -48,6 +48,7 @@
 .profile__pic {
   width: 150px;
   height: 150px;
+  align-self: center;
 }
 
 .about__right {
@@ -99,7 +100,7 @@
 .content__page__contact {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  /* width: 500px; */
 }
 
 .contact__list {
@@ -107,7 +108,11 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
-  width: 100%;
+  /* width: 100%; */
+}
+
+.contact__list__item {
+  width: 285px;
 }
 
 body {
