@@ -5,15 +5,26 @@
     align-items: stretch;
     padding: 10px;
     margin: auto;
+    font: "Garamond";
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: space-between;
 }
 
-.box {
+.content {
+    display: none;
+}
+
+.content--selected {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
     border: 4px rgb(75,60,200) solid;
     border-radius: 40px 15px;
     padding: 10px;
@@ -23,36 +34,26 @@
     align-items: center;
 }
 
-.nav{
-
-}
-
-.navbutton {
+.button {
     border: 4px rgb(75,60,200) solid;
     border-radius: 40px 15px;
-    width: 100px;
     padding: 10px;
     margin: 10px;
     background-color: rgb(210,200,250);
+    flex-basis: auto;
+    flex-grow: 1;
     align-items: center;
 }
 
-.navbutton-active {
+.button--selected {
     border: 4px rgb(75,60,200) solid;
     border-radius: 40px 15px;
-    width: 100px;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(230,230,255);
+    background-color: rgb(235,235,255);
     flex-basis: auto;
+    flex-grow: 1;
     align-items: center;
-}
-
-.content-hidden {
-    display: none;
-}
-
-.content-active {
 }
 
 .pic {
@@ -80,3 +81,18 @@ h4 {
 a {
     text-decoration: none;
 }
+
+
+/* blink
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+*/
