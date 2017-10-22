@@ -3,11 +3,12 @@
 
 <head>
     <title>Kia's Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Megrim|Permanent+Marker|Press+Start+2P|Share+Tech+Mono|Special+Elite"
+    <link rel = "stylesheet" href="./style.css">
+    <script src = "Slide-Show.js"></script>
+    <link href = "https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Julius+Sans+One|Megrim|Permanent+Marker|Press+Start+2P|Share+Tech+Mono|Special+Elite"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
 </head>
 
 <body>
@@ -73,7 +74,7 @@
         <hr>
         <p>Will be adding more along the way! :D</p>
         <div class="Projects">
-            <div class="Project-Detail">
+            <div class="Project-Detail fade">
                 <img src="./Images/AstronomyProject.png" alt="Not my Personal skyCat">
                 <p> Created a program that processed star catalogs from multiple sources to the program skyCat.
                     <br>The program was also adjusted accordingly to the researchers preference and also to minimize the amount
@@ -82,24 +83,32 @@
                     the z, rc, b, and ic bands.
                 </p>
             </div>
-            <div class="Project-Detail">
+
+            <div class="Project-Detail fade">
                 <img src="./Images/k2Image.png" alt="Image of K2-22b data">
                 <p>Main objective was to create a transit period of the exoplanet K2-22b with my team.
                     <br>Had an opportunity to capture real time images and data from Mount Lemmon on our target.
                     <br>Produced a transit path of K2-22b coming out of an eclipse mainly using IRAF.
                 </p>
             </div>
-            <div class="Project-Detail">
-                <br>
-                <br>
-                <img src=".Images/Telescope.jpg" alt="Not mine, but looked very similar">
-                <p>Built a telescope with an 8'in primary mirror which was polished and figured by hand.
+
+            <div class="Project-Detail fade">
+                <img src="./Images/Telescope.jpg" alt="Not mine, but looked very similar">
+                <p>Built a telescope with an 8in primary mirror which was polished and figured by hand.
                     <br> Extensive optical testing was done on the primary mirror to ensure quality.
                     <br> Designed the mirror to lean towards observation of galaxies with a customized optical tube.
                     <br> Also created a telescope mount and base from scratch with items purchased at a local hardware store.
                 </p>
             </div>
         </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
     </div>
 
     <div id="contact">&nbsp;</div>

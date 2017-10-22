@@ -1,11 +1,6 @@
-/*
-font-family: 'Permanent Marker', cursive;
-font-family: 'Julius Sans One', sans-serif;
-font-family: 'Special Elite', cursive;
-font-family: 'Press Start 2P', cursive;
-font-family: 'Share Tech Mono', monospace;
-font-family: 'Megrim', cursive;
-*/
+* {
+    box-sizing: border-box;
+}
 
 html,
 body {
@@ -159,13 +154,72 @@ li .Intro {
     margin-top: -3%;
 }
 
-.Project-Detail p{
+.Project-Detail p {
     margin-top: 6%;
     color: white;
     margin-right: 5%;
     text-align: left;
     margin-bottom: 8%;
 }
+
+.Projects {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+.Project-Detail {
+    display: hide;
+}
+
+/*----- JAVASCRIPT PROJECT -----*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}  
 
 /*----- CONTACT INFO -----*/
 .Contact__Form p{
