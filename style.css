@@ -46,7 +46,7 @@ a:hover {
     padding: 0;
 }
 
-/*----- NAME DISPLAY -----*/
+/*----- JUMBOTRON -----*/
 .Name-Display {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.40)), url(./Images/Background1.jpg);
     background-size: cover;
@@ -148,6 +148,7 @@ li .Intro {
 /*----- PROJECTS -----*/
 .Project-Detail img {
     height: 300px;
+    width: 400px;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
@@ -166,9 +167,9 @@ li .Intro {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
+}
 
-.Project-Detail {
+.Projects {
     display: hide;
 }
 
