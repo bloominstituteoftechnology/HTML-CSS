@@ -32,16 +32,58 @@ let getIndexesOfVisibleProjects = (projects, numProjects, numToShow) => {
 
 let shiftRight = (projects, numProjects, numToShow) => {                      // Shift project display right sNP projects!
   const visibleProjectsList = getIndexesOfVisibleProjects(projects, numProjects, numToShow);
+  const numVisibleProjects = visibleProjectsList.length;
 
   if (numProjects <= numToShow) return;             // If all projects are displayed, exit
 
-  for (let i = 0; i < visibleProjectsList.length; i++) {
+  for (let i = 0; i < numVisibleProjects; i++) {
     projects[visibleProjectsList[i]].classList.add('hide');
     if (visibleProjectsList[i] + numToShow <= numProjects) {
+      if (visibleProjectsList[i] + numToShow >= numProjects) break;
       projects[visibleProjectsList[i] + numToShow].classList.remove('hide');
     } else {
       projects[i].classList.remove('hide');
     }
+  }
+  if (numVisibleProjects < numToShow) {
+    for (let i = numVisibleProjects; i < numToShow; i++) {
+      projects[i].classList.remove('hide');
+    }
+  }
+};
+
+let shiftLeft = (projects, numProjects, numToShow) => {                      // Shift project display right sNP projects!
+  const visibleProjectsList = getIndexesOfVisibleProjects(projects, numProjects, numToShow);
+  const numVisibleProjects = visibleProjectsList.length;
+
+  if (numProjects <= numToShow) return;             // If all projects are displayed, exit
+
+  for (let i = 0; i < numVisibleProjects; i++) {
+    projects[visibleProjectsList[i]].classList.add('hide');
+    if (visibleProjectsList[i] - numToShow >= 0) {                               //  -  =  0
+      // projects[numProjects - (numToShow - i)].classList.remove('hide');     //  -
+      projects[visibleProjectsList[i] - numToShow].classList.remove('hide');
+    } else if (i === 0 && visibleProjectsList[i] === numToShow - 1) {
+      // if (visibleProjectsList[i] - numToShow < 0) break;
+      console.log('else if');
+    } else {
+      // projects[visibleProjectsList[i] - numToShow].classList.remove('hide');
+      projects[numProjects - (numToShow - i)].classList.remove('hide');
+    }
+  }
+  if (numVisibleProjects < numToShow) {
+    // console.log('need extra');
+    for (let i = numVisibleProjects; i < numToShow; i++) {
+      // console.log(i, projects[numProjects - i - 1].classList.contains('hide'));
+      // if (i === 2 /* && projects[numProjects - i - 1] !== 7 */) {          // not working right on rrl or lr
+        // console.log('hit it');
+        // projects[numProjects - 1].classList.remove('hide');
+        // break;
+      // } else {
+        projects[numProjects - i - 1].classList.remove('hide');
+        console.log('missed it');
+      // }
+    }  
   }
 };
 
