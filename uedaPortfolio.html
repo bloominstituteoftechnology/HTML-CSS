@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Kei Ueda's Portfolio</title>
-		<link rel="stylesheet" href="./portfolioStyles.css">
-	</head>
-	<body>
-		<nav>
-			<a href="#Welcome">Home</a>
-			<a href="#AboutMe">About Me</a>
-			<a href="#Projects">Projects</a>
-			<a href="#ContactMe">Contact Me</a>
-		</nav>
-		<h1 id="Welcome" style="color: red; font-size: 300px">Kei Ueda</h1>
-		<h3>Welcome</h3>
-		<p>Here is some Overwatch news for today:</p>
-		<iframe width="700" height="400" src="https://www.youtube.com/embed/Pe0veRcwzuo"  controls>
-			Video not supported
-		</iframe>
-		<h3 id="AboutMe">About Me</h3>
-		<a href="http://jeffnakahara.com/home/" target=_blank><img src="https://static1.squarespace.com/static/512e8347e4b021266dc99681/53305a93e4b0dca0929ac6c5/555a2ff6e4b0caee06593b22/1431973879763/Kay+Ueda-1924.jpg?format=750w" alt="Kei Ueda"></a>
-		<p>Photo by:</p>
-		<a href="http://jeffnakahara.com/home/" target=_blank>Jeff Nakahara</a>
-		<p>________________________________<br />Hello, I'm an artist. My goal is to also become a coder, architect, and Lawyer/Doctor/both if I have time. Probably not though.<br />_________________________________</p>
-		<a href="https://newhive.com/kayueda/kayueda-arts" target=_blank>Check out my shit</a>
-		<h3 id="Projects">Projects</h3>
-		<h3 id="ContactMe">Contact Me</h3>
-		<p>Hi. <br />My number is: 555 - 123 - 4567. <br /> 
-		And my address: South Pole #122, Antartica.<br />
-		And my social security. <strong>Fuck it</strong>, just take my identity 501 - 66 - 3123
-		<div class="Box">
-			<div class="Box-test">This is just some example text I'm using for the purpose of displaying how one might align text to an image with html and the dreaded css.</div>
-		</div>
-	</body>
+	<div class="Background">
+		<head>
+			<title>Kei Ueda's Portfolio</title>
+			<link rel="stylesheet" href="./portfolioStyles.css">
+		</head>
+		<body>
+			<script defer="defer" src="./Tabs.js"></script>
+			<div>
+				<br />
+			</div>
+			<div class="Link--boxes">
+				<nav>
+					<a href="#Welcome" id="Home">Home  </a>
+					<a href="#AboutMe" id="AM">  About Me  </a>
+					<a href="#Projects" id="Proj">  Projects  </a>
+					<a href="#ContactMe" id="Contact">  Contact Me</a>
+				</nav>
+			</div>
+			<h1 id="Welcome" class="green bold">KEI UEDA</h1>
+			<div class="BottomHalf">	
+				<h3 style="font-family: Verdana">Welcome</h3>
+				<div class="WelcomeText--box">
+					<p class="WelcomeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<h3 id="AboutMe" style="font-family: Verdana">About Me</h3>
+				<div>
+					<img class="Portrait" src="https://static1.squarespace.com/static/512e8347e4b021266dc99681/53305a93e4b0dca0929ac6c5/555a2ff6e4b0caee06593b22/1431973879763/Kay+Ueda-1924.jpg?format=750w" alt="Kei Ueda portrait">
+					<p class="Caption">Photo by:</p>
+					<a href="http://jeffnakahara.com/home/" target=_blank class="ImgLink">Jeff Nakahara</a>
+				</div>
+				<p class="Text">Hello, I'm an artist. My goal is to also become a coder, architect, and Lawyer/Doctor/both if I have time. Probably not though.</p>
+				<a href="https://newhive.com/kayueda/kayueda-arts" target=_blank>Check out my shit</a>
+				<div class="Tabs">
+					<h3 id="Projects" style="font-family: Verdana">Projects</h3>
+					<div class="Projects--box1">
+						<div class="Projects--text" data-tab="1">Tab1</div>
+					</div>
+					<div class="Projects--box2">
+						<div class="Projects--text" data-tab="3">Tab3</div>
+					</div>
+					<div class="Projects--box3">
+						<div class="Projects--text" data-tab="5">Tab5</div>
+					</div>
+				</div><br />
+				<div class="Tabs2">
+					<div class="Projects--box4">
+						<div class="Projects--text" data-tab="2">Tab2</div>
+					</div>
+					<div class="Projects--box5">
+						<div class="Projects--text" data-tab="4">Tab4</div>
+					</div>
+				</div>
+				<h3 id="ContactMe" style="font-family: Verdana">Contact Me</h3>
+				<p>Hi. <br />My number is: 555 - 123 - 4567. <br /> 
+				And my address: South Pole #122, Antartica.<br />
+				And my social security. <strong>Fuck it</strong>, just take my identity 501 - 66 - 3123
+				<div class="Box">
+					<div class="Box-test" style="color: white"></div>
+				</div>
+			</div>
+		</body>
+	</div>
 </html>
 		
