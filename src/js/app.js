@@ -7,7 +7,7 @@ class CurrentState {
   }
 
   setCurrent(navClicked) {
-    console.log(navClicked);
+    if (this.last === navClicked) return;
     document
       .querySelector(`.content__page[data-page='${navClicked}']`)
       .classList.remove('hidden');
