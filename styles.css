@@ -1,0 +1,118 @@
+@import './components/Box/Box.css';
+@import './components/Tabs/Tabs.css';
+@import './components/List/List.css';
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Roboto', sans-serif;
+}
+.text {
+ /* font-family: "Trebuchet MS"; */
+  font-weight: 500;
+}
+
+nav {
+  background-color: gray;
+  width: 100%;
+  justify-content: space-evenly;
+}
+nav a {
+  width: 18%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 11pt;
+  color: black;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.home {
+  font-size: 32pt;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+div.heading {
+  font-size: 16pt;
+  width: 100%;
+  background-color: lightblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.sub--heading {
+  font-size: 15pt;
+}
+.text {
+  font-size: 12pt;
+}
+.normalText {
+  word-wrap: normal;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 3px;
+  fill: black;
+  transform: translate(0px,attr(data-y));  
+}
+.normalText[data-y='0px'] {
+  transform: translate(0px,0px); 
+}
+.normalText[data-y='25px'] {
+  transform: translate(0px,25px); 
+}
+#footer {
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+}
+#markoliver-container {
+  height:256px;
+  width: 1400px;
+}
+#markoliver {
+  height: 100%;
+  width: auto;
+}
+#aboutMeText {
+  transform: translate(192px,110px)
+}
+@media (max-width: 600px) {
+  .text .normalText {
+    font-size: 8pt
+  }
+  .home {
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  div.sub--heading  {
+    font-size: 10.5px
+  }
+  div.heading {
+    font-size: 10pt;
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  nav a {
+    font-size: 9pt;
+  }  
+  #markoliver-container {
+    height:128px;
+    width: 900px;
+  }  
+  #markoliver {
+    height: 100%;
+    width: auto;
+  }  
+  #aboutMeText {
+    transform: translate(96px,55px);
+  }
+  .normalText {
+    transform: translate(0px,attr(data-smallY));
+  }  
+}
