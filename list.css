@@ -1,0 +1,14 @@
+.List {
+    left: 0;
+    margin: 20px 0;
+    font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .List__item {
+    display: inline;
+    font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: white;
+  }

@@ -1,0 +1,43 @@
+navBar {
+    box-sizing: border-box;
+    display: inline-block;
+    clear: both;
+    width: 50%;
+    margin: 0;
+    position: relative
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    width: 25%;
+    font-size: 24;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+    opacity: .75;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    opacity: 1;
+}
+#home:focus {
+background: black;
+}
+
+@media (max-width: 600px) {
+    li {
+        font-size: 16;
+    }
+}
