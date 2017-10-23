@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+/*----- NAVIGATION -----*/
+a {
+    text-decoration: none;  
+    color: rgb(209, 199, 177);
+}
+
+a:hover {
+    color: rgb(106, 212, 175);
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(87, 255, 87);
+}
+
+.Contact-Nav a {
+    color: rgb(255, 209, 111);
+}
+
+.Contact-Nav a:hover {
+    color: rgb(255, 192, 19);
+    text-shadow: -2px 2px aquamarine;
+    font-weight: bold;
+}
+
+.Navigation-Bar li {
+    display: inline-block;
+    width: 23%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.Navigation-Main ul {
+    padding: 0;
+}
+
+/*----- JUMBOTRON -----*/
+.Name-Display {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.40)), url(./Images/Background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 5.4% 0;
+}
+
+.Name-Display img {
+    margin-bottom: -1.7%;
+}
+
+.Name-Display hr {
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+    border: 1px solid rgba(255, 197, 111, 0.507);
+}
+
+/*----- GENERAL INFORMATION TAB -----*/
+.Info-Box {
+    border-radius: 25px;
+    border: 2px solid rgba(179, 101, 12, 0.712);
+    margin: 3% 3% 3% 3%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.Info-Box p {
+    font-size: 120%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Info-Box h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(209, 199, 177);
+    font-size: 280%;
+    letter-spacing: 20px;
+    text-shadow: -2px 2px #cf5300;
+}
+
+hr {
+    width: 8%;
+    margin-top: -1%;
+    border: 1px solid rgb(255, 209, 111);
+}
+
+/*----- ABOUT ME -----*/
+.Kia-Logo {
+    height: 25px;
+    width: auto;
+    position: relative;
+    top: 8px;
+}
+
+.Personal-Box {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    font-size: 180%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    padding: 0;
+    text-align: left;
+}
+
+.Personal-Box ul {
+    width: 300%;
+}
+
+.Personal-Box li {
+    list-style-type: none;
+    margin-top: 1%;
+    font-weight: 300;
+    width: 100%;
+}
+
+.Personal-Box img {
+    height: 120%;
+    width: auto;
+    float: right;
+    margin-left: 5%;
+    margin-right: 14%;
+    margin-top: -5%;
+}
+
+li .Intro {
+    text-align: center;
+}
+
+.list {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(209, 199, 177);
+}
+
+/*----- PROJECTS -----*/
+.Projects {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.Project-Detail img {
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -3%;
+}
+
+.Project-Detail p {
+    height: 182px;    
+    margin-top: 6%;
+    color: white;
+    margin-right: 5%;
+    text-align: left;
+    margin-bottom: 8%;
+}
+
+.Project-Detail {
+    display: none;
+}
+
+/*----- JAVASCRIPT PROJECT -----*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-shadow: none;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 2% 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}  
+
+/*----- CONTACT INFO -----*/
+.Contact__Form p{
+    color: white;
+}
+
+.Contact-List {
+    color: rgb(209, 199, 177);
+    text-transform: uppercase;
+}
+
+.Contact__Form ul {
+    list-style: none;
+    font-size: 150%;
+}
+
+.Contact__Form a {
+    color: white;
+}
+
+.Contact__Form a:hover {
+    color: rgb(0, 255, 166);
+    text-shadow: 2px 2px rgb(200, 19, 255);
+}
+
+/*----- FOOTER -----*/
+.Footer {
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 1%;
+    margin: 0;
+    color: rgb(209, 199, 177);
+}
