@@ -1,28 +1,69 @@
-//Hard Code version/implementation with its limitations
-function changePage() {
-    tabs = document.querySelectorAll(".container-noshow");
-    tabArray = Array.from(tabs);
-    tabArray[0].classList.remove("container-noshow");
-    tabArray[0].classList.add("container__header-font2show");
-    // shortcut of what I did above 
-    tabArray2 = Array.from(document.querySelectorAll(".container-noimage"));
-    tabArray2[0].classList.remove("container-noimage");
-    tabArray2[0].classList.add("container-image");
+class Tab {
+  constructor (tabs) {
+    this.tabs = tabs;
+    this.link = this.tabs.querySelectorAll('.container__header-font');
+    this.link = Array.from(this.link).map((link) => {
+      return new TabLink(link, this);
+    });
 
-    tabArray3 = Array.from(document.querySelectorAll(".container__nopara"));
-    tabArray3[0].classList.remove("container__nopara");
-    tabArray3[0].classList.add("container__para");
+    this.activeLink = this.link[0];
+    this.init();
+  }
 
-    tabArray4 = Array.from(document.querySelectorAll(".container__header2"));
-    tabArray4[0].classList.remove("conatiner__header2");
-    tabArray4[0].classList.add("container__noheader2");
+  getTab(data) {
+    return this.tabs.querySelector('.container-noshow[data-tab = "${data}"]');
+  }
+  updateActive(newActive) {
+    this.activeLink.deselect();
 
+    this.activeLink = newActive;
+  }
+  init() {
+      this.activeLink.select();
+  }
 }
 
-function changePage2() {
+class TabLink {
+    constructor (element, parent) {
+        this.element = element; 
+        this.tab = parent;
+        this.tabItem = new TabItem(parent.getTab(this.element.getAttribute('data-tab')));
+        this.element.addEventListener('click', () => {
+            this.tab.updateActive(this);
+            this.select();
+        });
+    }
 
+    select() {
+        this.element.classList.add("container-show");
+        this.tabItem.select();
+    }
+
+    deselect() {
+        this.element.classList.remove("container-show");
+        this.tabItem.deselect();
+    }
 }
 
-function changePage3() {
 
-}
+class TabItem {
+    constructor(element) {
+      // attach dom element to object. Example in Tabs class
+      this.element = element;
+    }
+  
+    select() {
+      // should use classList
+     //  this.element.classList.add("Tabs__item-selected");
+     this.element.classList.add("container-show");
+    }
+  
+    deselect() {
+      // should use classList
+      // This.element.classList.remove("Tabs__item-selected")
+      this.element.classList.remove("container-show");
+    }
+  }
+  
+let tabs = document.querySelectorAll(".container");
+tabs = Array.from(tabs).map(tabs => new Tab(tabs));

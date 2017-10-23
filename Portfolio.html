@@ -2,34 +2,42 @@
 <html> 
     <head> <link rel = "stylesheet" type = "text/css" href = "Stylesheet.css"></head>
     <body> 
-        <script src="Script.js"></script>
+        <script defer = "defer" src="Script.js"></script>
         <div class = "container">
             <div class = "container__header">
-                <h1 class = "container__header-font"> Home </h1>
-                <h2 class = "container__header-font" onclick = "changePage()"> About Me </h2>
-                <h3 class = "container__header-font" onclick = "changePage2()"> Projects </h3>
-                <h4 class = "container__header-font" onclick = "changePage3()"> Contact Me </h4>
+                <h1 class = "container__header-font" data-tab = "1"> Home </h1>
+                <h2 class = "container__header-font" data-tab = "2"> About Me </h2>
+                <h3 class = "container__header-font" data-tab = "3"> Projects </h3>
+                <h4 class = "container__header-font" data-tab = "4"> Contact Me </h4>
             </div>
-            <h5 class = "container__header2"> Samuel Kim </h5>
-            <h6 class = "container-noshow"> About Me </h6>
-               <img  class = "container-noimage" src = "Assets\default_photo_1.jpg"/> 
-                <p1 class = "container__nopara">
-                    Entry level programmer with non-professional experience in C++, Java 
-                    and many other programming languages through self study beginning in July of 2016. 
-                    Was a recent graduate from the USC school of Social Work but decided to 
-                    pursue a career in programming and computer science instead after discovering 
-                    the joys of programming.
-                </p1>
-            <h7 class = "container-noshow"> Projects </h7>
-                <p2 class = "container__nopara2">
-                    <span class = "container-bolden"> Lambda School Pojects: </span>  
-                    <a href = "https://github.com/IllSmithDa?tab=repositories"> https://github.com/IllSmithDa?tab=repositories </a>
-                </p2>
-            <h8 class = "container-noshow">Contact Me</h8>
-                <p2 class = "container__nopara2"> 
+            <div class = "container-noshow" data-tab = "1">
+                <h5 class = "container__header2" > Samuel Kim </h5>
+            </div>
+            <div class = "container-noshow" data-tab = "2">
+                <h6 class = "container-show"> About Me </h6>
+                    <img  class = "container__header2" src = "Assets\default_photo_1.jpg"/> 
+                    <p1 class = "container__para" >
+                        Entry level programmer with non-professional experience in C++, Java 
+                        and many other programming languages through self study beginning in July of 2016. 
+                        Was a recent graduate from the USC school of Social Work but decided to 
+                        pursue a career in programming and computer science instead after discovering 
+                        the joys of programming.
+                    </p1>
+            </div>
+            <div class = "container-noshow" data-tab = "3">
+                <h7 class = "container__header2"> Projects </h7>
+                    <p2 class = "container__para">
+                        <span class = "container-bolden"> Lambda School Pojects: </span>  
+                        <a href = "https://github.com/IllSmithDa?tab=repositories"> https://github.com/IllSmithDa?tab=repositories </a>
+                    </p2>
+            </div>
+            <div class = "container-noshow" data-tab ="4">
+                <h8 class = "container__header2" data-tab = "4">Contact Me</h8>
+                    <p2 class = "container__para" data-tab = "4"> 
                         <span class = "container-bolden"> Email: </span>  sams404link@gmail.com
-                </p2>
-            <h9 class = "container__nofooter"> Footer</h9>
+                    </p2>
+            </div>
+            <h9 class = "container__footer"> Footer</h9>
         </div>
     </body>
 </html>

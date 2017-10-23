@@ -42,15 +42,18 @@ body {
 .container-noshow {
     display: none;
 }
-
+.container-show {
+    display:flex;
+}
 .container__footer {
     display: flex;
     justify-content: center;
     font-size: 25px;
     font-weight: bold;
-    margin:auto;
+    margin-top:400px;
     width:100%;
     background-color: rgb(15, 88, 3);
+
 }
 .container__nofooter {
     display:none;
