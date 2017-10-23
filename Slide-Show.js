@@ -10,7 +10,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("Project-Detail");
   let dots = document.getElementsByClassName("dot");
 
   if (n > slides.length) {
