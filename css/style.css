@@ -14,22 +14,87 @@ http://alexcassell.com
 
 h3 {
     text-align: center;
-    font: 150%; 
+    font: 50px; 
 }
 
 body { 
-    /* background-image: url("../images/background.jpg"); 
-    background-size: cover; */
     background-color: black;
     font-family: Neuton;
     cursor: crosshair;
 }
 
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+.sunSquareContainer{
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+	width: 2px;
+    height: 2px;    
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.sun, .sunSquareOne, .sunSquareTwo{
+    background: #FFFF00;
+    border: 3px solid #FFFF00;
+    position: absolute;
+} 
+
+
+.sunSquareOne, .sunSquareTwo{
+    position: absolute;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+    transform: rotate(-15deg);
+    animation: spin-back 2s ease-in-out forwards;
+    transform-origin: 150.5px 150.5px;
+  }
+  @keyframes spin-back {
+    0% {
+      transform: rotate(-45deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+
+
+
+.sunSquareOne{
+    left: 50%;
+    top: 0;
+    width: 10px;
+    height: 10px;
+}
+
+.sunSquareTwo{
+    left: -50px;
+    top: 50px;
+    width: 10px;
+    height: 10px;
+}
 
 .sun {
     border-radius: 50%;
-    background: #FFFF00;
-    border: 3px solid #FFFF00;
     background-image: url("../images/projects.png");
     background-size: cover; 
     background-repeat: no-repeat;
@@ -38,15 +103,16 @@ body {
     left: 50%;
 	width: 200px;
     height: 200px;    
-    position: absolute;
     margin-left: -150px;
     margin-top: -150px;
 }
 
+
+
 .planetOne {
     border-radius: 50%;
-    top: 35%;
-    left: 25%;
+    top: 10%;
+    left: 15%;
 	width: 100px;
     height: 100px; 
     border: 3px solid #9FEE00;
@@ -56,8 +122,7 @@ body {
     background-repeat: no-repeat;
     background-position: center; 
     position: absolute;
-    margin-left: -150px;
-    margin-top: -150px;
+
 }
 
 .planetTwo {
@@ -68,19 +133,18 @@ body {
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
-    top: 85%;
-    left: 15%;
+    bottom: 13%;
+    left: 2%;
 	width: 150px;
     height: 150px; 
     position: absolute;
-    margin-left: -150px;
-    margin-top: -150px;
+
 }
 
 .planetThree {
     border-radius: 50%;
-    top: 45%;
-    right: 15%;
+    top: 25%;
+    right: 10%;
 	width: 125px;
     height: 125px; 
     border: 3px solid #7109AA;
@@ -90,16 +154,14 @@ body {
     background-repeat: no-repeat;
     background-position: center; 
     position: absolute;
-    margin-left: -150px;
-    margin-top: -150px;
 }
 
 .planetFour {
     border-radius: 50%;
-    bottom: 15%;
+    bottom: 10%;
     right: 25%;
-	width: 125px;
-    height: 125px; 
+	width: 155px;
+    height: 155px; 
     border: 3px solid #9B9B00;
     background: #9B9B00;
     background-image: url("../images/webDev.png");
@@ -107,14 +169,12 @@ body {
     background-repeat: no-repeat;
     background-position: center; 
     position: absolute;
-    margin-left: -150px;
-    margin-top: -150px;
 }
 
 .projects .projectsText {
     visibility: hidden;
     width: 200%;
-    height: 200%; 
+    height: 250%; 
     font: 12px;   
     background-color: #FFFF00;
     color: black;
@@ -127,11 +187,47 @@ body {
     z-index: 1;
 }
 
+.projectsWrapper{
+    visibility: hidden;
+    position:absolute;
+    border: 3px solid white;
+    background: white;
+    width: 190%;
+    height: 200%;
+    top: -100px;
+    left: -50%;  
+    z-index:3;
+}
+
+.projectButtonsWrapper {
+    visibility: hidden;
+    position:absolute;
+    float: left;
+    width: 200%;
+    top: -20px;
+    left: -85px;
+}
+
+.projectButtons {
+    visibility: hidden;
+    position: relative;
+    float:left;
+    background-color: #CD0074;
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: 3;
+}
 
 
 .aboutDev .aboutDevText {
     visibility: hidden;
-    width: 300%;
+    width: 200%;
     height: 150%; 
     font: 12px;   
     background-color: #9B9B00;
@@ -139,14 +235,15 @@ body {
     text-align: center;
     padding: 5px;
     border-radius: 6px;
-     top: 0px; 
-     left: -315%;  
+     top: -25px; 
+     left: -75%;  
     position: absolute;
     z-index: 1;
 }
 
 .contact .contactText {
     visibility: hidden;
+    overflow:hidden;
     width: 200%;
     height: 275%; 
     font: 12px;   
@@ -156,13 +253,14 @@ body {
     padding: 5px;
     border-radius: 6px;
     top: -100px;
-    left: -215%; 
+    left: -85%; 
     position: absolute;
     z-index: 1;
 }
 
 .aboutMe .aboutMeText {
     visibility: hidden;
+    text-align: center;
     width: 200%;
     height: 200%; 
     font: 12px;   
@@ -172,7 +270,7 @@ body {
     padding: 5px;
     border-radius: 6px;
     top: -100px;
-    left: 105%; 
+    left: -10%; 
     position: absolute;
     z-index: 1;
 }
@@ -180,6 +278,8 @@ body {
 
 .aboutSite .aboutSiteText {
     visibility: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     width: 200%;
     height: 200%; 
     background-color: #9FEE00;
@@ -187,9 +287,30 @@ body {
     text-align: center;
     padding: 5px;
     border-radius: 6px;
-    left: 110%; 
+    left: -40%;
+    top: -20%; 
     position: absolute;
     z-index: 1;
+}
+
+.skillsWrapper{
+    visibility: hidden;
+}
+
+.html5{
+
+}
+
+.css{
+
+}
+
+.javascript {
+
+}
+
+.photoshop{
+
 }
 
 input[type=text] {
@@ -219,7 +340,7 @@ input[type=submit]{
 
   } /* end of >= 700px */
 
-
+/* 
 
  @media screen and (max-width: 400px) {
 
@@ -383,13 +504,13 @@ input[type=submit]{
     }
     
 
-}
+} */
 
-.sun:hover .projectsText {
+.sun:hover .projectsText, .sun:hover .projectButtons, .sun:hover .projectButtonsWrapper, sun:hover .projectsWrapper {
     visibility: visible;
 }
 
-.planetOne:hover .aboutSiteText {
+.planetOne:hover .aboutSiteText, planetOne:hover .skillsWrapper {
     visibility: visible;
 }
 
@@ -403,4 +524,25 @@ input[type=submit]{
 
 .planetFour:hover .aboutDevText {
     visibility: visible;
+}
+
+#background {
+	background: url(../images/bg/black.png) repeat 5% 5%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: -3;
+}
+
+#midground {
+	background: url(../images/bg/circlebg1.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: -2;
+}
+
+#foreground {
+	background: url(../images/bg/circlebg2.png) repeat 90% 110%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: -1;
 }
