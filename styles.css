@@ -40,6 +40,12 @@ svg {
   text-align: center;
   margin-left:2%;
 }
+#previousWork {
+  margin-top: 3%;
+}
+#contactMe {
+  margin-top: 3%;
+}
 .text {
   text-align: center;
   list-style-type: none;
@@ -67,14 +73,14 @@ a:active, a::after, a:hover {
 div.tabs {
     float: left;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #172842;
     width: 30%;
     height: 300px;
 }
 div.tabs button {
     display: block;
     background-color: inherit;
-    color: black;
+    color: #84A0c0;
     padding: 22px 16px;
     width: 100%;
     border: none;
@@ -84,10 +90,10 @@ div.tabs button {
     transition: 0.3s;
 }
 div.tabs button:hover {
-    background-color: #ddd;
+    background-color: #84A0c0;
 }
 div.tabs button.active {
-    background-color: #ccc;
+    background-color: #FFD700;
 }
 .tabcontent {
     float: left;
