@@ -1,0 +1,23 @@
+.site_nav {
+  height: 40px;
+  background-color: gray;
+  border-bottom: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.site_nav > a {
+ 	color: white;
+ 	text-decoration: none;
+ 	padding: 15px;
+}
+
+.site_nav > a:hover {
+  background-color: dimgray;
+  transition: background-color 0.5s ease-in;
+}

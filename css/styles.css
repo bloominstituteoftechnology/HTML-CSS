@@ -1,0 +1,19 @@
+@import './nav/nav.css';
+@import './header.css';
+@import './sections.css';
+@import './footer.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.Tabs__item {
+  display: none;
+}
+.Tabs__link-selected {
+  color: red;
+}
+.Tabs__item-selected {
+  display: block;
+}
