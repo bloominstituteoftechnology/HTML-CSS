@@ -18,6 +18,7 @@ class TabLink {
     this.element = element;
     this.element.addEventListener('click', (event) => {
       event.tabData = this.element.dataset.tab;
+      console.log('tabLink event.data', event.tabData);
     });
   };
 
@@ -47,7 +48,6 @@ class Tabs {
       obj[item.dataset.tab] = new TabItem(item);
       return obj;
     }, {});
-
     // Listens for a click event in its children or self
     this.element.addEventListener('click', (event) => {
       if (event.tabData) {
@@ -62,6 +62,7 @@ class Tabs {
   }
 
   updateActive(data) {
+    console.log('updateActive data:', data);
     if (data === null) return;
     if (this.activeData) {
       this.links[this.activeData].deselect();
