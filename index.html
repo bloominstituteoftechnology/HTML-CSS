@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Perry Ahern: Developer</title>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="home">
+  <script defer="defer" src="./scripts.js"></script>
+  <script defer="defer" src="./components/mainContent/projectSection/projects.js"></script>
+  <script defer="defer" src="./components/mainContent/tabs/tabs.js"></script>
+
+  <main class="mainContent">
+    <!-- Header -->
+    <div class="header">Perry Ahern</div>
+    <div class="header header--subHeader">Coding dreams into reality</div>
+
+    <!-- Tabs adapted from Ivan's sample -->
+    <div class="Tabs">
+      <div class="List Tabs--container">
+        <div class="Tabs__link Tabs__default" data-tab="1">About Me</div>
+        <div class="Tabs__link" data-tab="2">Projects</div>
+        <div class="Tabs__link" data-tab="3">Contact Me</div>
+      </div>
+
+      <div class="Tabs__item" data-tab="1">
+        <!-- About Me -->
+        <div class="aboutMe" id="aboutMe">
+          <p class="aboutMe__p">Dreams are simply ideas waiting to be made manifest. It would be my pleasure to work with you to bring your organization's dreams to life.</p>
+          <p class="aboutMe__p">I am attending the Lambda School Academy of Computer Science program, which features training in computer science topics as well as full-stack methodologies:</p>
+            <ul>
+              <li>CS Topics: Algorithms, Data Structures, Computer Architecture, Operating Systems</li>
+              <li>Languages and Frameworks: C++, JavaScript, React, Redux, Node, Express, MongoDB, React Native</li>
+              <li>Databases: MongoDB, Relational Databases</li>
+            </ul>
+          <p class="aboutMe__p">TL;DR: I am a father, husband, coder, writer, gamer, and dreamer. I grew up on fantasy and science fiction novels and later became an avid RPG and MMO gamer. I love how a good book or movie can transport you to another place and time and take you on an adventure.</p>
+        </div>
+      </div>
+      <div class="Tabs__item" data-tab="2">
+        <!-- Projects -->
+        <div class="projects--buttons">
+          <input type="button" class="projects--buttons--general" value="Shift Left" onclick="shiftLeft(allProjects, projectCount, numProjectsToShow);" />
+          <input type="button" class="projects--buttons--general" value="Shift Right" onclick="shiftRight(allProjects, projectCount, numProjectsToShow);" />
+        </div>  
+        <div class="projects">
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/lambda_portfolio.png" width="215">
+            <p class="projects__p--title">Lambda Portfolio</p>
+            <p class="projects__p">You are here! A new portfolio for a new school.</p>
+            <p class="projects__p">Utilizes: Javascript with tab system for DOM manipulation</p>
+          </div>
+          <div class="projects--each hide">
+            <a href="https://historic-canyonlands-41948.herokuapp.com/" target="_blank"><img src="./components/mainContent/projectSection/projectImages/bloccit.png" width="215"></a>
+            <p class="projects__p--title">Bloccit</p>
+            <p class="projects__p">reddit clone with threads, posts, comments, content validation, user authentication via email, voting, favoriting, and admin and standard roles with differing rights.</p>
+            <p class="projects__p">Utilizes: Ruby on Rails</p>
+          </div>
+          <div class="projects--each hide">
+            <a href="http://perryahern.com" target="_blank"><img src="./components/mainContent/projectSection/projectImages/portfolio.png" width="215"></a>
+            <p class="projects__p--title">Bloc Portfolio</p>
+            <p class="projects__p">A basic portfolio with blog.</p>
+            <p class="projects__p">Utilizes: Angular, Jekyll Template, GitHub Pages</p>
+          </div>
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/blocchat.png" width="215">
+            <p class="projects__p--title">Bloc Chat</p>
+            <p class="projects__p">A dynamic chat room system featuring user accounts, user-created rooms.</p>
+            <p class="projects__p">Utilizes: Angular and Firebase</p>
+          </div>
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/blocjams.png" width="215">
+            <p class="projects__p--title">Bloc Jams</p>
+            <p class="projects__p">A web-based song player developed in JS to manipulate the DOM.</p>
+            <p class="projects__p">Utilizes: jQuery refactored to Angular</p>
+          </div>
+        </div>
+      </div>
+      <div class="Tabs__item" data-tab="3">
+        <!-- Contact Me -->
+        <div class="contactMe contactMe__fields">
+          <form action="mailto:pahern@gmail.com" method="post" enctype="text/plain">
+            <br>
+            <input type="text" name="name" placeholder="name">
+            <br>
+            <br>
+            <input type="text" name="mail" placeholder="email address">
+            <br>
+            <br>
+            <input type="text" name="phone" placeholder="phone number">
+            <br>
+            <br>
+            <input type="text" name="comment" size="50" placeholder="comment">
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </form>
+        </div>                
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <div class="footer">&copy; Perry Ahern
+    <script>document.write('2009 - ', new Date().getFullYear());</script>
+  </div>
+</body>
+
+</html>
