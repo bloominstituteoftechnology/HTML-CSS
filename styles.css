@@ -12,7 +12,7 @@ body {
 }
 
 .Navigation {
-	background-color: gray;
+	background-color: #157C9B;
 	flex-direction: row;
 	align-items: flex-start;
 }
@@ -28,4 +28,29 @@ body {
 	text-align: center;
 	font-size: 2.5em;
 	font-weight: bold;
+}
+
+.Section {
+	flex-direction: row;
+	align-items: flex-start;
+	display: inline-block;
+	height: 20%;
+	margin: 2px;
+}
+
+.SectionAboutMe {
+	display: inline-flex;
+	height: 100%;
+}
+
+.SectionTitle {
+	height: 20px;
+	background: #50E4E4;
+}
+
+.ProjectBox {
+	width: 30%;
+
+	display: inline-flex;
+	background: greenyellow
 }
