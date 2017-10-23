@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Austin French - Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js" charset="utf-8"></script>
+  </head>
+  <body>
+<!-- NAV -->
+  <ul class = "nav-bar-block header-text">
+    <a href="index.html"><li class = "nav-left nav-link">Overview</li></a>
+    <a href="previousWork.html"><li class = "nav-left nav-link nav-active">Previous Work</li></a>
+    <a href="skills.html"><li class = "nav-left nav-link">Skills</li></a>
+    <a href="contact.html"><li class = "nav-left nav-link">Contact</li></a>
+  </ul>
+  <!-- PROJECTS -->
+  <h2 class = "header-text" id = "previousWork">Previous Work</h2>
+  <hr>
+  <div class="tabs">
+    <button class="tablinks" onclick="openProject(event, 'Craigslist Car Search')">Craigslist Car Search</button>
+    <button class="tablinks" onclick="openProject(event, 'Intern at TryTreats')">Web Dev and Marketing Intern at TryTreats</button>
+    <button class="tablinks" onclick="openProject(event, 'Junior Web Developer at Scrimbox')">Web Developer Intern at Scrimbox</button>
+  </div>
+
+  <div class="tabcontent defaultOpen" id = "CarSearch">
+    <h3>Craigslist and eBay Car Search</h3>
+    <p>A website to search through craigslist and ebay at the same time for car listings.</p>
+  </div>
+  <div class="tabcontent" id = "TryTreats">
+    <h3>TryTreats</h3>
+    <p>A subscription-box service that provides treats from all over the world in a convenient package at your doorstep every month.</p>
+  </div>
+  <div class="tabcontent" id = "ScrimBox">
+    <h3>ScrimBox</h3>
+    <p>An application to allow players and teams to practice against each other in scrims in over 5 different esports, on any platform.</p>
+  </div>
+</html>

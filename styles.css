@@ -1,0 +1,105 @@
+body {
+  color: #84A0c0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #172842;
+}
+/* NAV MENU */
+.nav-active {
+  border-bottom: 1px solid #FFD700;
+}
+.nav-bar-block {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-left {
+  float: left;
+  margin-left: 75px;
+}
+.nav-link {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/* ICONS */
+.skills {
+  text-align: center;
+  margin: 10%;
+}
+svg {
+  max-width: 7.0em;
+  max-height: 7.0em;
+  margin:1%;
+}
+/* PAGE TEXT */
+.header-text {
+  text-align: center;
+  margin-left:2%;
+}
+#previousWork {
+  margin-top: 3%;
+}
+#contactMe {
+  margin-top: 3%;
+}
+.text {
+  text-align: center;
+  list-style-type: none;
+}
+.name {
+  padding: 2%;
+  margin-top: 5%;
+}
+.body-text {
+  margin: 1%;
+}
+hr {
+  border: 0;
+  height: 1px;
+  width: 70%;
+  background-image: linear-gradient(to right, rgba(255, 215, 0,0), rgba(255, 215, 0,0.75), rgba(255, 215, 0,0));
+}
+a {
+  color: #84A0c0;
+}
+a:active, a::after, a:hover {
+  color: #FFD700;
+}
+/* TABS */
+div.tabs {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #172842;
+    width: 30%;
+    height: 300px;
+}
+div.tabs button {
+    display: block;
+    background-color: inherit;
+    color: #84A0c0;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+div.tabs button:hover {
+    background-color: #84A0c0;
+}
+div.tabs button.active {
+    background-color: #FFD700;
+}
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
