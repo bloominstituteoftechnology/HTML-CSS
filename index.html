@@ -9,6 +9,7 @@
 
 <body>
     <script defer="defer" src="./components/Tabs/Tabs.js"></script>
+    <script defer="defer" src="./components/SVG/SVG.js"></script>
     <nav>
         <a href='#home'>Home</a>
         <a href='#welcome'>Welcome</a>
@@ -23,16 +24,23 @@
         <a href='https://lambdaschool.com/'>Lambda School!</a>
     </div>
     <div id='aboutMe' class='heading'>About me</div>
-    <div class='aboutMe text' id='markoliver-container'>
-        <img src='./markOliver.jpg' alt='Mark Oliver' id='markoliver'>Looking for a Functional Programming front-end job with HTML, JavaScript, React, React-Native, and Redux.
+    <div class='aboutMe text' >
+        <svg id='markoliver-container' >
+            <image href='markOliver.jpg' id='markoliver' x='0' y='0'></image>
+            <text id='aboutMeText'>
+                <tspan data-y='0px' data-smallY='0px' class='normalText'>Looking for a Functional Programming front-end job</tspan>
+                <tspan data-y='25px' x='0' dy='25' data-smallY='15px' class='normalText'>with HTML, JavaScript, React, React-Native, and Redux.</tspan>
+            </text>
+        </svg>
+        <!-- <img src='./markOliver.jpg' alt='Mark Oliver' id='markoliver'>Looking for a Functional Programming front-end job with HTML, JavaScript, React, React-Native, and Redux. -->
     </div>
     <div id='projects' class='heading'>Projects</div>
     <div class='projects text'>
         <div class="Tabs">
             <div class="List">
-                <div class="List__item Tabs__link">DOD</div>
-                <div class="List__item Tabs__link">UST</div>
-                <div class="List__item Tabs__link">Troy</div>
+                <div class='List__item Tabs__link sub--heading'>DOD</div>
+                <div class='List__item Tabs__link sub--heading'>UST</div>
+                <div class='List__item Tabs__link sub--heading'>Troy</div>
             </div>
 
 

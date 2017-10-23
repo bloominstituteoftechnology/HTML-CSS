@@ -19,3 +19,9 @@
     background-color: white;
     border: solid 1px gray;
   }
+  @media (max-width: 600px) {
+    .Tabs__link {
+      padding: 5px 7.5px;
+      margin: 5px
+    }
+  }
