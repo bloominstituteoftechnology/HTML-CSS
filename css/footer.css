@@ -1,0 +1,12 @@
+footer {
+	margin-top: 30px;
+	background-color: gray;
+	height: 150px;
+
+	display: flex;
+	line-height: 280px;
+}
+
+footer > p {
+	margin: 0 auto;
+}

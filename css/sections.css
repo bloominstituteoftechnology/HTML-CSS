@@ -1,0 +1,28 @@
+section {
+	display: grid;
+	grid-template-areas:
+		"title content"
+		"title content";
+	grid-template-columns: 30% 60%;
+}
+section {
+	grid-area: content;
+}
+section > h2 {
+	grid-area: title;
+	align-self: center;
+	justify-self: center;
+}
+section > nav {
+	display: flex;
+	align-content: flex-start;
+}
+section > nav > span {
+	padding: 0 5px;
+	margin: 0;
+	outline: 1px solid black;
+}
+section > form {
+	display: grid;
+	grid-template-columns: 40%;
+}

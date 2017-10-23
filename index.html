@@ -1,80 +1,73 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
 
-  <title>Thomas Dillard - Portfolio</title>
-  <meta name="description" content="Thomas Dillard - Portfolio">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lambda School Portfolio</title>
 
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Portfilio Site">
+  <meta name="author" content="Thomas Dillard Studios">
+
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="nav" role="navigation"> <!-- Reduce to Nav and Span tags -->
-    <ul class="nav__ul">
-      <li class="nav__li"><a href="#">Home</a></li>
-      <li class="nav__li"><a href="#about_me">About Me</a></li>
-      <li class="nav__li"><a href="#projects">Projects</a></li>
-      <li class="nav__li"><a href="#contact_me">Contact Me</a></li>
-    </ul>
-  </nav>
-  <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
-  <label for="nav-trigger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label>
-  <!-- End Navigation -->
+  <nav class="site_nav" role="navigation">
+  	<a href="#">Home</a>
+  	<a href="#about_me">About Me</a>
+  	<a href="#projects">Projects</a>
+  	<a href="#contact">Contact</a>
+  </nav> <!-- End Site Nav -->
+  <header><h1>Thomas Dillard</h1></header>
+  <section id="about_me">
+  	<h2>About Me</h2>
+  	More to come later!...
+  </section> <!-- End About Me -->
+  <section id="projects" class="Tabs">
+  	<h2>Projects</h2>
+  	<nav class="project_tabs">
+  	  <span class="Tabs__link Tabs__default" data-tab="1">Placeholder1</span>
+  	  <span class="Tabs__link" data-tab="2">Placeholder2</span>
+  	  <span class="Tabs__link" data-tab="3">Placeholder3</span>
+  	</nav> <!-- End Project Tab Links -->
 
-  <div class="site-wrap">
-    <!-- Header -->
-    <header class="header__bg">
-      <h1 class="header__text">Thomas Dillard<span class="blinking-cursor">|</span></h1>
-    </header>
-    <!-- End Header -->
+  	<!-- Project Tabs Selection -->
+  	<p class="Tabs__item Tabs__default" data-tab="1">Placeholder 1<br/>
+  	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et bibendum sapien. Fusce urna massa, scelerisque et urna vitae, accumsan efficitur libero. Duis quis faucibus orci, ut porta magna. Ut rhoncus feugiat erat non fringilla.</p>
+  	<p class="Tabs__item" data-tab="2">Placeholder 2<br/>
+  	  &nbsp; &nbsp; It was the best of times,<br/>
+			it was the worst of times,<br/>
+			it was the age of wisdom,<br/>
+			it was the age of foolishness,<br/>
+			it was the epoch of belief,<br/>
+			it was the epoch of incredulity,<br/>
+			it was the season of Light,<br/>
+			it was the season of Darkness,<br/>
+			it was the spring of hope,<br/>
+			it was the winter of despair,</p>
+  	<p class="Tabs__item" data-tab="3">Placeholder 3<br/>
+  	  Mistah Kurtz—he dead.<br/>
+  	  A penny for the Old Guy</p>
+  	<!-- End Project Tabs Selection -->
 
-    <!-- About Me -->
-    <div id="about_me" class="section">
-      <div class="section__title__box">
-        <h2 class="section__title">About Me</h2>
-      </div>
-      <div class="section__paragraph__box section__paragraph__box--right">
-        <div class="section__paragraph__prettifiers"> <!-- could be reduced -->
-          <p class="section__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt lorem felis, non tincidunt nulla tempus eget. Vestibulum scelerisque et justo eget venenatis. Ut ac massa diam. Nulla et iaculis lorem, ut eleifend nunc. Nam mattis libero vitae venenatis vestibulum. Nullam nisl erat, malesuada sit amet urna consequat, sollicitudin efficitur dolor. Morbi efficitur malesuada nulla sit amet porttitor. Ut in erat erat.</p>
+  </section> <!-- End Projects -->
+  <section id="contact">
+  	<h2>Contact</h2>
+  	<form action="mailto:someone@example.com">
+  		Name:
+  		<input type="text" name="name" placeholder="John Smith">
+  		Email:
+  		<input type="text" name="email" placeholder="example@example.com">
+  		Message:
+  		<input type="text" name="content" placeholder="blah blah blah...">
+  		<input type="submit" value="Send">
+  	</form>
+  </section>
+  <footer>
+  	<p>2017 Thomas Dillard</p>
+  </footer>
 
-          <p class="section__paragraph">Maecenas sit amet ex eu augue consequat mattis quis id elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ipsum ligula, maximus ut rutrum aliquam, pharetra in ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus id odio ut lacus aliquam pellentesque eu in libero. Ut efficitur pulvinar nisi, sed sodales velit. Ut nec finibus neque. Phasellus suscipit eu urna vitae fringilla. Aenean posuere, tortor eu blandit tincidunt, arcu nibh tempus dui, eget ullamcorper risus orci a sem. Suspendisse dapibus dui turpis, et lacinia lorem molestie sagittis. Donec luctus fermentum bibendum. Duis nec condimentum magna.</p>
-        </div>
-      </div>
-    </div>
-    <!-- End About Me -->
-    <!-- Projects -->
-    <div id="projects" class="section">
-      <div class="section__paragraph__box section__paragraph__box--left">
-        <div class="section__paragraph__prettifiers">
-          <p class="section__paragraph">I have no current projects...<br/>Please, visit my GitHub for information on previous projects:</p>
-
-          <p class="section__paragraph"><a href="https://github.com/htmlGhozt" target="_blank" class="logos"><img class="GitHub" src="Components/images/github.png" height="75px"/></a></p>
-        </div>
-      </div>
-      <div class="section__title__box">
-        <h2 class="section__title">Projects</h2>
-      </div>
-    </div>
-    <!-- End Projects -->
-    <!-- Contact -->
-    <!-- Coming Soon! -->
-    <!-- End Contact -->
-    <footer id="contact_me">
-      <div class="footer__half"> <!-- Contact should be a form -->
-        <h2 class="section__title">Contact:</h2>
-      </div>
-      <div class="footer__half">
-        <p></p>
-      </div>
-    </footer>
-  </div>
+  <script src="js/tabs.js"></script>
 </body>
-</html> 
+</html>
