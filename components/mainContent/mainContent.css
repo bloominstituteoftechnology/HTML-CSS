@@ -5,7 +5,7 @@
   justify-content: center;
   margin: auto;
   max-width: 50rem;
-  padding: 0 30px;
+  padding: 0 2rem;
 }
 
 /* header CSS */
@@ -13,26 +13,24 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 100px 0 10px 0;
-  font-size: 66px;
+  padding: 6.2rem 0 .65rem 0;
+  font-size: 4.2rem;
 }
 
 .header--subHeader {
-  font-size: 30px;
-  padding: 0 0 30px 0;
+  font-size: 1.9rem;
+  padding: 0 0 2rem 0;
 }
 
 /* about me CSS */
 .aboutMe {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: auto;
 }
 
 .aboutMe__p {
-  font-size: 18px;
-  margin: 5px auto;
+  font-size: 1.1rem;
+  margin: .3rem auto;
 }
 
 /* footer section css */
@@ -44,8 +42,8 @@
   flex-direction: row;
   justify-content: flex-end;
   margin: auto;
-  padding: 10px 30px;
-  font-size: 15px;
-  font-style: italic;
+  padding: .7rem 2rem;
+  font-size: .9rem;
+  font-style: oblique;
   font-weight: 500;
 }

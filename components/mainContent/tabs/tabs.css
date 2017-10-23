@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: center;
   margin: auto;
-  padding: 0 0 75px 0;
+  padding: 0 0 5rem 0;
 }
 
 .Tabs__item {
@@ -18,17 +18,19 @@
 
 .Tabs__link {
   box-sizing: border-box;
-  background-image: linear-gradient(120deg, transparent, transparent 20%, rgb(68, 106, 228) 20%, rgb(68, 106, 228) 80%, transparent 80%, transparent);
-  padding: 5px 40px;
-  margin: 10px 0;
-  color: white;
+  background-image: linear-gradient(120deg, transparent, transparent 14%, rgb(68, 106, 228) 14%, rgb(68, 106, 228) 88%, transparent 88%, transparent);
+  padding: .3rem 1.75rem;
+  margin: .5rem .2rem;
+  color: black;
   display: inline;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  /* height: 1.75rem; */
 }
 
 .Tabs__link-selected {
-  background-image: linear-gradient(120deg, transparent, transparent 20%, white 20%, white 80%, transparent 80%, transparent);
+  /* background-image: linear-gradient(120deg, transparent, transparent 12%, white 12%, white 88%, transparent 88%, transparent); */
+  background: black;
   color: rgb(68, 106, 228);
   font-weight: 500;
 }
