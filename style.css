@@ -21,7 +21,6 @@ a {
 a:hover {
     color: rgb(106, 212, 175);
     font-weight: bold;
-    /* text-shadow: 4px 4px #cf5300; */
     text-shadow: 2px 2px rgb(87, 255, 87);
 }
 
@@ -162,6 +161,7 @@ li .Intro {
 }
 
 .Project-Detail p {
+    height: 182px;    
     margin-top: 6%;
     color: white;
     margin-right: 5%;
@@ -188,6 +188,11 @@ li .Intro {
     border-radius: 0 3px 3px 0;
 }
 
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -195,6 +200,8 @@ li .Intro {
 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-shadow: none;
 }
 
 .numbertext {
