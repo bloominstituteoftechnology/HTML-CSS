@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center; 
+    align-items: flex-end;
 }
 
 .box {
@@ -23,16 +24,16 @@
     align-items: center;
 }
 
-.nav{
-
+.navbox {
+    padding: 0px;
+    margin: 10px;
 }
 
 .navbutton {
     border: 4px rgb(75,60,200) solid;
     border-radius: 40px 15px;
-    width: 100px;
-    padding: 10px;
     margin: 10px;
+    padding: 0px 20px;
     background-color: rgb(210,200,250);
     align-items: center;
 }
@@ -40,11 +41,9 @@
 .navbutton-active {
     border: 4px rgb(75,60,200) solid;
     border-radius: 40px 15px;
-    width: 100px;
-    padding: 10px;
     margin: 10px;
+    padding: 0px 20px;
     background-color: rgb(230,230,255);
-    flex-basis: auto;
     align-items: center;
 }
 
@@ -53,14 +52,15 @@
 }
 
 .content-active {
+    display: flex;
 }
 
-.pic {
+.profilepic {
     border: 4px rgb(75,60,200) solid;
     border-radius: 40px 15px;
     margin: 10px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -68,6 +68,10 @@ h1, h2, h3 {
     color: rgb(75,60,200);
     text-align: center;
     font-family: sans-serif;
+}
+
+.navfont {
+    line-height: 0;
 }
 
 h4 {
