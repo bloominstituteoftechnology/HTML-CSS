@@ -1,21 +1,4 @@
-/* Ivan's Tabs Test css */
-/* .Box__title {
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-bottom: 15px;
-} */
-
-/* .Box--gray {
-  background-color: gray;
-}
-
-.Box--blue {
-  background-color: blue;
-}
-
-.Box--green {
-  background-color: green;
-} */
+/* Adapted from Ivan's Tabs css */
 
 .Tabs--container {
   display: flex;
@@ -36,18 +19,16 @@
 .Tabs__link {
   box-sizing: border-box;
   background-image: linear-gradient(120deg, transparent, transparent 20%, rgb(68, 106, 228) 20%, rgb(68, 106, 228) 80%, transparent 80%, transparent);
-  padding: 10px 30px;
+  padding: 5px 40px;
   margin: 10px 0;
-  /* background-color: rgb(68, 106, 228); */
   color: white;
   display: inline;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .Tabs__link-selected {
   background-image: linear-gradient(120deg, transparent, transparent 20%, white 20%, white 80%, transparent 80%, transparent);
   color: rgb(68, 106, 228);
   font-weight: 500;
-  /* color: rgb(3, 12, 105); */
-  /* border: solid 1px gray; */
 }

@@ -11,109 +11,80 @@
   <script defer="defer" src="./scripts.js"></script>
   <script defer="defer" src="./components/mainContent/projectSection/projects.js"></script>
   <script defer="defer" src="./components/mainContent/tabs/tabs.js"></script>
-  <!-- Navigation -->
-  <!-- <div class="nav">
-    <ul class="nav__ul">
-      <a href="#home"><li class="nav__li">Home</li></a>
-      <a href="#aboutMe"><li class="nav__li">About Me</li></a>
-      <a href="#projects"><li class="nav__li">Projects</li></a>
-      <a href="#contactMe"><li class="nav__li">Contact Me</li></a>
-    </ul>
-  </div> -->
 
   <main class="mainContent">
     <!-- Header -->
     <div class="header">Perry Ahern</div>
     <div class="header header--subHeader">Coding dreams into reality</div>
 
-    <!-- Ivan's Tabs Test -->
-    <!-- <div class="Section Section--bordered"> -->
-      <!-- <div class="Section__full"> -->
-        <!-- <div class="Section__title">Tab Menu</div> -->
-        <div class="Tabs">
-          <div class="List Tabs--container">
-            <div class="Tabs__link Tabs__default" data-tab="1">About Me</div>
-            <div class="Tabs__link" data-tab="2">Projects</div>
-            <div class="Tabs__link" data-tab="3">Contact Me</div>
-          </div>
-  
-          <div class="Tabs__item" data-tab="1">
-            <!-- <div class="Box Box--placeholder"> -->
-              <!-- <div class="Box__title">Box # 1</div> -->
-              <!-- <div class="Box__description"> -->
-                <!-- About Me -->
-                <div class="aboutMe" id="aboutMe">
-                  <!-- <div class="aboutMe--header">About Me:</div> -->
-                  <p class="aboutMe__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu lacinia justo. Integer condimentum, quam at
-                    dignissim dictum, urna est varius dolor, eget lobortis felis libero eu mauris. Donec dictum metus arcu, a finibus
-                    massa sagittis et.</p>
-                  <p class="aboutMe__p">Suspendisse vestibulum nibh ac massa rhoncus posuere. Sed ac mauris augue. Pellentesque fringilla mi id justo egestas,
-                    non rhoncus massa tempus. Vestibulum fringilla convallis magna, eu sagittis eros pulvinar vel. Morbi fermentum felis
-                    ut metus accumsan iaculis.</p>
-                </div>
-              <!-- </div> -->
-            <!-- </div> -->
-          </div>
-          <div class="Tabs__item" data-tab="2">
-            <!-- <div class="Box Box--placeholder"> -->
-              <!-- <div class="Box__title">Box # 2</div> -->
-              <!-- <div class="Box__description"> -->
-                <!-- Projects -->
-                <!-- <div class="projects--header" id="projects">Projects</div> -->
-                <div class="projects--buttons">
-                  <input type="button" class="projects--buttons--general projects--buttons--left" value="Shift Left" onclick="shiftLeft(allProjects, projectCount, numProjectsToShow);" />
-                  <input type="button" class="projects--buttons--general projects--buttons--right" value="Shift Right" onclick="shiftRight(allProjects, projectCount, numProjectsToShow);" />
-                </div>
-                <div class="projects">
-                  <div class="projects--each hide">
-                    <img src="./components/mainContent/projectSection/projectImages/blocjams.png" width="215">
-                  </div>
-                  <div class="projects--each hide">
-                    <img src="./components/mainContent/projectSection/projectImages/blocchat.png" width="215">
-                  </div>
-                  <div class="projects--each hide">
-                    <img src="./components/mainContent/projectSection/projectImages/portfolio.png" width="215">
-                  </div>
-                  <div class="projects--each hide">
-                    <img src="./components/mainContent/projectSection/projectImages/bloccit.png" width="215">
-                  </div>
-                  <div class="projects--each hide">Test 5</div>
-                  <div class="projects--each hide">Test 6</div>
-                  <div class="projects--each hide">Test 7</div>
-                  <div class="projects--each hide">Test 8</div>
-                  <!-- <div class="projects--each hide">Test 9</div> -->
-                </div>
-              <!-- </div> -->
-            <!-- </div> -->
-          </div>
-          <div class="Tabs__item" data-tab="3">
-            <!-- <div class="Box Box--placeholder"> -->
-              <!-- <div class="Box__title">Box # 3</div> -->
-              <!-- <div class="Box__description"> -->
-                <!-- Contact Me -->
-                <!-- <div class="contactMe--header" id="contactMe">Contact Me</div> -->
-                <div class="contactMe contactMe__fields">
-                  <form action="mailto:pahern@gmail.com" method="post" enctype="text/plain">
-                    <br>
-                    <input type="text" name="name" placeholder="name...">
-                    <br>
-                    <br>
-                    <input type="text" name="mail" placeholder="email...">
-                    <br>
-                    <br>
-                    <input type="text" name="comment" size="50" placeholder="comment...">
-                    <br>
-                    <br>
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset">
-                  </form>
-                </div>                
-              <!-- </div> -->
-            <!-- </div> -->
-          </div>
+    <!-- Tabs adapted from Ivan's sample -->
+    <div class="Tabs">
+      <div class="List Tabs--container">
+        <div class="Tabs__link Tabs__default" data-tab="1">About Me</div>
+        <div class="Tabs__link" data-tab="2">Projects</div>
+        <div class="Tabs__link" data-tab="3">Contact Me</div>
+      </div>
+
+      <div class="Tabs__item" data-tab="1">
+        <!-- About Me -->
+        <div class="aboutMe" id="aboutMe">
+          <p class="aboutMe__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu lacinia justo. Integer condimentum, quam at
+            dignissim dictum, urna est varius dolor, eget lobortis felis libero eu mauris. Donec dictum metus arcu, a finibus
+            massa sagittis et.</p>
+          <p class="aboutMe__p">Suspendisse vestibulum nibh ac massa rhoncus posuere. Sed ac mauris augue. Pellentesque fringilla mi id justo egestas,
+            non rhoncus massa tempus. Vestibulum fringilla convallis magna, eu sagittis eros pulvinar vel. Morbi fermentum felis
+            ut metus accumsan iaculis.</p>
         </div>
-      <!-- </div> -->
-    <!-- </div> -->
+      </div>
+      <div class="Tabs__item" data-tab="2">
+        <!-- Projects -->
+        <div class="projects">
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/blocjams.png" width="215">
+          </div>
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/blocchat.png" width="215">
+          </div>
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/portfolio.png" width="215">
+          </div>
+          <div class="projects--each hide">
+            <img src="./components/mainContent/projectSection/projectImages/bloccit.png" width="215">
+          </div>
+          <div class="projects--each hide">Test 5</div>
+          <div class="projects--each hide">Test 6</div>
+          <div class="projects--each hide">Test 7</div>
+          <div class="projects--each hide">Test 8</div>
+          <!-- <div class="projects--each hide">Test 9</div> -->
+        </div>
+        <div class="projects--buttons">
+          <input type="button" class="projects--buttons--general" value="Shift Left" onclick="shiftLeft(allProjects, projectCount, numProjectsToShow);" />
+          <input type="button" class="projects--buttons--general" value="Shift Right" onclick="shiftRight(allProjects, projectCount, numProjectsToShow);" />
+        </div>
+      </div>
+      <div class="Tabs__item" data-tab="3">
+        <!-- Contact Me -->
+        <div class="contactMe contactMe__fields">
+          <form action="mailto:pahern@gmail.com" method="post" enctype="text/plain">
+            <br>
+            <input type="text" name="name" placeholder="name">
+            <br>
+            <br>
+            <input type="text" name="mail" placeholder="email address">
+            <br>
+            <br>
+            <input type="text" name="phone" placeholder="phone number">
+            <br>
+            <br>
+            <input type="text" name="comment" size="50" placeholder="comment">
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+          </form>
+        </div>                
+      </div>
+    </div>
   </main>
 
   <!-- Footer -->
