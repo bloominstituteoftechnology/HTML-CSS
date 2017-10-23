@@ -1,8 +1,15 @@
 @import url("navBar.css");
 @import url("body.css");
+@import url("box.css");
+@import url("list.css");
+@import url("tabs.css");
 
 body {
-    background: linear-gradient(-90deg, rgb(68, 68, 68), black);
+    background-image: url("hike.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
     box-sizing: border-box;
     min-width: 300px;
     margin: 0;
