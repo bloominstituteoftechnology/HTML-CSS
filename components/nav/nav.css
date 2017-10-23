@@ -9,7 +9,8 @@
   right: 0;
   width: auto;
   height: 32px;
-  /* background-color: black; */
+  background-color: black;
+  padding: 0 0 3px 0;
 }
 
 .nav__ul {

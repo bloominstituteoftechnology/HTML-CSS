@@ -4,8 +4,8 @@
 }
 
 .contactMe--header {
-  font-size: 24px;
-  padding: 50px 0 0 0;
+  font-size: 1.75rem;
+  /* padding: 20px 0 0 0; */
 }
 
 .contactMe__fields input[type='text'],
