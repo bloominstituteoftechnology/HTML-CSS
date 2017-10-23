@@ -1,0 +1,14 @@
+@import './components/mainContent/mainContent.css';
+@import './components/mainContent/projectSection/projects.css';
+@import './components/mainContent/tabs/tabs.css';
+@import './components/mainContent/contactMe.css';
+
+body {
+  min-width: 430px;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 2, 31)); */
+  background: black;
+  color: rgb(68, 106, 228);
+  font-family: Arial, Helvetica, sans-serif;
+}
