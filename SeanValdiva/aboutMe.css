@@ -1,0 +1,120 @@
+@media(min-width: 200px) {
+
+body {
+  background-color: black;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  text-align: center;
+  background-color: black;
+  flex-basis: 100%;
+  margin: .5%;
+  padding: 1%;
+  border: 1px blue solid;
+  border-radius: 2%;
+  
+}
+
+
+.rectangle {
+  display: inline-flex;
+  width: 15%;
+  height: 15%;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 10%;
+  justify-content: center;
+}
+
+#h2 {
+  color: silver;
+}
+
+#image {
+  position: relative;
+  max-width: 75%;
+  height: auto;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 1px;
+}
+
+#projects {
+  background-image: url("./projects.jpg");
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+#welcome-message {
+  background-image: url("./algorithms.jpg");
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+
+#about-me {
+  display: inline-flex;
+  background-image: url("./algorithms.jpg");
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+
+.footer {
+  background-image: url("./algorithms.jpg");
+  background-size: 100%;
+  opacity: 0.8;
+}
+#aboutMeParagraph {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+
+#projects {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.box {
+  width: 20%;
+  height: 20%;
+  border: 1px solid black;
+  background-color: grey;
+  border-radius: 2%;
+}
+
+
+
+p {
+  font-size: 1.5em;
+  font-family: monospace;
+  color: silver;
+}
+
+.footer {
+  text-align: center;
+  background-color: silver;
+  flex-basis: 100%;
+  margin: .5%;
+  padding: 1%;
+  border: 1px blue solid;
+  border-radius: 2%;
+}
+  
+h2, h3, h4 {
+  font-family: monospace;
+}
+
+#contact {
+  color: silver;
+}
+
+}
