@@ -1,25 +1,13 @@
 .projects {
     display: flex;
     flex-flow: wrap row;
-    align-content: flex-start;
-    width: 100%;
-    height: fit-content;
-}
-
-.projects__header {
-    width: 100%;
-    color: rgb(190, 170, 170);
-    background-color: black;
-    padding: 0.5%;
-    margin: 0.5%;
+    margin: auto;
 }
 
 .projects__content {
-    width: 100%;
     display: flex;
-    margin: 0.5%;
-    padding: 0.5%;
-    flex-wrap: wrap;
+    margin: auto;
+    flex-flow: wrap row;
 }
 
 .project__content {

@@ -6,6 +6,17 @@
 
 body {
     width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.main {
+    width: 85%;
+}
+
+.hide {
+    display: none;
 }
 
 ul {

@@ -1,0 +1,85 @@
+html, body, #root, .static-session-wrapper, .static-session-wrapper > div {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.static-session-wrapper {
+  height: calc(100% - 60px);
+}
+
+.static-session-wrapper {
+  display: flex;
+}
+.static-session-console {
+  background-color: rgb(14, 22, 40);
+}
+.static-session-loader {
+  height: 100px;
+  position:relative;
+}
+
+.static-session-loader :first-child {
+  margin-top:30px;
+  margin-left: 10px;
+  height: 6px;
+  width: 80%;
+  background:rgba(255, 255, 255, 0.83)
+}
+.static-session-loader :nth-child(2) {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 6px;
+  width: 70%;
+  background:rgba(255, 255, 255, 0.83);
+}
+.static-session-loader :nth-child(3) {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 6px;
+  width: 60%;
+  background:rgba(255, 255, 255, 0.83);
+}
+.static-session-prompt {
+  margin-left:10px;
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+  background: url(/public/images/yellow_prompt.png) no-repeat;
+}
+.static-session-file {
+  border: 1px;
+  border-radius: 2px;
+}
+
+.static-session-editor {
+  padding-left: 30px;
+  overflow: scroll;
+}
+
+.static-loading {
+  text-align: center;
+  margin-top: 65px;
+  font-family: sans-serif;
+}
+
+.static-header {
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  height: 60px;
+  text-align: center;
+  background: rgb(244, 244, 244);
+}
+
+.static-logo {
+  position: absolute;
+  left: 25px;
+  height: 60px;
+  line-height: 94px;
+}
+
+.static-logo img {
+  width: 116px;
+}

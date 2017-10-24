@@ -1,31 +1,35 @@
 .nav {
     display: flex;
-    flex-direction: row;
-    width: 100%;    
+    flex-flow: wrap row;
 }
 
 .nav__ul {
     display: flex;
     width: 100%;
     height: 10%;
-    padding: 0.5%;
-    margin: 0.5%;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    white-space: nowrap;
+    margin: auto;
+    flex-flow: wrap row;
     background-color: black;
 }
 
 .nav__li {
-    width: 10%;
-    padding: 0.5%;
-    margin: 1.5%;
-    width: auto;
+    margin: auto;
     color: rgb(190, 170, 170);
+}
+
+.nav__li-selected {
+    color: white;
+    background: #e2730b;
 }
 
 .nav__li:hover {
     color: white;
+    background: #9c7404;
     cursor: pointer;
+}
+
+@media all and (max-width: 640px) {
+    li {
+        font-size: 100%;
+    }
 }

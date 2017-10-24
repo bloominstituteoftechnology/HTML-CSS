@@ -1,23 +1,9 @@
 .contact {
     display: flex;
-    width: 100%;
     flex-flow: wrap row;
-    align-content: flex-start;
-    height: fit-content;
-    white-space: wrap;
-}
-
-.contact__header {
-    background-color: black;
-    color: rgb(190, 170, 170);
-    margin: 0.5%;
-    padding: 0.5%;
-    width: 100%;
-    margin-bottom: 0;
 }
 
 .contact__content {
-    width: 25%;
     margin: 0.5%;
     padding: 0.5%;
     margin-top: 0;
