@@ -1,0 +1,11 @@
+.contact {
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.contact__content {
+    margin: 0.5%;
+    padding: 0.5%;
+    margin-top: 0;
+    padding-top: 0;
+}

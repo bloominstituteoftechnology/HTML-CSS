@@ -1,0 +1,18 @@
+.projects {
+    display: flex;
+    flex-flow: wrap row;
+    margin: auto;
+}
+
+.projects__content {
+    display: flex;
+    margin: auto;
+    flex-flow: wrap row;
+}
+
+.project__content {
+    background-color: rgb(173, 165, 165);
+    margin: 0.5%;
+    padding: 0.5%;
+    width: calc(100% * (1/3) - 2%);
+}

@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.nav__ul {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    flex-flow: wrap row;
+    background-color: black;
+}
+
+.nav__li {
+    margin: auto;
+    color: rgb(190, 170, 170);
+}
+
+.nav__li-selected {
+    color: white;
+    background: #e2730b;
+}
+
+.nav__li:hover {
+    color: white;
+    background: #9c7404;
+    cursor: pointer;
+}
+
+@media all and (max-width: 640px) {
+    li {
+        font-size: 100%;
+    }
+}
