@@ -1,0 +1,25 @@
+section > nav {
+  display: flex;
+  align-content: flex-start;
+}
+section > nav > span {
+  padding: 0 5px;
+  margin: 0;
+  margin-right: 0.5px;
+  outline: 1px solid black;
+}
+#projects > p {
+  outline: 1px solid black;
+  padding: 10px 5px;
+  margin-top: 1px;
+  min-width: 272px;
+}
+.Tabs__item {
+  display: none;
+}
+.Tabs__link-selected {
+  color: red;
+}
+.Tabs__item-selected {
+  display: block;
+}

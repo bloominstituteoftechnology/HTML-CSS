@@ -1,0 +1,20 @@
+.mobile_nav {
+  margin: 15px;
+  position: fixed;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 3px;
+  background-color: white;
+}
+.mobile_nav:hover {
+  box-shadow: 5px 5px 5px #888;
+  transition: box-shadow 0.3s ease-in;
+}
+.mobile_nav > div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 15px
+}

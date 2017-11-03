@@ -1,0 +1,13 @@
+@import './nav/hamburger.css';
+@import './nav/mobile-nav.css';
+@import './nav/nav.css';
+@import './header.css';
+@import './sections/sections.css';
+@import './sections/projects.css';
+@import './footer.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
