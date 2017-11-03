@@ -1,0 +1,27 @@
+section {
+	display: grid;
+	grid-template-columns: 97%;
+	grid-template-areas: 
+		"title"
+		"content"
+		"content";
+	justify-content: center;
+}
+@media screen and (min-width: 451px) {
+	section {
+		grid-template-areas:
+			"title content"
+			"title content";
+		grid-template-columns: 30% 60%;
+		justify-content: left;
+	}
+}
+section > h2 {
+	grid-area: title;
+	align-self: center;
+	justify-self: center;
+}
+section > form {
+	display: grid;
+	max-width: 40%;
+}

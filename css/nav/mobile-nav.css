@@ -1,0 +1,33 @@
+.site_nav {
+  flex-direction: column;
+  position: fixed;
+  left: -125px;
+}
+.showing {
+  background-color: white;
+  height: 100vh;
+  left: 0;
+  transition: left 0.3s ease-in;
+  justify-content: start;
+  padding-top: 65px;
+  border-right: 1px solid black;
+}
+.showing > a {
+  width: 75%;
+  border: 0;
+}
+@media screen and (min-width: 450px) {
+  .mobile_nav {
+    visibility: hidden;
+  }
+  .site_nav {
+    flex-direction: row;
+    position: static;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .site_nav > a {
+    margin: 0 10px;
+  }
+}
