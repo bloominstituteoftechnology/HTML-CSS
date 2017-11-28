@@ -35,3 +35,19 @@
 .Card__title {
   margin-top: 5px;
 }
+
+.Card--projects {
+  display: flex;
+  margin: auto;
+}
+
+.Card__project {
+  display: flex;
+  height:10%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10 10 10 10;
+  margin: 0 10 0 10;
+
+}
