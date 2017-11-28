@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+a:visited{
+	color: #271a51;
+}
+
+.content{
+	display: flex;
+	font-family: Verdana;
+	flex-direction: column;
+	background: #b5b9ff;
+	min-height: 100vh;
+}
+
+.content__topBar{
+	flex: 1;
+	display: flex;
+	background: #8088fc;
+	justify-content: space-between;
+	padding: 0.4em 0.2em 0.4em 0.2em;
+}
+
+.content__name{
+	flex: 2;
+	text-align: center;
+	font-size: 3em;
+}
+
+.content__heading{
+	background: #8088fc;
+	padding: 0.5em;
+}
+
+.content__section{
+	flex: 1;
+}
+
+
+.content__footer{
+	background: #b2a9d1;
+	text-align: center;
+}
