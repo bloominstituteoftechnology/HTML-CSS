@@ -1,0 +1,52 @@
+/* Header Items */
+
+body {
+	margin: 0;
+}
+
+.header__nav {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-around;
+	background-color: gray;
+	padding-bottom: 5px;
+}
+
+.nav__item {
+	list-style: none;
+}
+
+.nav__item a {
+	color: black;
+	font-size: .95em;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.nav__item a:hover{
+	color: #079468;
+}
+
+/* Name */
+
+.section__content__wrapper {
+	display: flex;
+}
+
+.section__content {
+	flex: 1;
+}
+
+.section__name {
+	text-align: center;
+}
+
+.section__heading {
+	background-color: #06f9d4;
+}
+
