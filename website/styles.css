@@ -1,0 +1,7 @@
+@import './components/Section.css';
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #222;
+}
