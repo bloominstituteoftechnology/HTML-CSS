@@ -6,15 +6,10 @@ body {
 
 .header__nav {
 	display: flex;
-	margin: 0;
-	padding: 0;
-}
-
-.header__nav {
-	display: flex;
 	justify-content: space-around;
 	background-color: gray;
 	padding-bottom: 5px;
+	margin: 0;
 }
 
 .nav__item {
@@ -34,19 +29,43 @@ body {
 
 /* Name */
 
-.section__content__wrapper {
-	display: flex;
-}
-
 .section__content {
-	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	margin: 15px;
 }
 
 .section__name {
 	text-align: center;
 }
 
+.section__about {
+	flex: 1;
+}
+
+.primary {
+	flex-grow: 2;
+	margin: 10px;
+}
+
 .section__heading {
 	background-color: #06f9d4;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__nav {
+	text-align: center;
+	font-size: 0.75em;
+	color: #ccc;
+}
+
+.social__icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
 
