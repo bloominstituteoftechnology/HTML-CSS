@@ -72,6 +72,7 @@ html, body {
   }
   
   .gallery-item .thumbnail {
+    cursor: pointer;
     max-block-size: 180px;
     border: 5px solid rgb(173, 173, 153);
   }
