@@ -11,14 +11,6 @@ a:visited{
 	color: #271a51;
 }
 
-.content{
-	display: flex;
-	flex-direction: column;
-	background: #b5b9ff;
-	min-height: 100vh;
-	margin-top: 2em;
-}
-
 .topBar{
 	position: fixed;
 	top: 0;
@@ -28,6 +20,14 @@ a:visited{
 	padding: 0.6em 0em 0.2em 0em;
 	height: 2em;
 	width: 100%;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	background: #b5b9ff;
+	min-height: 100vh;
+	margin-top: 2em;
 }
 
 .content__profile{
@@ -50,10 +50,6 @@ a:visited{
 .content__section{
 	flex: 1;
 	padding: 0 0.5em 0 0.5em;
-}
-
-.content__projects{
-
 }
 
 .content__footer{
