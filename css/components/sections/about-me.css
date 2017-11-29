@@ -1,0 +1,19 @@
+.content-container > .description {
+    font-size: 20px;
+}
+.content-container {
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+.self-image {
+    
+    background-image: url('../../../resources/th.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 300px;
+    height: 400px;
+
+    padding-right: 2px;
+}

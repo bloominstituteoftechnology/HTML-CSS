@@ -1,0 +1,40 @@
+@import url('components/fonts.css');
+
+@import url('components/navbar.css');
+@import url('components/sections.css');
+
+/* Sections */
+@import url('components/sections/home.css');
+@import url('components/sections/about-me.css');
+@import url('components/sections/tech-skills.css');
+
+
+body {
+    position: relative;
+}
+
+
+.no-display {
+    display: none;
+}
+
+/* Hold Lines */
+.hold-line-primary {
+    margin: 0 auto;
+    float: none;
+
+    width: 300px;
+    height: 3px;
+
+    background-color: rgb(67, 168, 235);
+}
+
+.hold-line-default {
+    margin: 0 auto;
+    float: none;
+
+    width: 250px;
+    height: 3px;
+
+    background-color: rgb(165, 165, 165);
+}
