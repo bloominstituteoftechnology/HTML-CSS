@@ -1,0 +1,25 @@
+{
+  "name": "yasin.io",
+  "version": "1.0.0",
+  "description": "**HTML/CSS** ----------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yshuman1/HTML-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yshuman1/HTML-CSS/issues"
+  },
+  "homepage": "https://github.com/yshuman1/HTML-CSS#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.12.9"
+  }
+}
