@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    line-height: 1.5;
+    top:0px;
+    padding-top:0;
+    margin:auto; position:absolute;
+   
+}
+  /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}  
+
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('./images/50f0714d-355d-4139-9f09-ac7ed3cef3b5.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  a {
+    color: #204156;
+    text-decoration: none;
+  }
+  
+  .page-title {
+    text-align: flex-start;
+    font-weight: 100;
+    margin: 20px;
+  }
+  
+  .page-description {
+    border: 1px solid rgb(173, 173, 153);
+    margin: 2px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+  }
+  
+  .gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 20px;
+  }
+  
+  .gallery-item .thumbnail {
+    max-block-size: 200px;
+    border: 5px solid rgb(173, 173, 153);
+  }
+  
+  /* FOOTER NAVIGATION */
+  
+  nav {
+    border: 3px solid rgb(224, 224, 205);
+    background-color: #FFF;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  nav ul {
+    display: inline;
+  }
+  
+  .contact-btn {
+    float: right;
+  }
+  
+  .contact-btn a {
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+    position: relative;
+  
+  }
+  
+  .contact-btn a:active {
+  top: 2px;
+  }
+  
+  nav a {
+    height: 60px;
+    line-height: 60px;
+    color: #204156;
+    text-decoration: none;
+  }
+  
+  
