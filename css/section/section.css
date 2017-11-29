@@ -7,11 +7,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #232323;
 }
-.section p {
+/* .section p {
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
 
 .section__header {
     font-weight: bold;
@@ -20,6 +20,7 @@
     width: 100%;
     padding: 6px;
     text-align: center;
+    min-width: 300px;
 }
 
 .section__bio {
@@ -31,37 +32,56 @@
 }
 
 .section__bio img {
-    width: 240px; 
+    width: 240px;
 }
 
 .section__welcome {
+    display: flex;
     align-items: center;
     background-color: #ffffff;
     color: #232323;
     text-align: justify;
+    justify-content: center;
+}
+
+.section__welcome p {
+    font-size: 15px;
+    max-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .section__about {
     display: flex;
     text-align: justify;
     align-items: flex-start;
+    justify-content: center;
+}
+
+.section__about p {
+    font-size: 15px;
+    max-width: 460px;
+    box-sizing: border-box;
+    width: 70%;
 }
 
 .section__about img {
     box-sizing: border-box;
     padding: 10px;
-    width: 30%;
-}
-
-.section__about p {
-    box-sizing: border-box;
-    width: 70%;
+    width: 240px;
 }
 
 .section__projects {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #eaeaea;
+}
+
+.section__projects__pan {
+    max-width: 700px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section__projects__projectBlock {
