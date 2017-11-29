@@ -1,0 +1,14 @@
+.Section__name {
+  background: #57bc90;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.Section__name img {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}

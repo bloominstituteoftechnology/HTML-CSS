@@ -1,3 +1,9 @@
+@import "Sections-name.css";
+@import "Sections-welcome.css";
+@import "Sections-aboutMe.css";
+@import "Sections-projects.css";
+@import "Sections-contact.css";
+
 .Section--mainBody {
   padding-top: 50px;
 }
@@ -7,141 +13,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.Section__name {
-  background: #57BC90;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  align-items: center;
-  color: white;
-}
-
 .Section--element {
   height: 500px;
   padding-top: 50px;
 }
 
-.Section__aboutMe {
-  background: #4484CE;
-  color: white;
-}
-
-.Section__content--aboutMe img {
-  width: 15%;
-  height: 15%;
-  border-radius: 10px;
-}
-
-.Section__name img {
-  width: 20%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.Section__contact {
-  background: #438496;
-  color: #F9CF00;
-}
-
-.Section__content--aboutMe {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.Section__content--projects {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-}
-
-.Section__content--contact {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-}
-
 footer {
   text-align: center;
-}
-
-footer ul {
-  list-style-type: none;
-}
-
-.Section__content--welcome {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  width: 50%;
-  margin: auto;
-  padding-top: 80px;
-}
-
-.Section__bio {
-  width: 40%;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.Section__bio p {
-  text-align: justify;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-}
-
-.Section__projects h4 {
-  padding: 10px;
-  text-align: center;
-}
-
-.Section__projects img {
-  border-radius: 10px;
-}
-
-.Section__contact form {
-  text-align: center;
-  padding-top: 50px;
-}
-
-.Section__form {
-  margin: auto;
-  width: 50%;
-  border-radius: 10px;
-  border: 2px solid #F9CF00;
-  padding-bottom: 20px;
-}
-
-input[type=submit] {
-  width: 20%;
-  background-color: #F9CF00;
-  color: #438496;;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #F7B733;
-}
-
-input {
-  color: black;
-  width: 50%;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-}
-
-textarea {
-  color: black;
-  width: 50%;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
 }
 
 footer img {

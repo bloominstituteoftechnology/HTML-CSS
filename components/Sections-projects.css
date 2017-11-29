@@ -1,0 +1,14 @@
+.Section__content--projects {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.Section__projects h4 {
+  padding: 10px;
+  text-align: center;
+}
+
+.Section__projects img {
+  border-radius: 10px;
+}

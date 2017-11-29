@@ -1,0 +1,56 @@
+.Section__contact {
+  background: #438496;
+  color: #f9cf00;
+}
+
+.Section__content--contact {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.Section__contact form {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Section__form {
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid #f9cf00;
+  padding-bottom: 20px;
+}
+
+input[type="submit"] {
+  width: 20%;
+  background-color: #f9cf00;
+  color: #438496;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #f7b733;
+}
+
+input {
+  color: black;
+  width: 50%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+textarea {
+  color: black;
+  width: 50%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
