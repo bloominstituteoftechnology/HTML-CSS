@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Bootstrap CDN-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Google Fonts CDN -->
+  <link rel="stylesheet" type="text/css"
+  href="http://fonts.googleapis.com/css?family=VT323">
+
+    <!-- Font Awesome CDN-->
+    <script src="https://use.fontawesome.com/b3f416b633.js"></script>
+        <!-- External Stylesheet-->
+  <link href="styles.css" type="text/css" rel="stylesheet"/>
+  <title>Portfolio</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+    
+    </script>
+
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="nav-bar">
+  <a href="#about">About</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+<br />
+<br />
+<br />
+<br />
+
+
+
+<p class="banner">
+  <img src="http://i.imgur.com/MHQYKdU.jpg" class="text-center img-responsive" alt="collage banner">
+</p>
+<hr />
+
+
+<p id="about"> <hr/> </p>
+<p style="text-align:center; font-size:30px; font-family:'VT323', arial">
+<br/>
+//Dre'Sean is a twenty something year old senior citizen. <br />
+He enjoys political satire, creative direction, entrepreneurship, &amp; revolution.<br />
+He doesn't like typing in third person, because vanity.<br />
+Here are a few pieces of work I've indulged in through the years.<br />
+</p>
+
+
+<div class="face-line">
+    <p style="text-align:center">
+    <img src="http://i.imgur.com/XXTbabH.jpg?1" alt="Dre'Sean" class="face-block img-responsive"/>
+    <img src="http://i.imgur.com/XXTbabH.jpg?1" alt="Dre'Sean" class="face-block img-responsive"/>
+    <img src="http://i.imgur.com/XXTbabH.jpg?1" alt="Dre'Sean" class="face-block img-responsive"/>
+   </p>
+</div>
+
+<h1>
+WORD  ART  WEB
+</h1>
+
+<br />
+<br />
+<br />
+<br />
+
+
+<p style="text-align:center" id="portfolio">
+<p style="font-size:30px">Portfolio</p>
+<a href="#"><img src="http://i.imgur.com/EEZJFJL.png?4" alt="the-and" class="portfolio-gigs img-responsive"/></a>
+<a href="#"><img src="http://i.imgur.com/Wqydgfs.jpg?1" alt="ncipca" class="portfolio-gigs img-responsive"/></a>
+<a href="#"><img src="http://i.imgur.com/pvQUYQa.jpg?4" alt="culterre" class="portfolio-gigs img-responsive"/></a>
+<a href="#"><img src="http://i.imgur.com/Sqp1RWx.jpg?1" alt="pub-debauch" class="portfolio-gigs img-responsive"/></a>
+<a href="#"><img src="http://i.imgur.com/CojbFWk.jpg?1" alt="visual-art" class="portfolio-gigs img-responsive"/></a>
+<a href="#"><img src="http://i.imgur.com/5bsQ35W.jpg?1" alt="medium" class="portfolio-gigs img-responsive"/></a>
+</p>
+
+
+
+<br />
+<br />
+<br />
+<br />
+
+
+
+<form action="#form" autocomplete="on" style="text-align:center" id="contact">
+  <fieldset>
+    <legend>CONTACT</legend>
+
+Name <input type="text" name="message" autofocus/><br />
+  Phone <input type="text" name="message"/><br />
+   Email <input type="text" name="message" required/><br />
+ Message<textarea oninput="submit" class="text-area" required> </textarea><wbr/> <br/>
+  <button class="btn btn-primary" id="submit-button">Submit</button><wbr /><br />
+      <br> 
+  </fieldset>
+    </form>
+    <br> 
+    <br>
+    <br>
+
+<aside> <p class="tagline">a sustainable aesthetic</p></aside>
+    
+<p class="social">
+    <a href="https://twitter.com/gvoncheap" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/dreseanwilliams?ref=bookmarks" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/gvoncheap/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://github.com/dresean" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </p>
+    <br> 
+
+<footer class="copy">
+Dre'Sean Williams &copy; 2017 All Rights Reserved
+</footer>
+
+
+
+</div>
+</div>
+</body>
+</html>

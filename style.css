@@ -1,0 +1,140 @@
+.nav-bar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  }
+  
+  .nav-bar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  cursor: crosshair;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'VT323', arial;
+  font-size: 20px;
+  border-width: 9px;
+  border-style: solid;
+      -webkit-border-image:
+        -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+      -webkit-border-image:
+        -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+      -moz-border-image:
+        -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+      -o-border-image:
+        -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+      border-image:
+        linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;}
+  
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 100%;
+  }
+  
+  .face-block {
+    border-radius: 50%;
+    border-color: black;
+    margin: 0 auto;
+    width: auto;
+    display: inline; }
+  
+  
+  
+  body {
+    margin: 0;
+    font-family: 'VT323', arial;
+    padding: 20px;
+    border: 13px double black;}
+  
+  .bio section{
+    line-height: 4px;
+    text-align: center;
+    border: 2px double #618e7a;}
+  
+  li a:hover:not(.active) {
+      background-color: #eee;
+      text-decoration: none;
+      font-size: 30px;}
+  
+  li a:hover.active{
+  background-color: #eee;
+  text-decoration: none;
+  font-size: 30px;}
+  
+  .banner {
+    text-align: center;
+    width: 100%;
+  }
+  
+  h1 {
+  font-size: 100px;
+  text-align: center;
+  border: 15px double #eee;
+  padding: 2px 4px;}
+  
+  .text-area {
+    margin-top: 0px;
+  }
+  
+  .social { font-size: 70px;
+  }
+  
+  .copy {
+    font-family: 'VT323', arial;
+    font-weight: bold;
+    color: grey;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px;
+    border: 3px double grey;
+  }
+  .portfolio-gigs { display: inline;
+    width: 30%;
+  
+  
+  }
+  
+  input[type~="text"] {
+    padding: 10px;
+    border: 2px double black;
+    margin: auto;
+  }
+  
+  textarea[class="text-area"] {
+    padding: 10px;
+    border: 2px double black;
+    margin: auto;
+  }
+  
+  .portfolio-gigs:hover {
+    width: 35%;
+    border: 12px double black;
+    cursor: crosshair;
+  }
+  form {
+    font-size: 20px;
+    font-weight: bold;
+      float: left
+  }
+  .copy { clear:both;
+  }
+  
+  .social {
+      text-align: center;
+      font-size: 40px;
+  }
+  
+  .tagline { text-align: center;
+      
+  font-size: 50px}
+  
+  legend {
+    font-size: 50px;
+  }
