@@ -1,0 +1,14 @@
+@import './nav/nav.css';
+@import './section/section.css';
+
+body {
+    margin: 0;
+    min-width: 390px;
+    width: auto !important;
+    width: 1000px;
+}
+.container{
+    width:100%;
+    max-width: 700px;
+    margin: 0px auto;
+}
