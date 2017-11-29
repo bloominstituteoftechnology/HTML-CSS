@@ -1,0 +1,50 @@
+.Section__name {
+  background: #57BC90;
+  color: white;
+}
+
+.Section__name, .Section__welcome, .Section__aboutMe, .Section__projects, .Section__contact {
+  height: 500px;
+}
+
+.Section__aboutMe {
+  background: #4484CE;
+  color: white;
+}
+
+.Section__content--aboutMe img {
+  width: 15%;
+  height: 15%;
+}
+
+.Section__contact {
+
+  background: #438496;
+  color: white;
+}
+
+.Section__content--aboutMe {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.Section__content--projects {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.Section__content--contact {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}

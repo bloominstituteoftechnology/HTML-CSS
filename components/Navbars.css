@@ -1,0 +1,16 @@
+.Navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+a {
+  color: #328CC1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #77C9D4;
+  text-decoration: #77C9D4 underline;
+
+}

@@ -1,0 +1,7 @@
+@import './components/Navbars.css';
+@import './components/Sections.css';
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
