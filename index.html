@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>metten Lambda Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="mobile_nav">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <header>
+      <div><h2>jason metten</h2></div> 
+      <div><img src="metten.jpg" alt="metten's ugly head" height="200" width="200"></div>
+    <nav class="site_nav" role="navigation">
+      <a href="#">Home</a>
+      <a href="#about_me">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  	</header>
+
+  <section id="about_me">
+    <h2>About Me</h2>
+  	<h4 class= "shadow--larger"> I'm a <a href = "https://github.com/metten0" target=" _blank"> self taught </a>designer, developer, and entrepreneur based in Des Moines, IA. I'm currently hanging out in the filthy basement, making magic while building web and mobile applications.
+  </section>
+
+  <section id="projects" class="Tabs">
+  <h2>Projects</h2>
+   <nav class="project_tabs">
+  	  <span class="Tabs__link Tabs__default" data-tab="1">Pomodoro Timer</span>
+  	  <span class="Tabs__link" data-tab="2">JavaScript Calculator</span>
+  	  <span class="Tabs__link" data-tab="3">Local Weather Thing</span>
+  	</nav>
+
+  	<!-- Project Tabs Selection -->
+  	<p class="Tabs__item Tabs__default" data-tab="1">Pomodoro Timer<br/>
+  	  My wacky pomodoro timer can be found <a href = "https://codepen.io/metten0/full/VWvLbO/" target=" _blank">here</a> for all your practicin' and break takin' needs.</p>
+  	<p class="Tabs__item" data-tab="2">JavaScript Calculator<br/>
+  	  <a href = "https://codepen.io/metten0/full/EgNPjA/" target=" _blank">Here's</a> the ugliest dang calculator you ever saw...but it works...and I made it using JavaScript!
+  	<p class="Tabs__item" data-tab="3">Local Weather Thing<br/>
+  	  Wanna know weather in your neck of the woods? Stop being all touchy with your permissions and let <a href = "https://codepen.io/metten0/full/BLABvr/" target=" _blank">this intentionally ugly thing</a> tell you!
+      </section>
+      
+  <section id="contact">
+  <h2>Contact</h2>
+  	<form action="mailto:someone@example.com">
+  		Name:
+  		<input type="text" name="name" placeholder="John Smith" />
+  		Email:
+  		<input type="text" name="email" placeholder="example@example.com" />
+  		Message:
+  		<input type="text" name="content" placeholder="blah blah blah..." />
+  		<input type="submit" value="Send" />
+  	</form>
+  </section>
+  <footer>
+  	<p>2017 metten</p>
+  </footer>
+</body>
+<script type="text/javascript" src="js/tabs.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+</html>

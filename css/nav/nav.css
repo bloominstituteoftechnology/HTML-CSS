@@ -1,0 +1,36 @@
+.site_nav {
+    display: flex;
+    grid-area: nav;
+  }
+  .site_nav > a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: .5px solid black;
+    border-radius: 0 10px
+  }
+  .site_nav > a:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease-in;
+  }
+  /* fixed-nav only added if the width is greater than 450px. See: js/fixedNav.js */
+  .fixed-nav {
+    background-color: gray;
+    border-bottom: 1px solid black;
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.3s ease-in;
+  }
+  .fixed-nav > a {
+    background-color: transparent;
+    color: white;
+    transition: color 0.3s ease-in;
+  
+    border: none;
+    border-radius: 0;
+    margin: 0 10.5px; /* fixes the jump when we're losing the border */
+  }
