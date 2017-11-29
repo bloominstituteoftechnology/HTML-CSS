@@ -1,0 +1,51 @@
+body {
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.navigation {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-weight: bold;
+	background-color: #3698f9;
+}
+
+.navigation a {
+	color: white;
+}
+
+
+#name {
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+.divider {
+	box-sizing: border-box;
+	background-color: #4cad4d;
+}
+
+.divider__item {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#me {
+	width: 10%;
+	height: 15%
+}
+
+.contactList {
+	list-style-type: none;
+	padding: 0px 0px 0px 10px;
+}
+
+p {
+	padding: 0px 10px 0px 10px;
+}
+
