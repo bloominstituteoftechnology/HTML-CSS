@@ -1,5 +1,14 @@
-@import './components/Header.css';
-@import './components/Menu.css';
+@import "./components/navigation.css";
+@import "./components/divider.css";
+@import "./components/heading.css";
+@import "./components/section.css";
+@import "./components/about.css";
+@import "./components/projects.css";
+@import "./components/contact.css";
 
+body {
+  background-color:gray;
+  background-image: url("./assets/images/laptop-coding-screen.jpg");
+}
 
-
+/* Navigation elements */
