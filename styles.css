@@ -39,7 +39,6 @@ html, body {
     background-position: center bottom;
     background-size: cover;
     margin: 0;
-    min-width: 900px;
   }
   
   a {
@@ -102,13 +101,13 @@ html, body {
     cursor: pointer;
     margin-right: 30px;
     padding: 8px 18px;
-    border: 1px solid #204156;
+    border: 1px solid #aeb5b9;
     position: relative;
     background-color: #FFF;
   }
   
   .contact-btn a:active {
-  top: 2px;
+    top: 2px;
   }
   
   nav a {
