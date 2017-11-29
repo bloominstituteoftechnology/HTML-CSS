@@ -12,6 +12,7 @@
 }
 .Section--split {
   display: flex;
+  flex-wrap: wrap;
 }
 .Section--bg-f5f5f5 {
   background-color: #f5f5f5;
@@ -101,9 +102,26 @@
 .Section__gridItem {
   position: relative;
   width: 30%;
+  text-align: center;
 }
 .Section__gridItem img {
   width: 100%;
   box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.05);
   margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .Section__box {
+    width: 100%;
+  }
+  .Section__title {
+    text-align: center;
+  }
+  .Section__grid {
+    justify-content: center;
+  }
+  .Section__gridItem {
+    width: 90%;
+    margin: 15px 0px 35px 0px;
+  }
 }
