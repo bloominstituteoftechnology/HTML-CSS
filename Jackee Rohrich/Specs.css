@@ -68,3 +68,14 @@ body {
     background-color: #333;
     color: white;
 }
+@media (max-width: 600px){
+    .container {
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-between;
+        flex-direction: row;
+        }
+}
