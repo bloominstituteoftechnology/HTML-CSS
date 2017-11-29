@@ -1,33 +1,34 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-weight: 350;
+    line-height: 1.5;
+    top: 0px;
+    padding-top: 0;
     display: flex;
     flex-direction: column;
-    font-weight: 300;
-    line-height: 1.5;
-    top:0px;
-    padding-top:0;
-    margin:auto; position:absolute;
-   
+    margin:auto; 
+    position:absolute;
+/*media queries, disable the background image to test the modes.when the window hits the speicified width, the background will change to the indicated color */  
 }
   /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #F09A9D; /* Red */
+    background-color: #F09A9D; /*for testing purposes, background will be this color when in mobile mode Red */
   }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   body {
-    background-color: #F5CF8E; /* Yellow */
+    background-color: #F5CF8E; /* when in tablet mode background is  Yellow */
   }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 601px) {
   body {
-    background-color: #B2D6FF; /* Blue */
+    background-color: #B2D6FF; /* desktop mode bakcground will be Blue */
   }
 }  
 
@@ -38,6 +39,7 @@ html, body {
     background-position: center bottom;
     background-size: cover;
     margin: 0;
+    min-width: 900px;
   }
   
   a {
@@ -47,7 +49,7 @@ html, body {
   
   .page-title {
     text-align: flex-start;
-    font-weight: 100;
+    font-weight: 300;
     margin: 20px;
   }
   
@@ -55,8 +57,8 @@ html, body {
     border: 1px solid rgb(173, 173, 153);
     margin: 2px;
     text-align: center;
-    padding: 30px;
-    background-color: white;
+    padding: 15px;
+    background-color: rgb(248, 248, 236);
   }
   
   .gallery {
@@ -71,19 +73,19 @@ html, body {
   }
   
   .gallery-item .thumbnail {
-    max-block-size: 200px;
+    max-block-size: 180px;
     border: 5px solid rgb(173, 173, 153);
   }
   
-  /* FOOTER NAVIGATION */
+  /*Header NAVIGATION */
   
   nav {
     border: 3px solid rgb(224, 224, 205);
-    background-color: #FFF;
+    background-color: transparent;/*#FFF;*/
   }
   
   nav li {
-    display: inline;
+    display: inline-flex;
     margin: 0;
     padding: 0 10px;
   }
@@ -102,7 +104,7 @@ html, body {
     padding: 8px 18px;
     border: 1px solid #204156;
     position: relative;
-  
+    background-color: #FFF;
   }
   
   .contact-btn a:active {
