@@ -9,6 +9,8 @@
 }
 .section p {
     font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .section__header {
@@ -47,7 +49,7 @@
 
 .section__about img {
     box-sizing: border-box;
-    padding: 4px;
+    padding: 10px;
     width: 30%;
 }
 
@@ -83,6 +85,11 @@
     text-align: center;
 }
 
+.section__contact__info a {
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
 
 @media (max-width: 630px) {
     .section__bio {
