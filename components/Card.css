@@ -1,0 +1,52 @@
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.Card--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.Card--row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.Card__content {
+  display: flex;
+  flex-direction: row;
+}
+
+.Card__image {
+  background: grey;
+  padding: 40px 5px;
+  width:5%;
+}
+
+.Card__title {
+  margin-top: 5px;
+}
+
+.Card--projects {
+  display: flex;
+  margin: auto;
+}
+
+.Card__project {
+  display: flex;
+  height:10%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10 10 10 10;
+  margin: 0 10 0 10;
+}
