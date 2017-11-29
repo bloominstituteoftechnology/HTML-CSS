@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: Verdana;
 }
 
 h1{
@@ -12,18 +13,21 @@ a:visited{
 
 .content{
 	display: flex;
-	font-family: Verdana;
 	flex-direction: column;
 	background: #b5b9ff;
 	min-height: 100vh;
+	margin-top: 2em;
 }
 
-.content__topBar{
-	flex: 1;
+.topBar{
+	position: fixed;
+	top: 0;
 	display: flex;
 	background: #8088fc;
-	justify-content: space-between;
-	padding: 0.4em 2em 0.4em 2em;
+	justify-content: space-evenly;
+	padding: 0.6em 0em 0.2em 0em;
+	height: 2em;
+	width: 100%;
 }
 
 .content__profile{
