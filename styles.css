@@ -14,21 +14,21 @@ html, body {
   /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #F09A9D; /*for testing purposes, background will be this color when in mobile mode Red */
+    background-color: rgb(13, 29, 248);
   }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 600px) {
   body {
-    background-color: #F5CF8E; /* when in tablet mode background is  Yellow */
+    background-color: rgb(204, 245, 57); 
   }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 601px) {
   body {
-    background-color: #B2D6FF; /* desktop mode bakcground will be Blue */
+    background-color: rgb(220, 15, 247); 
   }
 }  
 
@@ -53,11 +53,11 @@ html, body {
   }
   
   .page-description {
-    border: 1px solid rgb(173, 173, 153);
+    border: 1px solid rgb(224, 224, 205);
     margin: 2px;
     text-align: center;
     padding: 15px;
-    background-color: rgb(248, 248, 236);
+    background-color: rgb(252, 252, 247);
   }
   
   .gallery {
@@ -76,11 +76,12 @@ html, body {
     border: 5px solid rgb(173, 173, 153);
   }
   
-  /*Header NAVIGATION */
-  
+  /*Header NAVIGATION */ 
+  /* this was originally in the footer, but has been relocated to head section */ 
   nav {
     border: 3px solid rgb(224, 224, 205);
-    background-color: transparent;/*#FFF;*/
+    /* background-image: url('./images/industry_electronic_header.jpg'); */
+    background-color: transparent;
   }
   
   nav li {
@@ -90,7 +91,7 @@ html, body {
   }
   
   nav ul {
-    display: inline;
+    display: inline-flex;
   }
   
   .contact-btn {
@@ -107,7 +108,7 @@ html, body {
   }
   
   .contact-btn a:active {
-    top: 2px;
+    top: 2px;  /* make the button shift when its clicked */
   }
   
   nav a {
@@ -117,4 +118,8 @@ html, body {
     text-decoration: none;
   }
   
-  
+  /* To do still:
+   * create directories / links for project, home, about, contact.
+   * add captions to the pictures 
+   * make sure nav menu works 
+   */
