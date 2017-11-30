@@ -4,6 +4,17 @@ $(document).ready( () => {
     $("#name").fadeIn(3000);
     $("#description").fadeIn("slow");
     $("#line-seperator").fadeIn(2000);
+
+    $("#send-btn").click( () => {
+        /*
+        const subject = $("#subject-form").val();
+        const content = $("#content-form").val();
+
+        const mail_address = 'http://mailto:guyallenross@gmail.com?subject=' + subject + '&body=' + content;
+        window.location.href = mail_address;
+        */
+        alert("silly goose.. i didn't finish.");
+    });
     
 });
 

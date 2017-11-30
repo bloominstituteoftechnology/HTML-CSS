@@ -17,24 +17,9 @@
     font-size: 2em;
     font-weight: 300;
 }
-
-#skill-info {
-    padding-top: 50px;
-    padding-left: 150px;
-}
-
 .skill-level .line {
     background-color: rgb(177, 73, 4);
 }
-
 .skill-level {
     text-align: center;
-}
-
-#content-container > #description {
-    padding-left: 150px;
-    padding-right: 120px;
-    padding-top: 30px;
-
-    font-size: 1em;
 }

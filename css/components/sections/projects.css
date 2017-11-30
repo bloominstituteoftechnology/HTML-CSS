@@ -1,0 +1,9 @@
+.project-item > #set-header 
+{
+    padding-bottom: 20px;
+}
+#projects > .container-fluid 
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}

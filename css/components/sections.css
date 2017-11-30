@@ -1,12 +1,23 @@
 .section
 {
+    padding-left: 16%;
+    padding-right: 16%;
+
     padding-top:50px;
-    height:70%;
+    height: 80%;
 }
 
-section:nth-child(EVEN) {
+section:nth-child(EVEN) 
+{
     background-color: rgb(228, 228, 228);
 }
+
+#content-container > .description 
+{
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
 
 .top-section
 {
@@ -20,7 +31,57 @@ section:nth-child(EVEN) {
     z-index: 1;
 }
 
-.selection-head > h2 {
+#contact-me
+{
+    background-color: rgb(0, 74, 118);
+}
+
+
+#set-header > h3 
+{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size: 23px;
+}
+.set-header > p 
+{
+    
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+
+.set-header-inverse > h3
+{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+
+.selection-head {
+    padding-bottom: 50px;
+}
+
+.selection-head > h2 
+{
+    text-align: center;
+    vertical-align: middle;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.selection-head-inverse 
+{
+    color: white;
     text-align: center;
     vertical-align: middle;
     
