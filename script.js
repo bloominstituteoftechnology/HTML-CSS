@@ -1,5 +1,5 @@
-const roundButton = document.querySelector("#roundButton");
-roundButton.addEventListener("click", showMenu, false);
+const menuBtn = document.querySelector("#menu-btn");
+menuBtn.addEventListener("click", showMenu, false);
 
 const flyoutMenu = document.querySelector("#flyoutMenu");
 flyoutMenu.addEventListener("click", hideMenu, false);

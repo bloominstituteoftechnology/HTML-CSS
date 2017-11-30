@@ -1,0 +1,46 @@
+.menu {
+    position: fixed;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0;
+    overflow: visible;
+    cursor: pointer;
+    margin: 30px;
+}
+.menu-lines {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 37px;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.menu-lines span {
+    position: absolute;
+    display: block;
+    height: 6px;
+    width: 100%;
+    background: black;
+}
+
+.menu-lines span:nth-child(1) {
+    top: 0
+}
+
+.menu-lines span:nth-child(2) {
+    top: 12px
+}
+
+.menu-lines span:nth-child(3) {
+    top: 24px
+}
+#menu-btn:hover {
+    cursor: pointer;
+    transform: scale(1.3, 1.3);
+}
+#menu-btn:hover {
+    cursor: pointer;
+    transform: scale(1.3, 1.3);
+}
