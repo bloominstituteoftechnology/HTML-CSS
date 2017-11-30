@@ -71,6 +71,10 @@
     justify-content: center;
 }
 
+.section__about img {
+    border-radius: 25px;
+}
+
 .section__about p {
     font-size: 15px;
     max-width: 460px;
@@ -88,6 +92,10 @@
     display: flex;
     justify-content: center;
     background-color: #eaeaea;
+}
+
+.section__projects img {
+    border-radius: 25px;
 }
 
 .section__projects__pan {
