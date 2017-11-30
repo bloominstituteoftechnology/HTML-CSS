@@ -1,0 +1,41 @@
+@import './components/Section.css';
+@import '.'/components/List.css';
+
+body {
+  margin:0;
+}
+.Section {
+box-sizing: border-box;
+display: inline-block;
+background: gray;
+padding: 20px; 
+}
+
+.Section--full {
+  width: 100%;
+  text-align: center;
+  margin:0;
+}
+.Section--half {
+  width: 50%;
+}
+
+.Section p {
+  color:red; 
+}
+
+.Section--red-text .Section_text {
+  color:red;
+}
+.List {
+  list-style-type:none;
+}
+.List--horizontal .List_item {
+  display: inline-block;
+}
+.List--red-first-item :first-child {
+  color: red;
+}
+.List_item {
+  padding-bottom: 5px;
+}
