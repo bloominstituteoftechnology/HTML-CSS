@@ -22,11 +22,13 @@
 .Card--row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.Card--odd {
+/* .Card--odd {
   background-color: #BDBDBD;
-}
+} */
 
 
 .Card__content {
@@ -57,8 +59,4 @@
   align-items: center;
   padding: 10 10 10 10;
   margin: 0 10 0 10;
-}
-
-#contact {
-  height:25%;
 }
