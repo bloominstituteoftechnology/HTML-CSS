@@ -1,0 +1,17 @@
+
+.body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    border: solid;
+    border-color: grey;
+}
+.navBar {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
