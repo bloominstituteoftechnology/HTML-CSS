@@ -4,6 +4,17 @@
 }
 #projects > .container-fluid 
 {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.project-item 
+{
+    width:100%;
+}
+
+
+/* Carousel Config */
+.carousel-control.left, .carousel-control.right
+{
+    background-image: none;
 }

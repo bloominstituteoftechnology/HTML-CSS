@@ -3,3 +3,18 @@
     padding-left: 20%;
     padding-right: 20%;
 }
+
+#send-btn {
+    width: 100px;   
+    padding: 4px;
+}
+
+.data-form > #subject-container
+{
+    padding-bottom: 20px;
+}
+
+.data-form > #content-container 
+{
+    padding-bottom: 20px;
+} 

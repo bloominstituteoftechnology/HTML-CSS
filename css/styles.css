@@ -20,6 +20,16 @@ body {
     display: none;
 }
 
+.space-head 
+{
+    padding-top: 50px;
+}
+
+.inverse 
+{
+    color: white;
+}
+
 /* Hold Lines */
 .hold-line-primary 
 {
@@ -43,12 +53,16 @@ body {
     background-color: rgb(165, 165, 165);
 }
 
-.space-head 
+/* Nav Styles */
+.navbar
 {
-    padding-top: 50px;
-}
+    background-color: rgb(21, 62, 119);
+    border-color: rgb(21, 62, 119);
+    border-radius: 0px;
 
-.inverse 
-{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1em;
     color: white;
 }

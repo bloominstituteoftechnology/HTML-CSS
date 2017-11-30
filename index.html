@@ -40,13 +40,13 @@
             </div>
         </section>
 
-        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="900">
+        <nav class="navbar" data-spy="affix" data-offset-top="900">
             <div class="collapse navbar-collapse" id="top-nav">
                 <ul class="nav navbar-nav navbar-center">
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a id="about-anc" href="#about-me">About Me</a></li>
+                    <li><a id="skills-anc" href="#skills">Skills</a></li>
+                    <li><a id="projects-anc" href="#projects">Projects</a></li>
+                    <li><a id="contact-anc" href="#contact-me">Contact Me</a></li>
                 </ul>
             </div>                
         </nav>    
@@ -56,7 +56,7 @@
                 <row>
                     <div class="selection-head">
                         <h2>About Myself</h2>
-                        <div id="line-seperator" class="col-md-12 hold-line-default"></div>
+                        <div id="line-about-me" class="col-md-12 hold-line-default"></div>
                     </div>
                 </row>
                 <div id="content-container" class="col-md-12">
@@ -80,7 +80,7 @@
                 <row>
                     <div class="selection-head">
                         <h2>Technical Skills</h2>
-                        <div id="line-seperator" class="col-md-12 hold-line-default"></div>
+                        <div id="line-skills" class="col-md-12 hold-line-default"></div>
                     </div>
                 </row>
                 <div id="content-container" class="row">
@@ -122,7 +122,7 @@
                     <div class="col-md-12">
                         <div class="col-md-6">
                             <div id="set-header" class="col-md-12 space-head">
-                                <h3>Frameworks</h3>
+                                <h3>Technologies</h3>
                             </div>
                             <div id="items-container">
                                 <ul>                                    
@@ -156,22 +156,80 @@
                 <row>
                     <div class="selection-head">
                         <h2>Projects</h2>
-                        <div id="line-seperator" class="col-md-12 hold-line-default"></div>
+                        <div id="line-projects" class="col-md-12 hold-line-default"></div>
                     </div>
                 </row>
-                <div class="project-item">
-                    <div id="set-header" class="col-md-12 space-head text-center">
-                        <h3>Project Orva</h3>
-                    </div>
-                    <div id="content-container" class="col-md-12">
-                        <div class="col-md-6">
-                            <img src="resources/orva-logo.png" class="" alt="Project Orva Logo." width="230" height="230">
+
+                <!-- Projects Carousel -->
+                <div id="projects-carousel" class="carousel slide" data-ride="carousel">
+                    
+                    <ol class="carousel-indicators">
+                      <li data-target="#projects-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#projects-carousel" data-slide-to="1"></li>
+                      <li data-target="#projects-carousel" data-slide-to="2"></li>
+                    </ol>
+                
+                    <!-- Project slides -->
+                    <div class="carousel-inner">
+
+                        <!-- Project Orva -->
+                      <div class="item active">
+                        <div class="project-item">
+                            <div id="set-header" class="col-md-12 space-head text-center">
+                                <h3>Project Orva</h3>
+                            </div>
+                            <div id="content-container" class="col-md-12">
+                                <div class="col-md-6">
+                                    <img src="resources/orva-logo.png" class="" alt="Project Orva Logo." width="230" height="230">
+                                </div>
+                                <div class="col-md-6 description">
+                                    Project Orva is a computer system that I have been designing for around the past 2 years to assist me with daily tasks. I initially based the system around the idea of something like Google Home/ Amazon's Alexa but later designed something a bit different. Orva is built of 4 different types of sub-systems the core, unit-nodes, data-nodes, a web interface.                      
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 description">
-                            Project Orva is a computer system that I have been designing for around the past 2 years to assist me with daily tasks. I initially based the system around the idea of something like Google Home/ Amazon's Alexa but later designed something a bit different. Orva is built of 4 different types of sub-systems the core, unit-nodes, data-nodes, a web interface.                      
+                      </div>
+                
+                      <!-- Sample Project 1 -->
+                      <div class="item">
+                        <div class="project-item">
+                            <div id="set-header" class="col-md-12 space-head text-center">
+                                <h3>Sample Project - 1</h3>
+                            </div>
+                            <div id="content-container" class="col-md-12">
+                                <div class="col-md-12 description">
+                                   Come back later! This should have content then.                         
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    
+                      
+                      <!-- Sample Project 2 -->
+                      <div class="item">
+                        <div class="project-item">
+                            <div id="set-header" class="col-md-12 space-head text-center">
+                                <h3>Sample Project - 2</h3>
+                            </div>
+                            <div id="content-container" class="col-md-12">
+                                <div class="col-md-12 description">
+                                    Come back later! This should have content then.                         
+                                </div>
+                            </div>
                         </div>
                     </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#projects-carousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#projects-carousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                 </div>
+
+                
             </div>
         </section>
 
@@ -191,12 +249,15 @@
                         </p>
                     </div>
                     <div class="data-form">
-                        <input type="text" class="form-control "id="subject-form" placeholder="subject">
-                        <br>
-                        <br>
-                        <textarea class="form-control" rows="5" id="content-form" placeholder="content"></textarea>
-                            <br>
-                        <button id="send-btn" type="button" class="btn btn-default">Send</button>
+                        <div id="subject-container" class="col-md-12">
+                            <input type="text" class="form-control "id="subject-form" placeholder="subject">
+                        </div>
+                        <div id="content-container" class="col-md-12">
+                            <textarea class="form-control" rows="5" id="content-form" placeholder="content"></textarea>
+                        </div>
+                        <div id="send-container" class="col-md-12">
+                            <button id="send-btn" type="button" class="btn btn-default">Send</button>
+                        </div> 
                     </div>
                 </div>
             </div>
