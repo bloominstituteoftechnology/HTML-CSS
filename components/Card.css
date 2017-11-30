@@ -6,7 +6,7 @@
 }
 
 .Card__parent {
-  height: 50%;
+  height: auto;
 }
 
 .Card:hover {

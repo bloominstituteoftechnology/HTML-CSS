@@ -9,10 +9,7 @@
 }
 
 .Navbar--links {
-  text-align: center;
   padding-top: 25px;
-}
-
-a.Navbar__link {
-  color: #fafafa;
+  display: flex;
+  justify-content: center;
 }

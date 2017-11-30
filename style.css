@@ -1,6 +1,7 @@
 @import './components/Card.css';
 @import './components/Navbar.css';
 @import './components/Icon.css';
+@import './components/Tabs/Tabs.css';
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

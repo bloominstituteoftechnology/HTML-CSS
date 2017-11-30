@@ -4,16 +4,26 @@
   </head>
 
   <body>
+    <script defer="defer" src="components/Tabs/Tabs.js"></script>
+
     <div class="Navbar" id="navbar">
       <div class="Navbar__title">Jesse Hood</div>
       <div class="Navbar--links">
-        <a class="Navbar__link" href="">Home</a> |
-        <a class="Navbar__link" href="#about">About Me</a> |
-        <a class="Navbar__link" href="#projects">Projects</a> |
-        <a class="Navbar__link" href="#contact">Contact Me</a> 
+        <div class="Tab Tab--selected" data-tab="1">
+          <div class="Tab__text">Home</div>
+        </div>
+        <div class="Tab" data-tab="2">
+          <div class="Tab__text">About me</div>
+        </div>
+        <div class="Tab" data-tab="3">
+          <div class="Tab__text">Projects</div>
+        </div>
+        <div class="Tab" data-tab="4">
+          <div class="Tab__text">Contact me</div>
+        </div>
       </div>
     </div>
-    <div class="Card Card__parent">
+    <div class="Card Card__parent Tab__window Tab__window--selected">
       <div class="Card--row">
         <h1 class="Card__title">Welcome</h1>
       </div>
@@ -22,7 +32,7 @@
       </div>
     </div>
 
-    <div class="Card Card__parent Card--odd" id="about">
+    <div class="Card Card__parent Card--odd Tab__window" id="about">
       <div class="Card--row">
         <h1 class="Card__title">About Me</h1>
       </div>
@@ -32,7 +42,7 @@
       </div>
     </div>
 
-    <div class="Card Card__parent" id="projects">
+    <div class="Card Card__parent Tab__window" id="projects">
       <div class="Card--row">
         <h1 class="Card__title">Projects</h1>
       </div>
@@ -56,7 +66,7 @@
       </div>
     </div>
 
-    <div class="Card Card__parent Card--odd" id="contact">
+    <div class="Card Card__parent Card--odd Tab__window" id="contact">
         <div class="Card--row">
           <h1 class="Card__title">Contact me</h1>
         </div>

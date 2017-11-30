@@ -1,45 +1,67 @@
 class Tabs {
-  constructor() {
+  constructor(tabWindows) {
     this.tabs = Array.from(document.querySelectorAll('.Tab'));
+    this.activeTab = this.tabs[0];
+    this.tabWindows = tabWindows;
+    this.tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        this.onClickTab(tab);
+        this.tabWindows.select(tab.dataset.tab);
+      });
+    });
   }
 
-  select(tab = 1) {
-    const tab = this.tabs[tab-1];
+  select(tabNum = 1) {
+    const tab = this.getTab(tabNum);
+    tab.classList.add('Tab--selected');
+    this.deselect(this.activeTab);
+    this.activeTab = tab;
+  }
 
+  deselect(tab) {
+    tab.classList.remove('Tab--selected');
   }
 
   getTab(tab = 1) {
     return this.tabs[tab - 1];
   }
 
-  init() {
-    this.select(1);
+  getTabs() {
+    return this.tabs;
+  }
+
+  onClickTab(tab) {
+      if (tab === this.activeTab) return;
+      this.select(tab.dataset.tab);
+      this.activeTab = tab; 
   }
 }
 
 class TabWindows {
   constructor() {
     this.tabWindows = Array.from(document.querySelectorAll('.Tab__window'));
+    this.activeTabWindow = this.tabWindows[0];
   }
 
-  select(tab = 1) {
-    const tabWindow = this.getTabWindow(tab);
+  select(tabNum = 1) {
+    const tabWindow = this.getTabWindow(tabNum);
+    this.deselect(this.activeTabWindow);
+    this.activeTabWindow = tabWindow;
+    tabWindow.classList.add('Tab__window--selected');
   }
 
-  deselect(tab = 1) {
-
+  deselect(tabWindow) {
+    tabWindow.classList.remove('Tab__window--selected');
   }
 
-  getTabWindow(tab = 1) {
-    return this.tabWindows[tab - 1];
+  getTabWindow(tabNum = 1) {
+    return this.tabWindows[tabNum - 1];
   }
 
-  init() {
-    this.select(1);
+  getTabWindows() {
+    return this.tabWindows;
   }
 }
 
-const Tabs = new Tabs();
-const TabWindows = new TabWindows();
-Tabs.init();
-TabWindows.init();
+const tabWindows = new TabWindows();
+const tabs = new Tabs(tabWindows);
