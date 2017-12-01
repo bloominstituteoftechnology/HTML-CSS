@@ -7,6 +7,7 @@
 }
 
 .Hero__text {
+  flex: 1;
  color: white;
  font-family: 'Lobster', Georgia, Times, serif;
  text-align: center;
@@ -18,8 +19,9 @@
 
 .Hero__text p {
   padding: 20px;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Shrikhand', cursive;
+  margin-top: 130px;
 }
 
 .Hero__text button {
@@ -31,6 +33,13 @@
   background-color: #ddd;
   text-align: center;
   cursor: pointer:
+}
+
+.Hero h1 {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 10px;
+  
 }
 
 

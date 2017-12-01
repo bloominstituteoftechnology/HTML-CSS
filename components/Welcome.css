@@ -1,7 +1,9 @@
 .Section--Welcome p {
-  margin: 125px;
+  margin: 200px;
+  
+  font-size: large;
 }
 
-.Section--Welcome__Header {
-  
+.Section--Welcome h1 {
+  padding: 20px;
 }
