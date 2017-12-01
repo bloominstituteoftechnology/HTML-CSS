@@ -2,15 +2,15 @@
 
 body {
 	margin: 0;
-	background-color: #fff;
-	color: #999;
+	background-color: #81A538;
+	color: #fff;
 }
 
 /* Header Items */
 
 .header {
-	background: #00c2d0;
-	border-bottom: solid #039895;
+	background: #B1803C;
+	border-bottom: solid #D48E6A;
 	padding: .5em 1.5em .5em 1.5em;
 	display: flex;
 	justify-content: space-between;
@@ -61,7 +61,7 @@ body {
 
 .section__text a {
 	text-decoration: none;
-	color: #999;
+	color: rgb(77, 113, 176);
 }
 
 .section__text a:hover {
@@ -84,7 +84,7 @@ body {
 }
 
 .section__heading {
-	background-color: #06f9d4;
+	background-color: #35387B;
 }
 
 /* Footer */
@@ -111,5 +111,9 @@ body {
 .section__about img {
 	width: 200px;
 	height: 150px;
+}
+
+	.section__projects img {
+	cursor: pointer;
 }
 

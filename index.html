@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./tabs.css">
 </head>
 <body>
+  <script defer="defer" src="./tabs.js"></script>
 	<header class="header">
     <h1 class="header__name">Patrick Sandoval</h1>
 		<ul class="header__nav">
@@ -33,12 +34,59 @@
         <p class="section__text section__text__primary">If you would like to follow me on github, my username is<a href="https://github.com/patsand24"> patsand24</a>.</p>
       </div>
 		</div>
-		<h3 class="section__heading">Projects</h3>
-		<div class="section__content section__projects">
-				<img src="http://via.placeholder.com/200x150" alt="">
-				<img src="http://via.placeholder.com/200x150" alt="">
-				<img src="http://via.placeholder.com/200x150" alt="">
-		</div>
+    <h3 class="section__heading">Projects</h3>
+    <div class="Tabs">
+      <div class="section__content section__projects">
+          <img src="http://via.placeholder.com/200x150" class="Tabs__link" data-tab="1" alt="">
+          <img src="http://via.placeholder.com/200x150" class="Tabs__link" data-tab="2" alt="">
+          <img src="http://via.placeholder.com/200x150" class="Tabs__link" data-tab="3" alt="">
+          <img src="http://via.placeholder.com/200x150" class="Tabs__link" data-tab="4" alt="">
+      </div>
+      <div class="Tabs__item" data-tab="1">
+        <div class="section__text__primary">
+          <div class="project__title">Twitter Clone</div>
+          <br>
+          <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+            lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero,
+            at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat
+            porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse
+            platea dictumst.</div>
+        </div>
+      </div>
+        <div class="Tabs__item" data-tab="2">
+          <div class="section__text__primary">
+            <div class="project__title">Project # 2</div>
+            <br>
+            <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+              lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+              libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+              feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+              habitasse platea dictumst.</div>
+          </div>
+        </div>
+        <div class="Tabs__item" data-tab="3">
+          <div class="section__text__primary">
+            <div class="project__title">Project # 3</div>
+            <br>
+            <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+              lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+              libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+              feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+              habitasse platea dictumst.</div>
+          </div>
+        </div>
+        <div class="Tabs__item" data-tab="4">
+          <div class="section__text__primary">
+            <div class="project__title">Project # 4</div>
+            <br>
+            <div class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+              lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+              libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+              feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+              habitasse platea dictumst.</div>
+          </div>
+        </div>
+      </div>
 		<h3 class="section__heading">Contact Me</h3>
 		<div class="section__content">
       <address>
@@ -47,10 +95,6 @@
         <br>
         Email:
         <a href="mailto:patsand24csu@yahoo.com">patsand24csu@yahoo.com</a>
-        <br> Mail:
-        <br> 7537 28th Ave NW
-        <br> Seattle, WA 98117
-        <br> USA
       </address>
 		</div>
 	</div>
