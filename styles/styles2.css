@@ -109,7 +109,10 @@ div.tab button.active {
     text-align: center;
     padding: 15px;
     background-color: rgb(252, 252, 247);
-    
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   .contact-btn {
     float: right;
