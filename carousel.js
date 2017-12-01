@@ -34,16 +34,20 @@ class Pages {
 	constructor(element) {
 		this.element = element;
 		this.pages = element.querySelectorAll(".Pages__images");
+		this.list = element.querySelectorAll(".List__item");
 	}
 
 	select(counter) {
+		console.log(this.list);
 		console.log('current counter '+ counter);
 		Array.from(this.pages)[counter].classList.remove("Pages__images--deselected");
+		Array.from(this.list)[counter].classList.add("List__item--selected");
 	}
 
 	deselect(previousCounter) {
 		console.log('previous counter ' + previousCounter);
 		Array.from(this.pages)[previousCounter].classList.add("Pages__images--deselected");
+		Array.from(this.list)[previousCounter].classList.remove("List__item--selected");
 	}
 }
 

@@ -1,5 +1,5 @@
 
-.Carousel {
+.Carousel__items {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7,20 +7,28 @@
 
 
 .List {
-	margin-top: 30px;
+	margin: 30px;
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
+	padding-top: 60px;
 }
-
 
 .List__item { 
   width: 6px;
   height: 6px;
   border-radius: 25px;
-  background: black;
+  background: gray;
   margin: 3px;
 }
 
+.List__item--selected { 
+	width: 6px;
+  height: 6px;
+  border-radius: 25px;
+  background: black;
+  margin: 3px;
+}
 
 .Arrows {
 	font-size: 30px;
@@ -30,8 +38,14 @@
   border: 1px solid gray;
   opacity: 0.5;
   border-radius: 3px;
-  margin-left: 120px;
-  margin-right: 120px;
+}
+
+.Arrow--left {
+	margin-right: 150px;
+}
+
+.Arrow--right {
+	margin-left: 150px;
 }
 
 .Pages__images--deselected {
@@ -39,5 +53,5 @@
 }
 
 .List__item--deselected {
-	display: red;
+	display: none;
 }
