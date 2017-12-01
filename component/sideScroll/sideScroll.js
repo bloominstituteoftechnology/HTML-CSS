@@ -52,7 +52,7 @@ class ScrollPan {
             item.show();
         })
     }
-    updateActive(scrollItem) {
+    updateActive(scrollItem = this.activeProject) {
         this.activeProject.deselect();
         this.activeProject = scrollItem;
         this.activeProject.select();
@@ -66,6 +66,7 @@ class ScrollPan {
             // Implement Looping going Right
             this.hideAll();
             this.activePanProjects = this.project.slice(0, this.project.length - this.panhide);
+            if (window.innerWidth < 500) this.updateActive(); //for Mobile Browsers Auto Show Description
             this.init();
             this.pushloc = this.project.length - this.panhide;
             this.shiftloc = 0;
@@ -88,6 +89,7 @@ class ScrollPan {
             // implement looping going left
             this.hideAll();
             this.activePanProjects = this.project.slice(this.panhide, this.project.length);
+            if (window.innerWidth < 500) this.updateActive(); //for Mobile Browsers Auto Show Description
             this.pushloc = 0;
             this.shiftloc = this.panhide;
             this.init();

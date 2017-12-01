@@ -119,6 +119,13 @@
     justify-content: center;
 }
 
+.project__blocks-holder {
+    max-width: 740px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .section__projects__projectBlock {
     padding-bottom: 10px;
     padding-left: 10px;
