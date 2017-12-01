@@ -98,6 +98,10 @@
     display: none;
 }
 
+.section__projects__description a {
+    color: #ffae00;
+}
+
 .section__projects__description--show {
     display: block;
     padding: 10px;
