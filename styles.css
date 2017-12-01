@@ -5,6 +5,8 @@
 @import './components/SlantedDiv.css';
 @import './components/Welcome.css';
 @import './components/Projects.css';
+@import './components/Footer.css';
+@import './components/Contact';
 
 
 body {
