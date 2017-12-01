@@ -1,5 +1,17 @@
 .Section {
-  width: 100%;
-  margin: 0 auto;
-  background-color:skyblue;
+  display: flex;
+  text-align: center;
+}
+
+.Section h1 {
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 70px;
+	line-height: 100px;
+}
+
+.Section p {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+  line-height: 25px;
+  text-justify: inter-word; 
 }

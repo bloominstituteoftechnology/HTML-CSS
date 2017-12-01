@@ -2,22 +2,36 @@ nav {
   background: #333;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid white;
 }
 
 nav ul {
   list-style-type: none;
 }
 
-nav a {
+/*nav a {
   text-decoration: none;
   text-align: center;
   color: #fff;
   display: block;
-  padding: 3px;
-}
+  
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}*/
 
+nav a {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+  font-family: 'Poiret One', cursive;
+}
 nav a:hover {
-  background-color: #555;
+  background-color: #ffffff;
+  color: #333;
+  padding: 17px 10px;
 }
 
 /* Media Queries - flex styles - Navigation */

@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  
 }
 
 .Hero__text {
@@ -11,6 +11,8 @@
  font-family: 'Lobster', Georgia, Times, serif;
  text-align: center;
  padding: 200px;
+ //-webkit-text-stroke: 1px;
+ //-webkit-text-stroke-color: skyblue;
  
 }
 

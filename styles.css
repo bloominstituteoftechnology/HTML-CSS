@@ -1,38 +1,21 @@
 @import './components/Navigation.css';
 @import './components/Hero.css';
-@import './components/Welcome.css';
-@import './components/About.css';
-@import './components/Projects';
-@import './components/Contact.css';
-@import './components/Footer';
-
-@import './components/Divider.css';
 @import './components/Section.css';
+@import './components/About.css';
+@import './components/SlantedDiv.css';
+@import './components/Welcome.css';
+
 
 
 body {
   margin:  0;
   height: 100%;
+  min-width: 300px;
 }
 
-.spacer {
-  padding: 30px;
-  
-}
 
-h1 {
-  font-family: 'Lobster', Georgia, 'Times New Roman', Times, serif;
-  font-size: 70px;
-  line-height: 100px;
-  color: white;
-}
 
-p {
-  font-family: 'Cabain', Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 25px;
-  color: white;
-}
+
 
 
 
