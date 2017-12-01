@@ -3,6 +3,7 @@
   transition: 0.3s;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .Card__parent {
@@ -59,4 +60,17 @@
   align-items: center;
   padding: 10 10 10 10;
   margin: 0 10 0 10;
+}
+
+/* Wrap content for "about me" page on mobile */
+@media(max-height: 720px) {
+  .Card--mobile-wrap {
+    flex-wrap: wrap;
+  }
+  .Card--mobile-column:first-child {
+    flex-basis: 100%;
+  }
+  .Card--mobile-image {
+    justify-content: center;
+  }
 }

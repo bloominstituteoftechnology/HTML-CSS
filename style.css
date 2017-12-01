@@ -7,6 +7,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p {
-  font-size: 200%;
+@media (min-width: 600px) {
+  p {
+    font-size: 150%;
+  }
+}
+
+@media(max-width: 600px) {
+  p {
+    font-size: 100%;
+  }
 }
