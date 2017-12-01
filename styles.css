@@ -1,0 +1,187 @@
+body {
+    margin: 20;
+}
+
+
+
+.name {
+    border: none;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    font-size: 45px
+}
+p {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.footer {
+    border: none;
+    background-color: #5e21bfc0;
+    width: 100%;
+    text-align: center;
+    font-size: 175%;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+
+}
+
+#nav {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    height:45px;
+    padding: 45px;
+}
+
+
+a:link, a:visited {
+padding: 45px;
+text-decoration: none;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #5e21bfc0;
+float: left;
+font-size: 33px;
+}
+
+a:hover, a:active {
+background-color: lightcoral;
+}
+
+li {
+    margin: 0px;
+    display:  
+}
+
+.Tabs__item {
+    display: none;
+    cursor: pointer;
+}
+
+.Tabs__item-selected {
+display: block;
+cursor: pointer;
+
+}
+
+.Tabs__link {
+box-sizing: border-box;
+padding: 10px 15px;
+margin: 10px;
+background-color: #5e21bfc0;
+cursor: pointer;
+}
+
+.Tabs__link-selected {
+background-color: salmon;
+/* border: solid 1px lightseagreen; */
+cursor: pointer;
+
+}
+.Nav {
+height: 50px;
+background-color: grey;
+border-bottom: 1px solid black;
+}
+
+.Nav-title {
+display: inline-block;
+padding-left: 10px;
+}
+
+.Nav-items {
+display: inline-block;
+padding-left: 20px;
+}
+
+.Nav-item {
+display: inline;
+padding-right: 10px;
+}
+
+.Nav-item:hover {
+cursor: default;
+color: white;
+
+}
+.List {
+left: 0;
+margin: 20px 0;
+
+}
+
+.List__item {
+display: inline;
+font-size: 33px;
+}
+.Box__title {
+font-size: 45px;;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.Box--gray {
+background-color:white;
+}
+
+.Box--blue {
+background-color: white;
+}
+
+.Box--green {
+background-color: white;
+}
+.Section {
+	box-sizing: border-box;
+	display: inline-block;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+
+.Section__title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.Section__full {
+	padding: 20px;
+}
+
+.Section__half-left {
+	padding: 20px;
+}
+
+a {
+    font-size: 33px;
+
+}
+address {
+    font-style: underline;
+}
