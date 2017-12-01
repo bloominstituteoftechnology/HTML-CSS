@@ -94,12 +94,21 @@
     background-color: #eaeaea;
 }
 
+.section__projects__description {
+    display: none;
+}
+
+.section__projects__description--show {
+    display: block;
+    padding: 10px;
+}
+
 .section__projects img {
     border-radius: 25px;
 }
 
 .section__projects__pan {
-    max-width: 700px;
+    max-width: 740px;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,6 +116,13 @@
 
 .section__projects__projectBlock {
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: none;
+}
+
+.section__projects__projectBlock--show {
+    display: block;
 }
 
 .section__projects__projectBlock h4{

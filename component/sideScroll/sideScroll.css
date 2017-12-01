@@ -1,0 +1,22 @@
+.sideScroll {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    color: #787d94;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.sideScroll:hover {
+    color: #232323;
+}
+
+.sideScroll--show {
+    display: flex;
+}
+
+.sideScroll--hide {
+    display: none;
+}
+
