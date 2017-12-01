@@ -6,88 +6,96 @@
   <body>
     <script defer="defer" src="components/Tabs/Tabs.js"></script>
 
-    <div class="Navbar" id="navbar">
-      <div class="Navbar__title">Jesse Hood</div>
-      <div class="Navbar--links">
-        <div class="Tab Tab--selected" data-tab="1">
-          <div class="Tab__text">Home</div>
-        </div>
-        <div class="Tab" data-tab="2">
-          <div class="Tab__text">About me</div>
-        </div>
-        <div class="Tab" data-tab="3">
-          <div class="Tab__text">Projects</div>
-        </div>
-        <div class="Tab" data-tab="4">
-          <div class="Tab__text">Contact me</div>
-        </div>
-      </div>
-    </div>
-    <div class="Card Card__parent Tab__window Tab__window--selected">
-      <div class="Card--row">
-        <h1 class="Card__title">Welcome</h1>
-      </div>
-      <div class="Card--row">
-        <p>Welcome to my page.</p>
-      </div>
-    </div>
-
-    <div class="Card Card__parent Card--odd Tab__window" id="about">
-      <div class="Card--row">
-        <h1 class="Card__title">About Me</h1>
-      </div>
-      <div class="Card--row Card--mobile-wrap">
-        <img class="Card--mobile-column Card--mobile-image" src="images/blank-profile-picture.png" height="256px" width="256px" title="I don't have any good pictures of myself yet">
-        <p class="Card--mobile-column">My name is Jesse Hood and I am 24 years old. 
-          I am currently attending Lambda School and have a degree in computer programming (Associate in Applied Science) from Caldwell Community College &amp; Technical Institute.
-          I like to spend my free time lifting weights, playing video games, and learning more about programming.
-          My current long term goals are to start a career in software engineering and win a powerlifting competition.
-        </p>
-      </div>
-    </div>
-
-    <div class="Card Card__parent Tab__window" id="projects">
-      <div class="Card--row">
-        <h1 class="Card__title">Projects</h1>
-      </div>
-      <div class="Card--row">
-        <div class="Card--projects">
-          <div class="Card Card__project">
-            <h3>Project 1</h3>
-            <p>This is a description of the project.</p>
+    <header>
+      <div class="Navbar" id="navbar">
+        <div class="Navbar__title">Jesse Hood</div>
+        <div class="Navbar--links">
+          <div class="Tab Tab--selected" data-tab="1">
+            <div class="Tab__text">Home</div>
           </div>
-
-          <div class="Card Card__project">
-            <h3>Project 2</h3>
-            <p>This is a description of the project.</p>
+          <div class="Tab" data-tab="2">
+            <div class="Tab__text">About me</div>
           </div>
+          <div class="Tab" data-tab="3">
+            <div class="Tab__text">Projects</div>
+          </div>
+          <!--
+          <div class="Tab" data-tab="4">
+            <div class="Tab__text">Contact me</div>
+          </div>
+          -->
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="Card Card__parent Tab__window Tab__window--selected">
+        <div class="Card--row">
+          <h1 class="Card__title">Welcome</h1>
+        </div>
+        <div class="Card--row">
+          <p>Welcome to my page.</p>
+        </div>
+      </div>
 
-          <div class="Card Card__project">
-              <h3>Project 3</h3>
+      <div class="Card Card__parent Card--odd Tab__window" id="about">
+        <div class="Card--row">
+          <h1 class="Card__title">About Me</h1>
+        </div>
+        <div class="Card--row Card--mobile-wrap">
+          <img class="Card--mobile-column Card--mobile-image" src="images/blank-profile-picture.png" height="256px" width="256px" title="I don't have any good pictures of myself yet">
+          <p class="Card--mobile-column">My name is Jesse Hood and I am 24 years old. 
+            I am currently attending Lambda School and have a degree in computer programming (Associate in Applied Science) from Caldwell Community College &amp; Technical Institute.
+            I like to spend my free time lifting weights, playing video games, and learning more about programming.
+            My current long term goals are to start a career in software engineering and win a powerlifting competition.
+          </p>
+        </div>
+      </div>
+
+      <div class="Card Card__parent Tab__window" id="projects">
+        <div class="Card--row">
+          <h1 class="Card__title">Projects</h1>
+        </div>
+        <div class="Card--row">
+          <div class="Card--projects">
+            <div class="Card Card__project">
+              <h3>Project 1</h3>
               <p>This is a description of the project.</p>
             </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="Card Card__parent Card--odd Tab__window" id="contact">
-        <div class="Card--row">
-          <h1 class="Card__title">Contact me</h1>
-        </div>
-        <div class="Card--row">
-          <div class="Card--column">
-          <div>
-            <a href="https://github.com/jessehood/">
-              <img class="Icon" height="32" width="32" src="images/github-256.png"> jessehood
-            </a>
-          </div>
-          <div>
-            <a href="mailto:jessewchs@gmail.com">
-              <img class="Icon" src="images/gmail.ico"> jessewchs@gmail.com
-            </a>
-          </div>
+            <div class="Card Card__project">
+              <h3>Project 2</h3>
+              <p>This is a description of the project.</p>
+            </div>
+
+            <div class="Card Card__project">
+                <h3>Project 3</h3>
+                <p>This is a description of the project.</p>
+              </div>
           </div>
         </div>
       </div>
+    </main>
+
+      <footer>
+        <div class="Card" id="contact">
+          <div class="Card--row">
+            <h1 class="Card__title">Contact me</h1>
+          </div>
+          <div class="Card--row">
+            <div class="Card--column">
+            <div>
+              <a href="https://github.com/jessehood/">
+                <img class="Icon" height="32" width="32" src="images/github-256.png"> jessehood
+              </a>
+            </div>
+            <div>
+              <a href="mailto:jessewchs@gmail.com">
+                <img class="Icon" src="images/gmail.ico"> jessewchs@gmail.com
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
