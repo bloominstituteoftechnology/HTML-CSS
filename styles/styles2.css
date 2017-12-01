@@ -85,6 +85,8 @@ div.tab button.active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    background-color: rgb(179, 177, 177)
+    
 }
 
 .gallery {
@@ -115,7 +117,7 @@ div.tab button.active {
     width: 100%;
   }
   .contact-btn {
-    float: right;
+    float: left;
   }
   
   .contact-btn a {
