@@ -1,20 +1,37 @@
-
-.navbar {
-  background-color:black;
-  margin: 20px;
+nav {
+  background: #333;
+  position: fixed;
+  width: 100%;
 }
 
-.navbar__items {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  font-size: large;
-  padding: 5px;
-  
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
- a {
+nav a {
   text-decoration: none;
- color: white;
- 
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 3px;
+  }
+
+nav a:hover {
+  background-color: #555;
+  
+  }
+
+/* Media Queries - flex styles - Navigation */
+
+@media(min-width: 600px) {
+  nav ul {
+    display: flex;
+    
+  }
+
+  nav li {
+    flex: 1 1 0;
+    
+  }
 }
