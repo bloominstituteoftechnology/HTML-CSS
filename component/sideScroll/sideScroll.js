@@ -61,7 +61,15 @@ class ScrollPan {
         return this.element.querySelectorAll(`.section__projects__description[data-tab='${data}']`);
     }
     updatePan(buttonClicked) {
-        if (buttonClicked.dataset.tab === 'right' && this.pushloc < this.project.length) {
+        console.log(this.shiftloc)
+        if (buttonClicked.dataset.tab === 'right' && this.pushloc === this.project.length) {
+            // Implement Looping going Right
+            this.hideAll();
+            this.activePanProjects = this.project.slice(0, this.project.length - this.panhide);
+            this.init();
+            this.pushloc = this.project.length - this.panhide;
+            this.shiftloc = 0;
+        } else if (buttonClicked.dataset.tab === 'right' && this.pushloc < this.project.length) {
             this.activePanProjects.shift().hide();
             this.activePanProjects.push(this.project[this.pushloc]);
             if (window.innerWidth < 500) this.updateActive(this.project[this.pushloc]); //for Mobile Browsers Auto Show Description
@@ -76,7 +84,14 @@ class ScrollPan {
             this.pushloc--;
             this.shiftloc--;
             this.init();
-        }
+        } else if (buttonClicked.dataset.tab === 'left' && this.shiftloc === 0) {
+            // implement looping going left
+            this.hideAll();
+            this.activePanProjects = this.project.slice(this.panhide, this.project.length);
+            this.pushloc = 0;
+            this.shiftloc = this.panhide;
+            this.init();
+        } 
     }
 }
 
