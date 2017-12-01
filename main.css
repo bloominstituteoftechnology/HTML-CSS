@@ -1,3 +1,6 @@
+@import './carousel.css';
+
+
 body {
 	margin: 0;
 	font-family: avenir;
@@ -10,12 +13,17 @@ footer {
 	font-size: 14px;
 }
 
-.main {
+.Main {
 	height: 600px;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
 	align-content: flex-start;
+}
+
+.backslash {
+	padding-top: 4px;
+	font-size: 25px;
 }
 
 h1 {
@@ -29,10 +37,11 @@ h1 {
 }
 
 
-.main__nav {
-	padding-left:0;
+.Main__nav {
+	padding-top: 20px;
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 }
 
 a {
@@ -76,7 +85,7 @@ a {
 	padding-bottom: 30px;
 }
 
-.section--wrapper--images--projects{
+.section__wrapper{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
