@@ -1,5 +1,5 @@
 @import './components/Navigation.css';
-@import './components/Name.css';
+@import './components/Hero.css';
 @import './components/Welcome.css';
 @import './components/About.css';
 @import './components/Projects';
@@ -8,13 +8,15 @@
 
 
 body {
-  margin: 0;
+  margin:  0;
+  height: 100%;
 }
 
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-  }
+.spacer {
+  padding: 30px;
+  
+}
+
 
 
 
