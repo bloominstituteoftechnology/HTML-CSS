@@ -107,8 +107,9 @@
     padding: 10px;
 }
 
-.section__projects img {
+.section__projects__projectBlock img {
     border-radius: 25px;
+    border: 2px solid #787d94;
 }
 
 .section__projects__pan {
