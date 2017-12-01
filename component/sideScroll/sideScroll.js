@@ -3,13 +3,13 @@ window.onresize = () => doResize();
 
 const doResize =() => {
     if (window.innerWidth > 750) {
-        container[0].setPanhide(2);
-    }
-    if (window.innerWidth < 750) {
         container[0].setPanhide(3);
     }
+    if (window.innerWidth < 750) {
+        container[0].setPanhide(2);
+    }
     if (window.innerWidth < 500) {
-        container[0].setPanhide(4); // How many items to hide based on Ress less than 750;
+        container[0].setPanhide(1); // How many items to hide based on Ress less than 750;
     }
 }
 
@@ -19,7 +19,7 @@ class ScrollPan {
         this.project = container.querySelectorAll('.section__projects__projectBlock');
         this.project = Array.from(this.project).map(project => new ScrollItem(project, this));
         this.activeProject = this.project[0]; // automatically set activeProject to the first project on list.
-        this.panhide = 2; // Arbitrary number of items to be hidden from the view, should decrease with ressolution.
+        this.panhide; // Arbitrary number of items to be hidden from the view, should decrease with ressolution.
         this.activePanProjects;
         this.pushloc = this.project.length - this.panhide;
         this.shiftloc = 0;
@@ -30,11 +30,10 @@ class ScrollPan {
         this.updateActive(this.project[0]);
     }
     setPanhide(n) {
-        this.panhide = n;
+        this.panhide = this.project.length - n;
         this.activatePanProjects();
         this.hideAll();
         this.pushloc = this.project.length - this.panhide;
-
         this.init();
     }
 
@@ -66,7 +65,7 @@ class ScrollPan {
             // Implement Looping going Right
             this.hideAll();
             this.activePanProjects = this.project.slice(0, this.project.length - this.panhide);
-            if (window.innerWidth < 500) this.updateActive(); //for Mobile Browsers Auto Show Description
+            if (window.innerWidth < 500) this.updateActive(this.project[0]); //for Mobile Browsers Auto Show Description
             this.init();
             this.pushloc = this.project.length - this.panhide;
             this.shiftloc = 0;
