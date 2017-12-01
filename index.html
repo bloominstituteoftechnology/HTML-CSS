@@ -6,28 +6,24 @@
     </head>
 
     <body>
-       <div class="Section Section--bordered">
-           <div class="Section__full">
-                <div class="Navigation">
+    <script defer="defer" src="./Components/Tabs/Tabs.js"></script>
+    <div class ="Container">
+       <div class="Nav">
                 <ul id="menu"> 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
                 </ul>
                 <div style="clear:both"></div>
                 </div>
-           </div>
-        </div>
-       <div class="Section Section--bordered">
-            <div class="Section__full">
-                <div class="Header">
+     <div class="Section Section--bordered">
+            <div class="Header">
                 ::before
                 <h1>Stephanie Bowles</h1>
                 <h2>Lambda School Student, Educator</h2>
                 </div>
-            </div>
-        </div>
+           </div>
         <div class="Section Section--Welcome">
             <div class="Section__content">
             <div class="Welcome__title">
@@ -39,7 +35,7 @@
         </div>
     </div>  
 
-        <div class="Section Section--About Me">
+    <div class="Section Section--About Me" id="about">
             <div class="Section__content">
             <div class="Section__flag1">Image</div>
             <div class="About Me__title">
@@ -55,17 +51,41 @@
             </ul>
         </div>
     </div>
-        <div class="Projects">
+    <div class="Section Section--Projects" id="projects">
             <div class="Section__content">
             <div class="Projects__title">
                 <h3>Projects</h3>
             </div>
-            <div class="Section__flag1">Image</div>
-            <div class="Section__flag2">Image</div>
-            <div class="Section__flag3">Image</div>
+    <div class="Tabs">
+    <div class="List">
+        <div class="List__item Tabs__link" data-tab="1">Tab 1</div>
+        <div class="List__item Tabs__link" data-tab="2">Tab 2</div>
+        <div class="List__item Tabs__link" data-tab="3">Tab 3</div>
+    </div>
+
+    <div class="Tabs__item" data-tab="1">
+        <div class="Box Box--placeholder Box--grey">
+            <div class="Box__title">Box # 1</div>
+            <div class="Box__description">This is #1</div>
+        </div>
+    </div>
+    <div class="Tabs__item" data-tab="2">
+        <div class="Box Box--placeholder Box--blue">
+            <div class="Box__title">Box # 2</div>
+            <div class="Box__description">This is # 2</div>
+        </div>
+    </div>
+    <div class="Tabs__item" data-tab="3">
+        <div class="Box Box--placeholder Box--green">
+            <div class="Box__title">Box # 3</div>
+            <div class="Box__description">This is # 3</div>
+        </div>
+    </div>
+</div>
+            
             </div>
         </div>
-        <div class="Contact Me">
+        <div class="Section Section--Contact Me" id="contact">
             <div class="Section__content">
             <div class="Contact Me__title">
                 <h3>Contact Me</h3>
@@ -75,7 +95,7 @@
             </div>
             </div>
     </div>
-        <div class= "Footer">
+        <div class= "Section Section--Footer">
             <div class="Section__content">
             <div class="Footer__title">
                 <h3>Footer</h3>
@@ -83,6 +103,7 @@
             </div>
         </div>
     </div>
+</div>
             
                 
 

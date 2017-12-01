@@ -1,18 +1,38 @@
 ul#menu {
+    width: 940px;
     list-style: none;
-    padding-top: 5px;
-    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul#menu li a {
     font-size: 20px;
     color: gray;
     text-decoration: none;
+    margin: -134px auto 25px auto;
+    font-weight: bold;
+    padding: 30px;
 }
 
 ul#menu li {
     float: left;
-    padding-left: 150px;
-    padding-right: 100px;
+    
+   
 }
 
+ul#menu li a:hover {
+    -webkit-text-fill-color: rgb(5, 5, 5);
+}
+
+
+
+
+
+@media (max-width: 630px) {
+    .nav {
+        width: auto;
+    }
+}
