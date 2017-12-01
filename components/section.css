@@ -1,6 +1,7 @@
 .Section {
   display: flex;
-  text-align: center;
+	justify-content: center;
+	
 }
 
 .Section h1 {
@@ -16,3 +17,12 @@
   line-height: 25px;
   text-justify: inter-word; 
 }
+
+/*display: flex;
+  justify-content: center;
+  color: #0C2D41;
+  font-size: 18px;
+  margin: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: justify;
+  text-justify: inter-word; */
