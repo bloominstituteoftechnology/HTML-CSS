@@ -1,6 +1,5 @@
 .Section--Contact {
- 
-  }
+ justify-content: space-around;
 
 .Section--Contact i {
   padding-bottom: 20px;
