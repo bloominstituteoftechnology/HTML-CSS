@@ -9,15 +9,7 @@ nav ul {
   list-style-type: none;
 }
 
-/*nav a {
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  display: block;
-  
-  font-family: 'Cabin', Helvetica, Arial, sans-serif;
-  font-size: 15px;
-}*/
+
 
 nav a {
   transition: 0.4s;
