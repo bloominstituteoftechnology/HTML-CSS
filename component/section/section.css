@@ -99,7 +99,7 @@
 }
 
 .section__projects__description a {
-    color: #ffae00;
+    color: #134f77;
 }
 
 .section__projects__description--show {
@@ -124,6 +124,7 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: linear-gradient(to right, #eaeaea 5%, #2b70a12c 50%, #eaeaea 95%);
 }
 
 .section__projects__projectBlock {
