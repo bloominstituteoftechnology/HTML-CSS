@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>FRANZ FERNANDO</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./styles2.css">
-    </head>
-    <body>
-            <script defer="defer" src="./tabs.js"></script>
-        <header>
-                <div id="About Me" class="tabcontent">
-                    <h3>About Me</h3>
-                    <p>Hello, my name is Franz Fernando.  I'm currently a student in the Computer Science program at Lambda School.  My background is primarily in electronics, particularly in digital and analog circuits.  I have been tasked with responsibilities at all levels of the manufacturing process whether it is with design, quality control, component level troubleshooting, drafting, as well as overseeing and implementing the steps in the overall process itself. I'm fortunate to have been able to gain these skills through nearly 16 years of work experience at Suzuki Musical Instruments.  My interest in electronics and engineering began at this company.  I have a strong drive to learn and improve upon my skills each day and during my endeavours I have built a strong foundation for the hardware and component side of things, but there was always one aspect that remained some what of a mystery to me- and that is the software and programming side of things.  Fortunately, Lambda School has presented me with the perfect opportunity to continue my pursuit of knowledge and goals.</p> 
-                  </div>
-              
-              <div id="Projects" class="tabcontent">
+<head>
+    <title>My Portfolio (sort of)</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles2.css">
+</head>
+<body background="./images/background.jpg">
+    <script defer="defer" src="./Js/tabs.js"></script>
+    <header>
+        <h1 class="page-title">Franz Fernando</h1>
+        <nav>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+                <button class="tablinks" onclick="openTab(event, 'About Me')">About Me</button>
+                <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+            </div>
+
+            <div id="Home" class="tabcontent">
+                <h3>Welcome</h3>
+                <p>Hello, I look forward to your acquaintance.  Please take a moment to look through the info on this page and see why I would make a good fit into your team.</p>
+            </div>
+
+            <div id="About Me" class="tabcontent">
+                <h3>About Me</h3>
+                <p>My name is Franz Fernando.  I'm currently a student in the Computer Science program at Lambda School.  My background is primarily in electronics, particularly in digital and analog circuits.  I have experience with multiple stages of the manufacturing process whether during the early prototype stages or during production. This process includes tasks such as drafting schematic diagrams and service manuals, circuit board design, troubleshooting and repair, and quality control.  Eventually, I began to dabble with the software side of things and that is what sparked my inteterest in programming.  Lambda School is providing me with a great opportunity to bridge the knowledge I have on the hardware side of things with the software side of it all.  
+            </div>
+
+            <div id="Projects" class="tabcontent">
                 <h3>Projects</h3>
-                <p>Coming Soon</p>
-              </div>
-              
-              <div id="Contact Me" class="tabcontent">
-                <h3>Contact Me</h3>
-                <p>ffernando@suzukicorp.com</p>
-              </div>
-            </header>
-              <button class="tablink" onclick="openTab('About Me', this, 'red')" id="defaultOpen">About Me</button>
-              <button class="tablink" onclick="openTab('Projects', this, 'green')">Projects</button>
-              <button class="tablink" onclick="openTab('Contact Me', this, 'blue')">Contact Me</button>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-    </body>
-</html>
+                <p>Coming Soon.</p>
+            </div>
+        </nav>
+    </header>
+    <div class="gallery">
+            <figure class="gallery-item">
+              <img class="thumbnail" src="./images/me2.png">
+            </figure>
+            <figure class="gallery-item">
+              <img class="thumbnail" src="./images/Electronics.png">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail" src="./images/111.jpg">
+            </figure>
+            <figure class="gallery-item">
+                <img class="thumbnail" src="./images/3039691-inline-73-07.webp">
+            </figure>
+          </div>
+          <div class="bottom-bar">
+                <div class="contact-btn"><a>Contact Me</a>
+                </div>
+          </div>
+</body>
+</html> 
