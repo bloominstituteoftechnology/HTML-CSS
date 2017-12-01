@@ -7,11 +7,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #232323;
 }
-/* .section p {
-    font-size: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-} */
 
 .section__header {
     font-weight: bold;
@@ -144,8 +139,9 @@
 }
 
 .section__contact {
+    display: flex;
     background-color: #ffffff;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .section__contact__info {
