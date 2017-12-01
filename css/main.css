@@ -1,0 +1,19 @@
+@import './nav.css';
+@import './section.css';
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    width: auto !important;
+    min-width: 300px
+}
+
+hr {
+    width: 150px;
+    height: 2px;
+    border: 0;
+    background: skyblue;
+}
