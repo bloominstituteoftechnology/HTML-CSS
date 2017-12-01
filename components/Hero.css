@@ -8,12 +8,16 @@
 
 .Hero__text {
  color: white;
+ font-family: 'Lobster', Georgia, Times, serif;
  text-align: center;
  padding: 200px;
+ 
 }
 
 .Hero__text p {
-  font-size: 14px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Shrikhand', cursive;
 }
 
 .Hero__text button {

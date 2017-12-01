@@ -6,7 +6,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  }
+}
 
 nav a {
   text-decoration: none;
@@ -14,23 +14,20 @@ nav a {
   color: #fff;
   display: block;
   padding: 3px;
-  }
+}
 
 nav a:hover {
   background-color: #555;
-  
-  }
+}
 
 /* Media Queries - flex styles - Navigation */
 
-@media(min-width: 600px) {
+@media (min-width: 600px) {
   nav ul {
     display: flex;
-    
   }
 
   nav li {
     flex: 1 1 0;
-    
   }
 }

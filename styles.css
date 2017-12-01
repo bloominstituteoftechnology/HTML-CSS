@@ -6,6 +6,9 @@
 @import './components/Contact.css';
 @import './components/Footer';
 
+@import './components/Divider.css';
+@import './components/Section.css';
+
 
 body {
   margin:  0;
@@ -15,6 +18,20 @@ body {
 .spacer {
   padding: 30px;
   
+}
+
+h1 {
+  font-family: 'Lobster', Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  line-height: 100px;
+  color: white;
+}
+
+p {
+  font-family: 'Cabain', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
 }
 
 
