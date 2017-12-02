@@ -117,7 +117,7 @@ div.tab button.active {
     width: 100%;
   }
   .contact-btn {
-    float: left;
+    float: center;
   }
   
   .contact-btn a {
@@ -126,7 +126,7 @@ div.tab button.active {
     padding: 8px 18px;
     border: 1px solid #aeb5b9;
     position: relative;
-    background-color: #FFF;
+    background-color: rgb(223, 221, 221);
   }
   
   .contact-btn a:active {
