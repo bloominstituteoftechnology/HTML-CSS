@@ -1,4 +1,5 @@
 @import './carousel.css';
+@import './section.css';
 
 
 body {
@@ -36,7 +37,6 @@ h1 {
 
 }
 
-
 .Main__nav {
 	padding-top: 20px;
 	display: flex;
@@ -50,59 +50,3 @@ a {
 	padding: 10px;
 }
 
-.section {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.section--background{
-	background: #F6F6F6;
-}
-
-.section__divider {
-	padding-bottom: 90px;
-}
-
-.section__title {
-	font-size: 30px;
-	padding-top: 70px;
-	padding-bottom: 60px;
-	text-align: center;
-	font-weight: 800;
-	letter-spacing: 1px; 
-}
-
-.section__text--about {
-	font-size: 16px;
-	margin: 0 auto;
-	width: 400px;
-	line-height: 30px;
-	text-align: left;
-}
-
-.section__text--projects {
-	text-align: center;
-	padding-bottom: 30px;
-}
-
-.section__wrapper{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.section__profilePic {
-	display: block;
-	margin: 0 auto;
-	width: 200px;
-	padding-bottom: 30px;
-}
-
-.section--projects--images {
-	height: 250px;
-	padding-bottom: 10px;
-}
-
-.section__text--contact {
-	padding-bottom: 200px;
-}
