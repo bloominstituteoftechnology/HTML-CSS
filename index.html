@@ -4,6 +4,7 @@
     <title>Jessica Thomas</title>
     <!-- Here we reference our styles.css for our page styling -->
     <link rel="stylesheet" href="./stylesheet.css">
+	<script defer="defer" src="script.js"></script>
   </head>
   <body>
 	<div class="topBar">
@@ -26,9 +27,22 @@
 		<div id="projects" class="content__section">
 			<h1 class ="content__heading">Projects</h1>
 			<div class ="content__projects">
-				<img src="./img/project1.png" alt="Project 1"></img>
-				<img src="./img/project2.png" alt="Project 2"></img>
-				<img src="./img/project3.png" alt="Project 3"></img>
+				<svg class="content__leftButton" height="250" width="150"><polygon points="150,0 150,250 0,125" style="fill:#8088fc;" /></svg>
+				<div data-imgnum="0" class="content__projectImg content__projectImg--selected">
+					<img src="./img/project1.png" alt="Project 1"></img>
+				</div>
+				<div data-imgnum="1" class="content__projectImg">
+					<img src="./img/project2.png" alt="Project 2"></img>
+				</div>
+				<div data-imgnum="2" class="content__projectImg"div>
+					<img src="./img/project3.png" alt="Project 3"></img>
+				</div>
+				<svg class="content__rightButton" height="250" width="150"><polygon points="0,0 0,250 150,125" style="fill:#8088fc;" /></svg>
+			</div>
+			<div>
+				<div class="content__projectText content__projectText--selected" data-txtnum="0">This is allll about project 1</div>
+				<div class="content__projectText" data-txtnum="0">This is allll about project 2</div>
+				<div class="content__projectText" data-txtnum="0">This is allll about project 3</div>
 			</div>
 		</div>
 		<div id="contact" class="content__section">
