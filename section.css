@@ -1,0 +1,58 @@
+
+.Section {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Section--background{
+	background: #F6F6F6;
+}
+
+.Section__divider {
+	padding-bottom: 90px;
+}
+
+.Section__title {
+	font-size: 30px;
+	padding-top: 70px;
+	padding-bottom: 60px;
+	text-align: center;
+	font-weight: 800;
+	letter-spacing: 1px; 
+}
+
+.Section__text--about {
+	font-size: 16px;
+	margin: 0 auto;
+	width: 400px;
+	line-height: 30px;
+	text-align: left;
+	padding-top: 50px;
+}
+
+.Section__text--projects {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.Section__wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.Section__profilePic {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	padding-bottom: 30px;
+}
+
+.Section--projects--images {
+	height: 250px;
+	padding-bottom: 10px;
+}
+
+.Section__text--contact {
+	padding-bottom: 200px;
+}

@@ -1,0 +1,52 @@
+@import './carousel.css';
+@import './section.css';
+
+
+body {
+	margin: 0;
+	font-family: avenir;
+	font-weight: 300;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+	font-size: 14px;
+}
+
+.Main {
+	height: 600px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.backslash {
+	padding-top: 4px;
+	font-size: 25px;
+}
+
+h1 {
+	padding-top: 100px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0;
+	letter-spacing: 0px; 
+
+}
+
+.Main__nav {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+a {
+	text-decoration: none;
+	color: inherit; 
+	padding: 10px;
+}
+
