@@ -1,0 +1,16 @@
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.gallery-item {
+    margin: 20px;
+}
+  
+.gallery-item .thumbnail {
+    cursor: pointer;
+    max-block-size: 180px;
+    border: 5px solid rgb(173, 173, 153);
+}
