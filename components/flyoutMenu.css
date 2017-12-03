@@ -10,16 +10,19 @@
     overflow: scroll;
     text-align: center;
     font-size: 4rem;
+    
 }
 
 #flyoutMenu h2 a {
     color: #333;
     margin-left: 15px;
     text-decoration: none;
+    transition: all .2s ease-out;
 }
 #flyoutMenu h2 a:hover {
-    text-decoration: underline;
+    border-bottom: 14px solid #333;
 }
 #flyoutMenu.show {
     transform: translate3d(0vw,0,0);
+    z-index: 2 !important;
 }

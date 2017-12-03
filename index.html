@@ -4,53 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant|Forum|Taviraj" rel="stylesheet"> 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant|Cormorant+Garamond|Cormorant+Infant|Cormorant+SC" rel="stylesheet">
     <title>Aaron Wilder</title>
 </head>
 <body>
         <script>document.body.className += ' fade-out';</script>
-    <div id="flyoutMenu">
-        <h2><a href="#two">About Me</a></h2>
-        <h2><a href="#">Projects</a></h2>
-        <h2><a href="#">Contact</a></h2>
-    </div>
-        <header class="landing">
-                <button class="menu" id="menu-btn">
-                        <span class="menu-lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </button>
-                <div class="bucket">
-                        
-                  <div class="bucket__row">
-                    <div class="bucket__col hero">
-                          
-                        <h1 class="text-madness">
-                                    <span id="item-1">W</span>
-                                    <span id="item-2">E</span>
-                                    <span id="item-3">L</span>
-                                    <span id="item-4">C</span>
-                                    <span id="item-5">O</span>
-                                    <span id="item-6">M</span>
-                                    <span id="item-7">E</span>
-                                </h1>
-                        
-                    </div>
-                  </div>
-                </div>
-              </header>
-              <div class="hero about" id="next">
-              <div class="bucket">
-                <div class="bucket__row">
-                    <div class="bucket__col" id="two">
-                        
-                    </div>
+        <div id="flyoutMenu">
+            <h2><a href="#About-link">About Me</a></h2>
+            <h2><a href="#Projects-link">Projects</a></h2>
+            <h2><a href="#Contact-link">Contact</a></h2>
+            <h2><a href="#Landing-link">Back</a></h2>
+        </div>     
+        <button class="menu" id="menu-btn">
+                <span class="menu-lines">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </span>
+            </button>
+    <div class="Landing__pic" id="Landing-link">
+        <div class="Landing__grid">
+                <div class="title__box"></div>
+                
+                    <h1 class="Landing__title">Welcome</h1>
+                    
+        </div>
+        <!-- <div class="Mouse__flex"> -->
+        <div class="Mouse">
+                <div class="Mouse__box">
+                    <div class="Mouse-animation"></div>
                 </div>
             </div>
+        <!-- </div> -->
+    </div>
+    <div class="About__pic"  id="About-link">
+            <div class="About__grid">
+                <div class="About__content">
+                    
+                    <p>This is my daughter Coraline. This is a picture of her discovering sand for the first time. She is my inspiration to become a software developer. When I found out I was going to be a dad I took an inventory of my life and where it was going. I was stuck in a career I didn’t love. I realized that if I was going to teach her to work hard and pursue her passion in life, I should do the same.</p>
+                </div>
+            </div>
+            <div class="Mouse">
+                    <div class="Mouse__box">
+                        <div class="Mouse-animation"></div>
+                    </div>
+                </div>
+    </div>
+        <div class="projects" id="Projects-link">
+                
         </div>
-    <script src="script.js"></script>
+    <div class="contact" id="Contact-link">
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
