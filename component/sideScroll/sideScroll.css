@@ -1,0 +1,50 @@
+.sideScroll {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    color: #787d94;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.sideScroll__left img{
+    width: 30px;
+}
+
+.sideScroll__left img:hover {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('../../img/SideArrow_active.png') no-repeat;
+    width: 30px; /* Width of new image */
+    height: 47px; /* Height of new image */
+    padding-left: 30px; /* Equal to width of new image */
+}
+
+.sideScroll__right img{
+    width: 30px;
+}
+
+.sideScroll__right img:hover {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('../../img/SideArrow_active-rt.png') no-repeat;
+    width: 30px; /* Width of new image */
+    height: 47px; /* Height of new image */
+    padding-left: 30px; /* Equal to width of new image */
+}
+
+.sideScroll:hover {
+    color: #232323;
+}
+
+.sideScroll--show {
+    display: flex;
+}
+
+.sideScroll--hide {
+    display: none;
+}
+
