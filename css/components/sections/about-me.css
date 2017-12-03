@@ -1,0 +1,9 @@
+.self-image { 
+    background-image: url('../../../resources/unnamed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 300px;
+    height: 400px;
+
+}

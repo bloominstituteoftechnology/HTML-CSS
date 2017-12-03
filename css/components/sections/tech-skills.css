@@ -1,0 +1,25 @@
+
+.easyPieChart {
+    position: relative;
+    text-align: center;
+}
+
+.easyPieChart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chart {
+    width: 120px;
+    height: 120px;
+    
+    font-size: 2em;
+    font-weight: 300;
+}
+.skill-level .line {
+    background-color: rgb(177, 73, 4);
+}
+.skill-level {
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .section {
+    position: relative;
+    top: 0px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+     }
+   }
