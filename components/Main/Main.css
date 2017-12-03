@@ -1,0 +1,25 @@
+@import '../About/About.css';
+@import '../Contact/Contact.css';
+@import '../Header/Header.css';
+@import '../Projects/Projects.css';
+@import '../Skills/Skills.css';
+
+.Main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "a a a a a a a a a a a a"
+    "s s s s s s s s s s s s"
+    "p p p p p p p p p p p p"
+    "c c c c c c c c c c c c";
+  margin-top: 50px;
+  height: auto;
+}
+
+hr {
+  border-color: rgb(0, 0, 0);
+  max-width: 15rem;
+  text-align: center;
+}

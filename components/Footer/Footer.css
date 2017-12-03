@@ -1,0 +1,38 @@
+.Footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Footer__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.Footer__list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+.Footer__container img {
+  width: 2rem;
+  height: auto;
+  padding-top: 1rem;
+}
+
+.Copyright {
+  color: white;
+  text-align: left;
+  font-weight: 400;
+}
+
+.Copyright a {
+  float: right;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}

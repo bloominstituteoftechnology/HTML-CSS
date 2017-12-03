@@ -1,0 +1,22 @@
+.Projects {
+  grid-area: p;
+  background: #fafafa;
+}
+
+.Projects__container {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.Project__section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.Projects__title {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}

@@ -10,91 +10,129 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="Navbar">
-      <a href="#top">Home</a>
-      <a href="#aboutMe">About Me</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="Section Section--mainBody">
-      <div class="Section Section--element Section__name">
-        <h1 class="Section__header">Hello, I'm Ting</h1>
-        <img src="./img/bio.jpg">
-      </div>
-      <div class="Section Section--element Section__welcome">
-        <h2 class="Section__header">Welcome</h2>
-        <div class="Section__content--welcome">
-          <p>Welcome to Ting's workshop. Browse around the site you will find more about me:</p>
-          <ul>
-            <li>Autobiography</li>
-            <li>Projects I've done</li>
-            <li>Contact</li>
-            <li>GitHub and LinkedIn</li>
+  <div class="OuterContainer">
+    <!-- Navbar -->
+    <nav class="Navbar">
+      <div class="Navbar__container">
+        <a class="Navbar__brand" href="#top">Ting</a>
+        <div class="Navbar__section">
+          <ul class="Navbar__list">
+            <li>
+              <a href="#top">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
-      <div class="Section Section--element Section__aboutMe" id="aboutMe">
-        <h2 class="Section__header">About Me</h2>
-        <div class="Section__content--aboutMe">
-          <img src="./img/image.jpg">
-          <div class="Section__bio">
-            <p>My name is Ting Wang. I am currently enrolled in Lambda School’s computer science course. I am a software developer
-              by using JavaScript, NodeJS, and React to create functionality and scalability of websites. Before joining
-              Lambda School, I have worked as Ruby on Rails developer and quality assurance engineer. I am passionate of
-              solving problems and providing solutions to any situation that can be addressed by developing applications.
-              I love meditation and running in my spare time.</p>
+    </nav>
+    <!-- main body content -->
+    <main class="Main">
+      <!-- Header -->
+      <header class="Header">
+        <div class="Header__container">
+          <h1 class="Header__title H1">Hello, I'm Ting</h1>
+          <hr>
+          <h2 class="Header__title H2">Software Engineer - Web Developer</h2>
+        </div>
+      </header>
+
+      <!-- About -->
+      <section class="About" id="about">
+        <div class="About__container">
+          <h2 class="About__title">About</h2>
+          <hr>
+          <div class="About__section">
+            <img class="About__img" src="./img/bio.jpg" alt="">
+            <div class="About__bio">
+              <p class="About_para">My name is Ting Wang. I am currently enrolled in Lambda School’s computer science course. I am a software developer
+                by using JavaScript, NodeJS, and React to create functionality and scalability of websites. Before joining
+                Lambda School, I have worked as Ruby on Rails developer and quality assurance engineer. I am passionate of
+                solving problems and providing solutions to any situation that can be addressed by developing applications.
+                I love meditation and running in my spare time.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="Section Section--element Section__projects" id="projects">
-        <h2 class="Section__header">Projects</h2>
-        <div class="Section__content--projects">
-          <div class="Section__projects">
-            <h4 class="Section__header">Elite Manager</h4>
-            <a href="https://elite-manage.herokuapp.com/login">
-              <img src="./img/elite-manager.png">
+      </section>
+
+      <!-- Skills -->
+      <section class="Skills" id="skills">
+        <div class="Skills__container">
+          <h2 class="Skills__title">Skills</h2>
+          <hr>
+          <div class="Skills__section">
+            <div class="Skills__content">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="Projects" id="projects">
+        <div class="Projects__container">
+          <h2 class="Projects__title">Projects</h2>
+          <hr>
+          <div class="Projects__section">
+            <div class="Projects__content">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="Contact" id="contact">
+        <div class="Contact__container">
+          <h2 class="Contact__title">Contact</h2>
+          <hr>
+          <div class="Contact__section">
+            <form action="#">
+              <label for="name">what's your name?</label>
+              <input type="text" id="name" name="name" placeholder="YOUR NAME">
+              <label for="email">what's your email?</label>
+              <input type="text" id="email" name="email" placeholder="YOUR EMAIL">
+              <label for="messages">your messages</label>
+              <textarea id="messages" name="messages" placeholder="WRITE MESSAGES"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="Footer">
+      <div class="Footer__container">
+        <ul class="Footer__list">
+          <li>
+            <a href="mailto: felix.wang.1026@gmail.com">
+              <img src="./img/gmail.png">
             </a>
-          </div>
-          <div class="Section__projects">Project2</div>
-          <div class="Section__projects">Project3</div>
-        </div>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/ting-wang-3125a74b">
+              <img src="./img/linkedin.png">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/nunulong">
+              <img src="./img/github.svg">
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="Section Section--element Section__contact" id="contact">
-        <h2 class="Section__header">Contact Ting</h2>
-        <div class="Section__form">
-          <form>
-            <div id="from">
-              <label for="name">WHAT'S YOUR NAME?</label>
-              <br>
-              <input type="text" id="name" name="user_name" placeholder="YOUR NAME">
-            </div>
-            <div id="reply">
-              <label for="mail">WHAT'S YOUR EMAIL ADDRESS?</label>
-              <br>
-              <input type="email" id="mail" name="user_email" placeholder="YOUR EMAIL">
-            </div>
-            <div id="message">
-              <label for="msg">LEAVE YOUR MESSAGE</label>
-              <br>
-              <textarea id="msg" name="user_message" placeholder="YOUR MESSAGE"></textarea>
-            </div>
-            <div class="button">
-              <input type="submit">
-            </div>
-          </form>
-        </div>
+      <div class="Copyright">
+        <small>&copy TING WANG 2017</small>
+        <a href="#top">To Top</a>
       </div>
-    </div>
-    <footer>
-      <div class="footer">
-        <div>
-          <a href="mailto: felix.wang.1026@gmail.com"><img src="./img/gmail.png"></a>
-          <a href="https://linkedin.com/in/ting-wang-3125a74b"><img src="./img/linkedin.png"></a>
-          <a href="https://github.com/nunulong"><img src="./img/github.svg"></a>
-        </div>
-      </div>
-      <div>&copy 2017 Ting Wang</div>
     </footer>
   </div>
 </body>
