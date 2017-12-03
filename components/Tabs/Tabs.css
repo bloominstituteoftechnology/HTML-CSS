@@ -1,0 +1,30 @@
+.Tab {
+  color: #fafafa;
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 1px;
+  border-bottom: 0px;
+  padding: 9px 16px;
+  cursor: pointer;
+}
+
+.Tab--selected {
+  background-color: #00796B;
+}
+
+.Tab__text {
+  transition: all .2s ease-in-out;
+}
+
+.Tab__text:hover {
+  transform: scale(1.1); 
+}
+
+.Tab__window {
+  height: 87.5%;
+  display: none;
+}
+
+.Tab__window--selected {
+  display: block;
+}

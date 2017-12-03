@@ -1,0 +1,15 @@
+.Navbar {
+  background-color: #009688;
+  color: #fafafa;
+}
+
+.Navbar__title {
+  text-align: center;
+  font-size: 250%;
+}
+
+.Navbar--links {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}

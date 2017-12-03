@@ -1,0 +1,20 @@
+@import './components/Card.css';
+@import './components/Navbar.css';
+@import './components/Icon.css';
+@import './components/Tabs/Tabs.css';
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-size: 150%;
+  }
+}
+
+@media(max-width: 600px) {
+  p {
+    font-size: 100%;
+  }
+}
