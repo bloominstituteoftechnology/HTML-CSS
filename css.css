@@ -1,0 +1,85 @@
+@import 'components/Landing.css';
+@import 'components/Hamburger.css';
+@import 'components/Mouse.css';
+@import 'components/flyoutMenu.css';
+@import 'components/About.css';
+@import 'components/normalize.css';
+
+* { font-synthesis: none !important;}
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter !important;
+    }
+}
+body {
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    overflow: auto;
+    opacity: 1;
+    transition: 1s opacity;
+    -webkit-text-stroke: 0.7px;
+    font-size: 100%;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+.projects {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/IMG_20160222_140159274.jpg') center center;
+    background-size: cover;
+    height: 100vh
+}
+.contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Portraits-125.jpg') center center;
+    background-size: cover; 
+    height: 100vh
+}
+
+
+@media (max-width: 768px) {
+    .Landing__title {
+        font-size: 6rem;
+        grid-row-start: 9;
+        grid-column-start: 9;
+        grid-column: 7 / span 10;
+    }
+    .Landing__title::first-letter {
+        font-size: 8rem;
+    }
+    .title__box {
+        
+        grid-row-start: 9;
+        grid-column-start: 9;
+        width: 30.5rem;
+        height: 3.2rem;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .Landing__title {
+        font-size: 10rem;
+        
+    }
+}
+
+@media (max-width: 765px) {
+    .Landing__title {
+        font-size: 8rem;
+    }
+}

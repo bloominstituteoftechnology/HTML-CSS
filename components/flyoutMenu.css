@@ -1,0 +1,28 @@
+#flyoutMenu {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffe600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate3d(-100vw,0,0);
+    transition: transform .3s cubic-bezier(0,.52,0,1);
+    overflow: scroll;
+    text-align: center;
+    font-size: 4rem;
+    
+}
+
+#flyoutMenu h2 a {
+    color: #333;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+#flyoutMenu h2 a:hover {
+    border-bottom: 14px solid #333;
+}
+#flyoutMenu.show {
+    transform: translate3d(0vw,0,0);
+    z-index: 2 !important;
+}

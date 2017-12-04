@@ -1,0 +1,50 @@
+.Landing__grid {	
+    display: grid;
+    width: 100vw;
+    height: 90vh;
+    align-items: end;
+    justify-items: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.Landing__title {
+    font-family: 'Cormorant', serif;
+    font-size: 12rem;
+    grid-row-start: 10;
+    grid-column: 9 / span 12;
+    margin: 0;
+    min-width: 0;
+    font-weight: 600;
+    max-width: 25vw;
+    /* letter-spacing: -2px; */
+    font-variant: small-caps;
+    z-index: 1;
+    justify-self: start;
+    
+}
+.Landing__title::first-letter {
+    font-size: 15rem;
+    font-weight: 600;
+    font-kerning: none;
+    min-width: 0;
+}
+
+.Landing__pic {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Down the mountain-21.jpg') center center;
+    background-size: cover;
+    height: 100vh
+}
+
+.title__box {
+    justify-self: end;
+    min-width: 0;
+    align-self: center;
+    width: 45rem;
+    height: 6.25rem;
+    background-color: #ffe600;
+    grid-row-start: 10;
+    grid-column-start: 10;
+    opacity: .2;
+    margin: 0;
+}
