@@ -1,0 +1,39 @@
+nav {
+  background: #333;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+
+
+nav a {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+  font-family: 'Poiret One', cursive;
+}
+nav a:hover {
+  background-color: #ffffff;
+  color: #333;
+  padding: 17px 10px;
+}
+
+/* Media Queries - flex styles - Navigation */
+
+@media (min-width: 600px) {
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    flex: 1 1 0;
+  }
+}

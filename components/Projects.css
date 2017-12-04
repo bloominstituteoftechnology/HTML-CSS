@@ -1,0 +1,8 @@
+.Section--Projects {
+  background-color: skyblue;
+  z-index: -1;
+}
+
+.Section--Projects h1 {
+  margin-top: 10px;
+}

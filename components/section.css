@@ -1,0 +1,28 @@
+.Section {
+  display: flex;
+	justify-content: center;
+	
+}
+
+.Section h1 {
+	text-align: center;
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 70px;
+	line-height: 100px;
+}
+
+.Section p {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+  line-height: 25px;
+  text-justify: inter-word; 
+}
+
+/*display: flex;
+  justify-content: center;
+  color: #0C2D41;
+  font-size: 18px;
+  margin: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: justify;
+  text-justify: inter-word; */

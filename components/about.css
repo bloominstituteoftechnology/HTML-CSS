@@ -1,0 +1,21 @@
+
+
+.Section--About__Image {
+  margin-left: 20px;
+  
+     
+}
+
+.Section--About h1 {
+  padding: 5px;
+  
+}
+
+.Section--About p {
+   flex: 1;
+   margin-top: 160px;
+   border: solid black 2px;
+   border-radius: 25px;
+   padding: 15px;
+   margin-right: 230px;
+}

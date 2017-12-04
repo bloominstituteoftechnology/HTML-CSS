@@ -1,0 +1,45 @@
+.Hero {
+  background-image: url('../assets/images/Web.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.Hero__text {
+  flex: 1;
+ color: white;
+ font-family: 'Lobster', Georgia, Times, serif;
+ text-align: center;
+ padding: 200px;
+ //-webkit-text-stroke: 1px;
+ //-webkit-text-stroke-color: skyblue;
+ 
+}
+
+.Hero__text p {
+  padding: 20px;
+  font-size: 22px;
+  font-family: 'Shrikhand', cursive;
+  margin-top: 275px;
+}
+
+.Hero__text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer:
+}
+
+.Hero h1 {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 10px;
+  
+}
+
+

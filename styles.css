@@ -1,0 +1,16 @@
+@import './components/Navigation.css';
+@import './components/Hero.css';
+@import './components/Section.css';
+@import './components/About.css';
+@import './components/SlantedDiv.css';
+@import './components/Welcome.css';
+@import './components/Projects.css';
+@import './components/Footer.css';
+@import './components/Contact';
+
+
+body {
+  margin: 0;
+  height: 100%;
+  min-width: 300px;
+}
