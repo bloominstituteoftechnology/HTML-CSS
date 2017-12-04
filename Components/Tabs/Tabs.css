@@ -1,0 +1,32 @@
+.Tabs {
+     
+     justify-content: center;
+     font-weight: bold;
+     
+}
+
+.Tabs__item {
+    display: none;
+    
+}
+
+.Tabs__item-selected {
+    display: flex;
+    
+}
+
+.Tabs__link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: gray;
+    width: 100px
+}
+
+.Tabs__link--selected {
+    background-color: white;
+    border: solid 1px gray;
+}

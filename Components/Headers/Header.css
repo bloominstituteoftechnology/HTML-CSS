@@ -1,0 +1,53 @@
+.Header {
+    align-items: center;
+    background-color: #EFEFEF;
+    background-image: url('bg.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-top: 4px solid #e91e63;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    min-height: 250px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 420px) {
+    .header {
+        background-size: auto 100%;
+    }
+}
+
+.Header:before {
+    background: rgba(0, 0, 0, .7);
+    bottom: 0;
+    content: ' ';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.Header * {
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px 10px black;
+}
+
+.Header h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.Header h2 {
+    font-size: 2.1rem;
+    font-weight: 100;
+    margin: 5px 0;
+}

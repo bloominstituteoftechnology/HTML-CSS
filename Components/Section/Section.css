@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4 {
+    margin: 10px 0 15px;
+}
+
+p,
+ul {
+    margin: 10px 0;
+}
+
+ul li {
+    margin-left: 30px;
+}
+
+a {
+    color: #771515;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px solid #771515;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: #9b4141b0;
+    color: rgb(7, 0, 0);
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+.Section__content {
+    line-height: 1.1;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 50px 25px;
+}
+
+#about {
+    background: #e9581e36;
+    color: rgba(53, 31, 49, 0.83);
+}
+
+#contact {
+    background: #e9581e36;
+    color: rgba(53, 31, 49, 0.83);
+}
