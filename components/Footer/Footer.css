@@ -14,19 +14,18 @@
 }
 
 li {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .Footer__container img {
   width: 1.75rem;
   height: auto;
-  padding-top: 1rem;
 }
 
 .Copyright {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  padding-left: 6rem;
 }
 
 a {
