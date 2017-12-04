@@ -1,28 +1,10 @@
 .About {
-  grid-area: a;
-  background: #fafafa;
-}
-
-.About__container {
-  max-width: 1140px;
-  margin: auto;
-  text-align: center;
-}
-
-.About__section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.About__title {
-  color: rgba(0, 0, 0, 0.8);
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 3rem;
 }
 
 .About__img {

@@ -1,6 +1,12 @@
-@import './components/Footer/Footer.css';
-@import './components/Main/main.css';
-@import './components/Navbar/Navbar.css';
+@import url("./components/Nav/Nav.css");
+@import url("./components/Main/Main.css");
+@import url("./components/Section/Section.css");
+@import url("./components/Section/Header/Header.css");
+@import url("./components/Section/About/About.css");
+@import url("./components/Section/Skills/Skills.css");
+@import url("./components/Section/Projects/Projects.css");
+@import url("./components/Section/Contact/Contact.css");
+@import url("./components/Footer/Footer.css");
 
 body {
   box-sizing: border-box;

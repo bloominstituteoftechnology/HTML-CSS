@@ -1,5 +1,5 @@
 .Footer {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(250, 250, 250, 0.8);
 }
 
 .Footer__container {
@@ -9,30 +9,34 @@
 
 .Footer__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
-  margin: 0;
+}
+
+li {
+  padding: 20px;
 }
 
 .Footer__container img {
-  width: 2rem;
+  width: 1.75rem;
   height: auto;
   padding-top: 1rem;
 }
 
 .Copyright {
-  color: white;
-  text-align: left;
-  font-weight: 400;
-}
-
-.Copyright a {
-  float: right;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-left: 6rem;
+  padding-bottom: 1rem;
 }
 
 a {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
+  float: right;
+}
+
+small, a {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }

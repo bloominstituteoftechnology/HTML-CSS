@@ -1,9 +1,3 @@
-@import '../About/About.css';
-@import '../Contact/Contact.css';
-@import '../Header/Header.css';
-@import '../Projects/Projects.css';
-@import '../Skills/Skills.css';
-
 .Main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

@@ -1,4 +1,4 @@
-.Navbar {
+.Nav {
   position: fixed;
   top: 0;
   right: 0;
@@ -7,7 +7,7 @@
   background: rgba(0, 0, 0, 0.8);
 }
 
-.Navbar__container {
+.Nav__container {
   max-width: 1140px;
   margin: auto;
   display: flex;
@@ -16,18 +16,18 @@
   flex-wrap: nowrap;
 }
 
-.Navbar__list {
+.Nav__list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
 }
 
-.Navbar__list li {
+.Nav__list li {
   padding-left: 4rem;
 }
 
-.Navbar__container a {
+.Nav__container a {
   color: #fff;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
