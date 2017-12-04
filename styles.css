@@ -1,0 +1,119 @@
+/* Body Styling */
+
+body {
+	margin: 0;
+	background-color: #81A538;
+	color: #fff;
+}
+
+/* Header Items */
+
+.header {
+	background: #B1803C;
+	border-bottom: solid #D48E6A;
+	padding: .5em 1.5em .5em 1.5em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__name {
+	font-family: 'Changa One', cursive;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+	color: #fff;
+}
+
+.header__name,
+.nav__item a {
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.header__nav {
+	padding: 10px 0;
+	margin: 20px 0 0;
+	display: flex;
+}
+
+.nav__item {
+	list-style: none;
+}
+
+.nav__item a {
+	color: #fff;
+	font-size: .95em;
+	text-decoration: none;
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+.nav__item a:hover {
+	color: #079468;
+}
+
+/* Section Text Items */
+
+.section__text primary {
+	flex-flow: column;
+}
+
+.section__text a {
+	text-decoration: none;
+	color: rgb(77, 113, 176);
+}
+
+.section__text a:hover {
+	color: #079468;
+}
+
+.section__content {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px;
+}
+
+.section__about {
+	flex: 1;
+}
+
+.section__text__primary {
+	flex-grow: 2;
+	margin: 10px;
+}
+
+.section__heading {
+	background-color: #35387B;
+}
+
+/* Footer */
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__nav {
+	text-align: center;
+	font-size: 0.75em;
+	color: #ccc;
+}
+
+.social__icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/* Images */
+
+.section__about img {
+	width: 200px;
+	height: 150px;
+}
+
+	.section__projects img {
+	cursor: pointer;
+}
+
