@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jessica Thomas</title>
+    <!-- Here we reference our styles.css for our page styling -->
+    <link rel="stylesheet" href="./stylesheet.css">
+	<script defer="defer" src="script.js"></script>
+  </head>
+  <body>
+	<div class="topBar">
+		<a href="#welcome">Home</a>
+		<a href="#aboutme">About Me</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact Me</a>
+	</div>
+	<div class="content">
+		<div class="content__name"><p>Jessica Thomas</p></div>
+		<div id="welcome" class="content__section">
+			<h1 class="content__heading">Welcome!</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div id="aboutme" class="content__section">
+			<h1 class="content__heading">About Me</h1>
+			<img class="content__profile" src="./img/jessicaProfile.jpg" alt="Picture of Jessica Thomas" width="216" height="216"></img>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div id="projects" class="content__section">
+			<h1 class ="content__heading">Projects</h1>
+			<div class ="content__projects">
+				<svg class="content__leftButton" height="250" width="150"><polygon points="150,0 150,250 0,125" style="fill:#8088fc;" /></svg>
+				<div data-imgnum="0" class="content__projectImg content__projectImg--selected">
+					<img src="./img/project1.png" alt="Project 1"></img>
+				</div>
+				<div data-imgnum="1" class="content__projectImg">
+					<img src="./img/project2.png" alt="Project 2"></img>
+				</div>
+				<div data-imgnum="2" class="content__projectImg"div>
+					<img src="./img/project3.png" alt="Project 3"></img>
+				</div>
+				<svg class="content__rightButton" height="250" width="150"><polygon points="0,0 0,250 150,125" style="fill:#8088fc;" /></svg>
+			</div>
+			<div>
+				<div class="content__projectText content__projectText--selected" data-txtnum="0"><br />This is all about project 1</div>
+				<div class="content__projectText" data-txtnum="1"><br />This is all about project 2</div>
+				<div class="content__projectText" data-txtnum="2"><br />This is all about project 3</div>
+			</div>
+		</div>
+		<div id="contact" class="content__section">
+			<h1 class="content__heading">Contact Me</h1>
+			<p>Phone: <a href="tel:+17735555555">(773) 555-5555</a></p>
+			<p>Email: <a href="mailto:lidgrt@gmail.com">lidgrt@gmail.com</a></p>
+		</div>
+		<div class="content__footer">
+			<h1>Footer</h1>
+		</div>
+	</div>
+  </body>
+</html>
