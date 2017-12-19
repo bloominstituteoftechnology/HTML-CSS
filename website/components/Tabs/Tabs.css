@@ -1,0 +1,44 @@
+.Tabs {
+
+}
+
+.Tabs__links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.Tabs__link-item {
+  width: auto;
+  color: #222;
+  font-size: 17px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  border-radius: 2px;
+  padding: 10px 15px;
+  margin: 0px 7px;
+  box-shadow: inset 0px 0px 0px 1px #e5e5e5;
+  background-color: #eee;
+  cursor: pointer;
+  transition: all 0.25s ease 0s;
+}
+.Tabs__link-item:not(.Tabs__link-item--selected):hover {
+  background-color: #fff;
+}
+.Tabs__link-item--selected {
+  color: #fff;
+  box-shadow: inset 0px 0px 0px 0px #e5e5e5;
+  background-color: #1976D2;
+}
+
+.Tabs__contents {
+
+}
+
+.Tabs__content-item {
+  display: none;
+}
+.Tabs__content-item--selected {
+  display: flex;
+}

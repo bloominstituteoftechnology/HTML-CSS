@@ -1,0 +1,28 @@
+.Profile {
+  position: relative;
+  text-align: center;
+}
+.Profile__thumb {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  background-image: url("../images/profile.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px auto 35px auto;
+  filter: grayscale(1) contrast(1.1) brightness(1.1) hue-rotate(-5deg);
+}
+.Profile__fullname {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+.Profile__designation {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+  opacity: 0.75;
+}

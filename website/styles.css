@@ -1,0 +1,26 @@
+@import './components/Text.css';
+@import './components/Section.css';
+@import './components/Profile.css';
+@import './components/Grid.css';
+@import './components/Tabs/Tabs.css';
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #222222;
+}
+
+a {
+  color: #125be4;
+  text-decoration: none;
+}
+
+table tr {
+  vertical-align: top;
+}
+table tr > td {
+  padding: 1px 10px  1px 0px;
+}
+table tr > td:first-child > .Text {
+  font-weight: 500;
+}
