@@ -1,0 +1,170 @@
+body {
+    min-width: 300px;
+}
+* {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    background-color: black;
+    height: 40px;
+    color: white;
+}
+
+.navbar__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+.navbar--item {
+    list-style-type: none;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)),
+        url("http://res.cloudinary.com/doauvslva/image/upload/v1513720854/StockSnap_6UHHE19YG7_cqjjwb.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
+.home__name {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.home__welcome {
+    color: white;
+    text-align: center;
+}
+
+.aboutme {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.aboutme__header {
+    text-align: center;
+    font-size: large;
+}
+
+.aboutme__section2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center
+}
+.aboutme--myimg {
+    height: 250px;
+    border-radius: 50%;
+}
+.aboutme--description {
+    padding-left: 20px;
+}
+
+.projects {
+    background-color: white;
+}
+
+.projects__header {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.projects__section2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.projects--img {
+    width: 70%;
+}
+.contactme {
+    background-color: #f4f4f4;
+}
+.contactme__header {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.contactme__section2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 100%;
+}
+.contactme--message {
+    width:200%; 
+}
+.contactme--submit {
+    font-size: medium;
+    border: solid;
+    width: 50%;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer--img {
+    height: 25px;
+    padding: 5px;
+}
+
+.footer--icon {
+    list-style-type: none;
+}
+
+@media (max-width: 600px) {
+    .aboutme {
+        background-color: #f4f4f4;
+        padding: 10px;
+    }
+    .aboutme__section2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects {
+        background-color: white;
+    }
+    .projects__header {
+        text-align: center;
+        font-size: large;
+        padding-top: 10px;
+    }
+    .projects__section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30%;
+        padding-top: 20px;
+    }
+    .projects--img {
+        width: 50%;
+    }
+    .contactme--message {
+        width:100%; 
+    }
+}
