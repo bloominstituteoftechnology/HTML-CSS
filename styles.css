@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    background-color: rgba(213, 224, 228, 0.877);
+}
+a:link{
+    color: white; 
+}
+a:visited{
+    color: white;
+}
+.header {
+    margin: 0;
+    padding: 0;
+} 
+
+.Navbar{
+    background-color: rgb(25, 62, 97);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.Navigation {
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.h1 {
+   text-align: center;
+}
+
+.Title {
+    background-color: white;
+}
+
+.Welcome {
+    background-color: rgb(38, 146, 235);
+}
+
+.About {
+    background-color: rgb(38, 146, 235);
+}
+
+.Projects {
+    background-color: rgb(38, 146, 235);
+}
+
+.Contact {
+    background-color: rgb(38, 146, 235);
+}
+
+.Project {
+    background-color: rgb(124, 209, 243);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+}  
+
+.Font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Section--half {
+    width: 75%;
+}
+
+.Pic {
+    height: 350px;
+    width: 350px;
+}
