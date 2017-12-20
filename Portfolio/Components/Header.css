@@ -1,0 +1,43 @@
+header {
+    background: yellow;
+    height: 125px;
+    padding-top: 21px;
+    position: relative;
+    z-index: 10;
+}
+
+.benjamminLogo {
+    float: left;
+    padding-left: 50px;
+    position: relative;
+}
+.benjamminLogo img {
+    margin: 0 auto 3px;
+}
+
+nav {
+    float: right;
+    padding-top: 75px;
+}
+nav ul {
+    padding: 0px 0px 0 0;
+}
+nav ul > li {
+    float: left;
+    line-height: 14px;
+    border-left: 1px solid #ff9d4e;
+    border-top: 1px solid #ee8346;
+    background: white;
+}
+nav ul li {
+    position: relative;
+}
+nav ul > li > a {
+    display: inline-block;
+    color: #fff;
+    width: 123px;
+    text-align: center;
+    line-height: 18px;
+    padding: 14px 0 16px;
+    text-decoration: none;
+}

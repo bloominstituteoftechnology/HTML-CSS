@@ -1,0 +1,32 @@
+.menu {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;   
+}
+
+.menu__ul {
+    display: inline-flex;
+    width: 100%;
+    height: 10%;
+    padding: 0.5%;
+    margin: 0.5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    background-color: black;
+}
+
+.menu__li {
+    width: 10%;
+    padding: 0.5%;
+    margin: 1.5%;
+    width: auto;
+    color: rgb(190, 170, 170);
+}
+
+.menu__li:hover {
+    color: white;
+    cursor: pointer;
+}
