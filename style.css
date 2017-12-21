@@ -1,0 +1,99 @@
+body {
+    margin: 50px;
+    border: 1px solid black;
+}
+
+a {
+    color: rgb(212, 212, 212)
+}
+
+img {
+    max-width:10%;
+    max-height: 10%;
+}
+
+h1 {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+h4 {
+    background-color: rgb(70, 43, 43);
+    color: rgb(212, 212, 212);
+}
+
+
+.content {
+    box-sizing: border-box;
+    font-family: Verdana;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    min-height: 90vh;
+}
+
+.content__navigation {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(70, 43, 43);
+}
+
+.content__profile {
+    height: 125px;
+    width: 125px;
+}
+
+.content__name {
+    flex: 2;
+    text-align: center;
+}
+
+
+.content__section {
+    text-align: center;
+    flex: 1;
+    min-height: 20vh;
+}
+
+.content__projects {
+    flex: 1;
+}
+
+.contactList {
+    text-align: left;
+}
+
+.Tabs__item {
+    display: none;
+  }
+  
+  .Tabs__item-selected {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .Tabs__link {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: gray;
+    cursor: pointer;
+  }
+  
+  .Tabs__link-selected {
+    background-color: white;
+    border: solid 1px gray;
+  }
+
+
+@media (min-width: 600px) {
+    .content__projects {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .content__profile{
+        float: left;
+    }
+}
+
