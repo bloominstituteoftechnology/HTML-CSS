@@ -1,0 +1,21 @@
+.section__nav {
+    background-color: #4d79ff;
+}
+.section__nav a:link{color:#FFF; text-decoration: none;}
+.section__nav a:hover{color:#FFF;text-decoration: none; background-color: #ababba;
+} 
+.section__nav a:pressed{text-decoration: none;}
+.section__nav a:active{color:#FFF; text-decoration: none;}
+.section__nav a:visited{color:#FFF; text-decoration: none;}
+
+.section__nav_list {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.section--nav-item-mod {
+    padding: 0 15px 0 5px;
+    list-style: none;
+    display: inline;
+}

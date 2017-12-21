@@ -1,0 +1,47 @@
+.Tabs {
+    background-color: #4d79ff;
+}
+
+.Tabs__item {
+    display: none;
+}
+
+.Tabs__item-selected {
+    display: block;
+    background: #ababba;
+    padding: 10px;
+    margin: 10px 0 30px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.Tabs__link {
+    box-sizing: border-box;
+    background-color: #ababba;
+}
+
+.Tabs__link-selected {
+    background-color: white;
+    border: solid 1px black;
+}
+
+.List {
+    margin: 10px 0 0 0;
+    padding: 0 0 0 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #ababba;
+}
+
+.List__item {
+    padding: 10px 15px;
+    margin:  0 0px;
+    
+}
+
+@media (min-width: 600px) {
+
+}

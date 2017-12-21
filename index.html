@@ -5,7 +5,9 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
     
-    <body class="section">
+    <body>
+        <script defer="defer" src="./components/tabs.js"></script>
+
         <a id="home"></a>
 
         <div class="section__nav">
@@ -51,55 +53,95 @@
                 </p>
             </div>
         </div>
-
-        <a id="projects"></a>
-
-        <div class="section__projects">
-            <h2>Projects</h2>
-            <p>Under Construction</p>
-            <ul class="section__projects_list">    
-                <li class="section__projects_box">
-                    <img class="section__projects_image" src="    https://i.imgur.com/NbylpxG.png" alt="project">
-                    <h3>Project 1</h3>
-                    <p>A small game project. WASD to move, LMB to attack, space to jump, Esc to quit <a href="https://drive.google.com/drive/folders/1-LmZ0_jBJCmNgir3dL508ZYLTbxretF0?usp=sharing">Click here to download.</a></p>
-                </li>
-                <li class="section__projects_box">
-                    <h3>Project 2</h3>
-                    <p>Under construction</p>
-                </li>
-                
-                <li class="section__projects_box">
-                    <h3>Project 3</h3>
-                    <p>Under construction</p>
-                </li>
-                
-                <li class="section__projects_box">
-                    <h3>Project 4</h3>
-                    <p>Under construction</p>
-                </li>
-
-                <li class="section__projects_box">
-                    <h3>Project 5</h3>
-                    <p>Under construction</p>
-                </li>
-                <li class="section__projects_box">
-                    <h3>Project 6</h3>
-                    <p>Under construction</p>
-                </li>
-                
-            </ul>
-        </div>
         
-        <a id="contact"></a>
-        <div class="section__contact">
-            <h2>Contact</h2>
-            <div class="section__contact_item">
-                <p>Email: JohnJohnX4@gmail.com</p>
+        <a id="projects"></a>
+        
+        <div>
+            <div class="section__projects_title">
+                <h2>Projects</h2>
+                <p>Under Construction</p>
+            </div>
+
+            <div class="Tabs">
+                <div class="List">
+                    <div class="List__item Tabs__link" data-tab="1">Project 1</div>
+                    <div class="List__item Tabs__link" data-tab="2">Project 2</div>
+                    <div class="List__item Tabs__link" data-tab="3">Project 3</div>
+                    <div class="List__item Tabs__link" data-tab="4">Project 4</div>
+                    <div class="List__item Tabs__link" data-tab="5">Project 5</div>
+                    <div class="List__item Tabs__link" data-tab="6">Project 6</div>
+                </div>
+
+                <ul class="section__projects_list">    
+                    <li class="Tabs__item" data-tab="1"">
+                        <div>
+                            <img class="section__projects_image"src="https://i.imgur.com/NbylpxG.png" alt="project">
+                        </div>
+                        <h2>Project 1</h3>
+                        <div >
+                            A small game project. WASD to move, LMB to attack, space to jump, Esc to quit <a href="https://drive.google.com/drive/folders/1-LmZ0_jBJCmNgir3dL508ZYLTbxretF0?usp=sharing">Click here to download.</a>
+                        </div>
+                        </li>
+                    <li class="Tabs__item" data-tab="2">
+                        <div>
+                            <img class="section__projects_image" src="http://rs792.pbsrc.com/albums/yy207/ALXis0/398533_Pikaconstruction.gif?w=280&h=210&fit=crop" alt="Construction Sticker">
+                        </div>
+                        <h2>Project 2</h3>
+                        <div>
+                            <p>Under construction</p>
+                        </div>
+                    </li>    
+                    <li class="Tabs__item" data-tab="3">
+                        <div>                            
+                            <img class="section__projects_image" src="http://rs792.pbsrc.com/albums/yy207/ALXis0/398533_Pikaconstruction.gif?w=280&h=210&fit=crop" alt="Construction Sticker">
+                        </div>
+                        <h2>Project 3</h3>
+                        <div>                            
+                            <p>Under construction</p>
+                        </div>
+                    </li>
+                    <li class="Tabs__item" data-tab="4">
+                        <div>                            
+                            <img class="section__projects_image" src="http://rs792.pbsrc.com/albums/yy207/ALXis0/398533_Pikaconstruction.gif?w=280&h=210&fit=crop" alt="Construction Sticker">
+                        </div>
+                        <h2>Project 4</h3>
+                        <div >                            
+                            <p>Under construction</p>
+                        </div>
+                    </li>
+                    <li class="Tabs__item" data-tab="5">
+                        <div>                            
+                            <img class="section__projects_image" src="http://rs792.pbsrc.com/albums/yy207/ALXis0/398533_Pikaconstruction.gif?w=280&h=210&fit=crop" alt="Construction Sticker">
+                        </div>
+                        <h2>Project 5</h3>
+                        <div>                            
+                            <p>Under construction</p>
+                        </div>
+                    </li>
+                    <li class="Tabs__item" data-tab="6">
+                        <div>                            
+                            <img class="section__projects_image" src="http://rs792.pbsrc.com/albums/yy207/ALXis0/398533_Pikaconstruction.gif?w=280&h=210&fit=crop" alt="Construction Sticker">
+                        </div>
+                        <h2>Project 6</h3>
+                        <div >                            
+                            <p>Under construction</p>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
         </div>
-
-        <div class="section__social">
-            <h2>Social Media</h2>
+            
+            <a id="contact"></a>
+            <div class="section__contact">
+                <h2>Contact</h2>
+                <div class="section__contact_item">
+                    <p>Email: JohnJohnX4@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="section__social">
+                <h2>Social Media</h2>
 
             <ul class="section__social_list">
                 <li class="section__social_item">

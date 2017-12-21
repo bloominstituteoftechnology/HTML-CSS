@@ -1,0 +1,41 @@
+.section__me {
+    background-color: #ababba;
+    flex-flow: row wrap;
+    padding: 5px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.section__me_image {
+    float: left;
+    margin: 5px;
+    width: 170px;
+}
+
+.section__me_p {
+    width: 100%;
+    max-width: 500px;
+    font-size: 20px;
+    text-align: left;
+}
+
+@media (min-width: 600px) {
+
+    .section__me {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .section__me_image {
+        float: left;
+        margin: 10px 20px 0 0;
+        width: 260px;
+    }
+
+    .section__me_p {
+        width: 100%;
+        max-width: 1300px;
+        font-size: 20px;
+        text-align: left;
+    }
+}    

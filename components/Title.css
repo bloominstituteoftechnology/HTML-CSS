@@ -1,0 +1,25 @@
+.section__title {
+    text-align: center;
+}
+
+.section--title-bg {
+    background-image:url(https://i.imgur.com/VXnFN8N.jpg);
+    background-size: 600px;
+    background-position: top center;
+    padding: 10px 10px 200px 10px;
+    z-index: 999999;    
+}
+
+.section--title-text {
+    color:#FFF;
+}
+
+@media (min-width: 600px) {
+    .section__title {
+        text-align: left;
+    }
+
+    .section--title-bg {
+        background-size: 1920px;    background-position: center 40%;
+    }
+}

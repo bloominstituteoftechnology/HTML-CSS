@@ -1,0 +1,19 @@
+.section__contact {
+    font-size: 36px;
+    background-color: #ababba;
+    text-align: center
+}
+.section__contact_item {
+    font-size: 24px;
+}
+
+@media (min-width: 600px) {
+
+    .section__contact {
+        font-size: 24px;
+        background-color: #ababba;
+    }
+    .section__contact_item {
+        font-size: 20px;
+    }
+}
