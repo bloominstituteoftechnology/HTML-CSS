@@ -1,0 +1,41 @@
+.name {
+	margin: auto;
+	width: 50%;
+	border: 2px solid black;
+	text-align: center;
+	padding: 0;
+	font-family: Courier;
+	font-size: 20px;
+	/*width: 200px;*/
+	/*display: inline-block;*/
+}
+
+.subtitle {
+	text-align: center;
+	padding-bottom: 40px;
+	font-family: Courier;
+}
+
+.paragraph {
+	padding: 40px;
+	font-family: Courier;
+}
+
+.banner {
+	font-family: Courier;
+}
+
+#picture {
+	box-shadow: 10px 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	font-family: Courier;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
