@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <script defer="defer" src="./tabs.js"></script>
     <div class="content">
             <div class="content__navigation">
                     <a href="./index.html">Home</a>
@@ -28,18 +29,46 @@
                 <img class="content__profile" src="./Portfolio_Image.jpg"/>
                 <p>I currently live right outside of Athens, Georgia. I attended the University of Georgia and studied Religion 
                     and Philosophy. After spending several years employed translating various texts I decided to make a sea change and 
-                    learn software engineering.  This came about as a result of exposure search engine algorithms working as a search 
+                    learn software engineering.  This came about as a result of exposure to search engine algorithms working as a search 
                     result analyst for a major contractor with Google.  My goal is work with a company passionate about building software
                     and apps that help their custormers in dynamic and practical ways. 
                 </p>
             </div>
             <div id="projects" class="content__section">
                     <h4 class="content__heading">Current Projects</h4>
-                    <div class= "content__projects">
-                            <div>Project 1</div>
-                            <div>Project 2</div>
-                            <div>Project 3</div>
+                    <div class= "Tabs">
+                            <div class"List">
+                                    <div class="List__item Tabs__link" data-tab="1">Project 1</div>
+                                    <div class="List__item Tabs__link" data-tab="2">Project 2</div>
+                                    <div class="List__item Tabs__link" data-tab="3">Project 3</div>
+                            </div>
                     </div>
+                    <div class= "Tabs__item" data-tab="1">
+                            <div class="content__section">
+                                    <div class="content__heading">Project 1</div>
+                                    <div class="content__description"> 
+                                        This is a description of a current project.  It is engaging, useful, and mostly complete.
+                                    </div>
+                             </div>
+                    </div>
+                    <div class= "Tabs__item" data-tab="2">
+                            <div class="content__section">
+                                    <div class="content__heading">Project 2</div>
+                                    <div class="content__description">
+                                         This is a description of a past project.  It is less interesting, but seems presentable. 
+                                    </div>
+                             </div>
+                     </div>
+                     <div class="Tabs__item" data-tab="3">
+                             <div class="content__section">
+                                     <div class="content__heading">Project 3</div>
+                                     <div class="Box__description">
+                                          This is a description of a large scale project with collaborators.  It's a bit vague still, but promising.
+                                     </div>
+                                </div>
+                        </div>
+
+                     
             </div>  
             <div id="contactMe" class="content__section">
                     <h4 class="content__heading">Contact Me</h4>
