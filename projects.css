@@ -1,0 +1,17 @@
+.Box__title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.Box--one {
+    background-color: rgb(67, 80, 199);
+  }
+  
+  .Box--two {
+    background-color: rgb(57, 57, 158);
+  }
+  
+  .Box--three {
+    background-color: rgb(93, 79, 175);
+  }

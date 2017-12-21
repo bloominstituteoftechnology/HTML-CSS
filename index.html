@@ -16,6 +16,8 @@
         </div>
     </header>
     <body>
+            <script defer="defer" src="./Tabs.js"></script>
+
             <h1 class="h1 Font"> Barrett J. Viator </h1>
             <div class="Title Font Welcome" id="welcome">Welcome</div>
               <div class="Font">
@@ -31,13 +33,33 @@
                 </div>
                 </div>
             <div class="Title Font Projects" id="projects">Projects</div>
-                <div class="Example">
-                    <ul>
-                        <li class="Project"></li>
-                        <li class="Project"></li>
-                        <li class="Project"></li>
-                    </ul>
+                <div class="Example List">
+                        <div class="Project Font Box-position List__item Tabs__link Tabs__default" data-tab="1"> Project One</div>
+                        <div class="Project Font Box-position List__item Tabs__link" data-tab="2"> Project Two</div>
+                        <div class="Project Font Box-position List__item Tabs__link" data-tab="3"> Project Three</div>
                 </div>
+            </div>
+                <div class="Tabs__item" data-tab="1">
+						<div class="Preview-pic Box--placeholder Box--one">
+							<div class="Box__title Font">Dali Elephant</div>
+							<div><img class="Portfolio-image" src="./img_1.jpg"></div>
+						</div>
+					</div>
+					<div class="Tabs__item" data-tab="2">
+						<div class="Preview-pic Box--placeholder Preview--two">
+							<div class="Box__title Font">Streets of Quebec City</div>
+							<div><img class="Portfolio-image" src="./img_2.jpg"></div>
+						</div>
+					</div>
+					<div class="Tabs__item" data-tab="3">
+						<div class="Preview-pic Box--placeholder Preview--three">
+							<div class="Box__title Font">St. Louis Cathedrial, French Quarter</div>
+							<div><img class="Portfolio-image" src="./img_3.jpg"></div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
             <div class="Title Font Contact" id="contact">Contact</div>
                 <div class="Paragraph Font">
                 <p> Feel free to contact me at either of the following: <br>
