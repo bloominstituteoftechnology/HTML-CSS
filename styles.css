@@ -52,10 +52,6 @@ a:visited{
     background-color: rgb(38, 146, 235);
 }
 
-.Project {
-    display: inline;
-}
-
 .Tabs__item {
     display: none;
 }
@@ -64,44 +60,52 @@ a:visited{
     display: block;
 }
 
+.List {
+    display: inline-flex;
+    padding-left: 550px;
+    
+}
 .Tabs__link {
+    display: inline-flex;
     box-sizing: border-box;
+    width: 100px;
+    height: 100px;
     padding: 10px 15px;
     margin: 10px;
-    background-color: gray;
+    background-color: rgb(124, 209, 243);
+    justify-content: center;
   }
   
   .Tabs__link-selected {
-    background-color: white;
+    background-color: rgb(73, 89, 238);
     border: solid 1px gray;
   }
 
 .Portfolio-image{
+    display: flex;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-   width: 650px;
-   height: 800px;
+    width: 650px;
+    height: 800px;
+   padding-left: 200px;
+   padding-bottom: 800px;
+    
 }
 
 .Box__title{
     display: inline;
+    padding-left: 550px;
     
 }
 
 .Contact {
     background-color: rgb(38, 146, 235);
+    
 }
-
-.Project {
-    background-color: rgb(124, 209, 243);
-    width: 100px;
-    height: 100px;
-    display: inline-flex;
-}  
-
+ 
 .Font {
     font-family: 'Montserrat', sans-serif;
 }
@@ -119,3 +123,4 @@ a:visited{
     height: 350px;
     width: 350px;
 }
+
