@@ -1,196 +1,275 @@
+/*------ GENERAL STYLES ------------*/
+
 body {
-	background: #FEF382;
-	font-family: 'Lucida Sans Unicode', 'Arial', serif;
-	color: white;
-  }
-  
-  h1, h3, h4, header .btn {
-	font-weight: 700;
-  }
-  
-  h1 {
-	margin: 100px 0 20px;
-	text-transform: uppercase;
-	font-size: 2.6rem;
-  }
-  
-  h3 {
-	margin-bottom: 25px;
-	font-size: 2.3rem;
-	text-align: center;
-  }
-  
-  h4 {
-	font-size: 2rem;
-  }
-  
-  h3:after {
-	content: '';
-	display: block;
-	width: 100%;
-	padding-top: 5px;
-	border-bottom: 3px solid white;
-  }
-  
-  h1 + h4 {
-	font-weight: bold;
-  }
-  
-  a {
-	text-align: center;
-	outline: none;
-	display: inline-block;
-	text-decoration: none;
-	background: #FEF382;
-	font-size: 15px;
-	color: #19315B;
-	text-shadow: 0px 1px 0px black;
-  }
-  
-  .btn {
-	font-size: 1.2em;
-	border-radius: 5px;
-	padding: 12px 30px;
-  }
-  
-  .block {
-	width: 130px;
-	margin: 0 auto;
-	display: block;
-  }
+    font-size: 16px;
+    line-height: 1.5em;
+    background: #FEF382;
+}
 
-  header .btn {
-	text-transform: uppercase;
-  }
-  
-  header a:hover, .about a:hover {
-	background: #FEF382;
-  }
+.content-section {
+    min-height: 400px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
 
-  header {
-	padding: 50px;
-  }
-  
-  header {
-	background: #19315B;
-	text-align: center;
-  }
-  
-  nav ul, .contact ul {
-	list-style: none;
-	font-size: 0;
-  }
-  
-  nav li, .contact li {
-	margin-bottom: 0;
-	display: inline-flex;
-  }
-  
-  nav li {
-	width: 50%;
-  }
-  
-  nav a {
-	position: relative;
-	width: 100%;
-	height: 30px;
-	line-height: 30px;
-  }
-  
-  .about {
-	background: url("./portfolio/Images/scrollBackground.jpg") no-repeat fixed center / cover;
+.content-section h1 {
+    color: #19315B;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+
+.contact-section {
+	padding-top: 10px; padding-bottom: 20px;
+}
+
+/*----- NAVBAR -----source material: http://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3*/
+
+.navbar-default {
+    background-color: #FEF382;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    letter-spacing: 0.2em; 
+		height: 80px; 
+		padding: 40px 20px 0 10px; 
+		font-size: 20px; 
+		line-height: 0px; 
+		font-weight: 700; 
+		color: #19315B; 
+		white-space: nowrap;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: lightskyblue;
+}
+
+
+/*---------- link ------------------- */
+
+.navbar-default .navbar-nav > li > a {
+  letter-spacing: 0.2em; 
+	height: 80px; 
+	padding: 40px 20px 0 10px; 
+	font-size: 18px; 
+	line-height: 0px; 
+	font-weight: 700; 
+	color: #111; 
+	white-space: nowrap;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7E9FB8;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #7E9FB8;
+}
+		
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #333;
+}
+
+.navbar-default .navbar-toggle{
+	margin-top: 22px;
+	border-color: #07171E;
+	background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+.navbar-default { 
+	height: 80px; 
+	}
+.navbar-header .navbar-brand { 
+	height: 70px; 
+	padding: 40px 0 0 15px; 
+	font-size: 30px; 
+	}
+.navbar-default .navbar-nav>li>a { 
+	padding: 0px 20px 9px 0; 
+	}
+}
+
+@media screen and (min-width: 992px) {
+ 	.navbar-default { 
+		height: 80px; 
+	}
+  .navbar-header .navbar-brand { 
+		height: 80px; 
+		padding: 45px 0 0 15px; 
+		font-size: 36px; 
+	}
+  .navbar-default .navbar-nav>li>a { 
+		padding: 45px 20px 0 10px; 
+	}
+}
+
+/*------------------ Home ---------------------------*/	
+#home {
+   background: url('./portfolio/Images/space.jpg') no-repeat center center fixed;
+  background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
+}
+
+#home h1 { 
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 96px; 
+	color: #000; 
+	display: inline-block; 
+	margin: 0; 
+	padding: 0; 
+	line-height: 90px; 
+	margin-top: 60px; 
+}
+#home h1:after { 
+	border-bottom: 1px solid #AAA;  
+}
+#home h5 { 
+	font-size: 16px; 
+	color: #555; 
+}
+
+@media screen and (min-width: 768px) {
+  #home h1 { 
+		font-size: 120px; 
+		line-height: 114px; 
+	}
+  #home h5 { 
+		font-size: 19px; 
+	}
+}
+
+@media screen and (min-width: 992px) {
+  #home h1 { 
+		font-size: 132px; 
+		margin-top: 70px; 
+	}
+  #home h5 { 
+		font-size: 21px; 
+	}
+}
+
+@media screen and (min-width: 1200px) {
+  #home h1 { 
+		font-size: 142px; 
+		line-height: 124px; }
+  #home h5 { 
+		font-size: 24px; 
+	}
+}
+
+
+/*--------- PORTFOLIO ----------*/
+
+.content-section .thumbnail { 
+	position: relative; 
+	overflow: hidden; 
+	cursor: pointer; 
+}
+
+.content-section .thumbnail * { transition: all .25s; }
+
+.content-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
+
+.content-section .thumbnail p { line-height: 24px; }
+
+.content-section .thumbnail:hover h4, .content-section .thumbnail:hover p { 
+	color: #AFAFAF; }
+
+.content-section .thumbnail:hover img { 
+	opacity: 0.25;  }
+
+.content-section .thumbnail:after {
+    font-family: 'FontAwesome';
+    content: '\f085';
+    color: #7E9FB8;
+    font-size: 48px;
+    line-height: 80px;
+    top: 70%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    transition: all .35s;
+    opacity: 0;
+    width: 86px;
+    height: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background: transparent;
+    border:3px solid transparent; 
+}
+
+.content-section .thumbnail:hover:after {
+    top: 25%;
+    opacity: 1;
+    color: #FFFFFF;
+    background: #7E9FB8;
+    border:3px solid #FFFFFF; 
+}
+
+
+
+/*------------- CONTACT ----------------*/
+
+.form-horizontal {
+	padding-bottom: 50px;
+}
+
+a.icon-default {
+	color: #fff;
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right:15px;
+}
+
+#footer {
+	background-color: #07171E;
+	letter-spacing: 0.1em;
+	padding: 15px 0px;
 	color: white;
-  }
-  .about .one-third {
-	margin-top: 0px;
-  }
-  
-  .about a {
-	margin-top: 10px;
-  }
-  
-  .about ul {
-	margin-bottom:18px;
-	
-  }
-  
-  .about .center {
-	text-align: center;
-  }
-  
-  .about .bottom {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+.footertext1{
+	font-size: 20px;
 	padding-bottom: 20px;
-  }
-  
-  .about .one-third a {
-	margin: 10px auto;
-	width: 50%;
-	display: block;
-  } 
-  
-  .about .two-thirds p:last-child {
-	margin-bottom: 0;
-	}
-	
-	.centerImage
-	{
-	text-align:center;
-	display:block;
-	}
-  
-  @media (min-width: 550px) {
-  
-	nav li {
-	  width: auto;
-	}
-  
-	a {
-	  box-shadow: 0 8px #f4ba04;
-	}
-  
-	nav a {
-	  padding: 7px;
-	  border-right: 2px solid #19315B;
-	  width: 80px;
-	}
-  
-	nav li:nth-child(2n+1) a:after {
-	  content: none;
-	}
-  
-	nav li:last-child a {
-	  border-right: none;
-	}
-  
-	header a:hover, .about a:hover {
-	  box-shadow: 0 8px #19315B;
-	}
-  
-	header a:active, .about a:active {
-	  box-shadow: 0 4px #19315B;
-	}
-  
-	.about .one-third {
-	  margin-top: 0;
-	}
-	
-	.about .one-third a {
-	  width: 35%;  
-	}
-  }
+}
 
-  @media (min-width: 750px) {
-  
-	h1 {
-	  font-size: 3.5rem;
+
+.createdby{
+	padding-top: 20px;
+	font-size: 10px;
+}
+
+#contactButton {
+	background-color: #7E9FB8;
+	border: #7E9FB8;
+}
+
+@media screen and (min-width: 992px) {
+	font-size: 30px;
+	margin: 20px 30px 10px 0px;
+	.footertext1{
+	font-size: 20px;
+	padding-bottom: 20px;
 	}
-  
-	h3 {
-	  font-size: 2.8rem;
+	
+	a.icon-default {
+	color: #fff;
+	font-size: 40px;
+	padding-left: 15px;
+	padding-right:15px;
+
 	}
-  
-	h4 {
-	  font-size: 2.4rem;
-	}
-  }
+}

@@ -1,62 +1,167 @@
-<html>
-<header>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-        <div class="container">
-          
-          <div class="row">
-            <div class="twelve columns">
-              <nav>
-                <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>  
-            </div> 
-          </div>
-      
-          <div class="row">    
-            <div class="twelve columns">
-              <h1>Ben Campbell</h1>
-              <img src="./portfolio/Images/Logo2.png">
-              <h4>PORTFOLIO</h4>
-              <a href="#" class="btn">Hire me</a> 
-            </div>
-          </div>
-      </header>
-      <section class="about">
-        <div class="container">
-          <div class="row">
-            <div class="twelve columns">
-              <h3>Who am I?</h3>
-              <center><img src="./portfolio/Images/Photo1.jpg" width="200px"></center>
-            </div>
-            </div>
-          </div>
-          <div class="row bottom">
-            <div class="two-thirds column">
-              <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-              sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-              <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-              Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc</p>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-              <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
-            </div>
-            <div class="one-third column">
-              <h4>Portfolio</h4>
-              <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-              </ul>
-              <h4>Contact Me</h4>
-                <ul>
-                  <li>brcampbell001@outlook.com</li>
-                  <li>Phone: 256.694.4578
-                  </li>
-                </ul>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ben's Portfolio Page: FCC</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="./styles.css">
+
+  
+</head>
+
+<body>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!----------------------- NAVAGATION BAR -------------------------->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#home">BEN CAMPBELL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="scroll">ABOUT</a></li>
+				<li><a href="#portfolio" class="scroll">PORTFOLIO</a></li>
+        <li><a href="#contact" class="scroll">CONTACT</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!----------------------- HOME -------------------------->
+
+<div id="home" class="content-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!--------------------- ABOUT ------------------------->
+
+	<div id="about" class="content-section">
+    <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+          <h1>ABOUT</h1>
+         
+          	<p><strong>Lorem Ipsum</strong>  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      </div>
+      </div>
+    </div>    
+  </div>
+  <hr>
+
+	<!-------------------- PORTFOLIO ---------------------------->
+
+  <div id="portfolio" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>PORTFOLIO</h1>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="./portfolio/Images/CoffeeCorner.jpg" alt="Project thumbnail">
+            <div class="caption">
+              <h4>The Coffee Corner</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
           </div>
         </div>
-      </html>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="./Portfolio/Images/Logo2.png" alt="Project thumbnail">
+            <div class="caption">
+              <h4>Logo Design</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="./Portfolio/Images/Photo2.jpg" alt="Project thumbnail">
+            <div class="caption">
+              <h4>Programming</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+			</div>
+    </div>
+  </div>
+	<hr>
+
+  <!------------------------- CONTACT ---------------------------------->
+  <div id="contact" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>CONTACT</h1>				
+					      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label class="col-md-8 col-md-offset-2 control-label" for="inputName"></label>
+              <div class="col-md-8 col-md-offset-2">
+                <input class="form-control" id="inputName" placeholder="Name" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-8 col-md-offset-2 control-label" for="inputEmail"></label>
+              <div class="col-md-8 col-md-offset-2">
+                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-8 col-md-offset-2 control-label" for="inputMessage"></label>
+              <div class="col-md-8 col-md-offset-2">
+                <textarea class="form-control" id="inputMessage" placeholder="Message" rows="5"></textarea>
+                <br>
+                <button id="contactButton"class="btn btn-primary pull-right pop" type="submit" disabled>SEND</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+ 
+ <!-------------------------CONTACT - FOOTER ---------------------------------->
+
+	<div id="footer" class="footer text-center"><p class="footertext1">Why can't we be friends?</p>
+		<div class="text-center">
+			<a class="icon-default" href="https://github.com/brcampbell001" target="_blank" title="Github"><i class="fa fa-github" ></i></a>	
+			<a class="icon-default" href="https://www.linkedin.com/in/benjammincampbell" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square"></i></a>
+			<a class="icon-default" href="https://www.facebook.com/benjammindesign/" title="Facebook"><i class="fa fa-facebook" ></i></a>	
+		</div>
+		<div class="text-center createdby"><p>A Benjammin Design 2017</p>
+		</div>
+	</div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+<script  src="./script.js"></script>
+
+</body>
+
+</html>
