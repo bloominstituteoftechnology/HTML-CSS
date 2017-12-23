@@ -1,0 +1,35 @@
+@import './components/Nav.css';
+@import './components/Title.css';
+@import './components/AboutMe.css';
+@import './components/Projects.css';
+@import './components/Contact.css';
+@import './components/Social.css';
+@import './components/Tabs.css';
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}

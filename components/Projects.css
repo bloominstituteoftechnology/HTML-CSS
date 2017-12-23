@@ -1,0 +1,39 @@
+.section__projects_title {
+    background-color: #4d79ff;
+    font-size: 36px;
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+.section__projects_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.section__projects_image {
+    width: 300px;
+    float: left;
+}
+
+.Project__item_text {
+    font-size: 35px;
+}
+
+@media (min-width: 600px) {
+    
+    .section__projects_title {
+        font-size: 24px;
+    }
+
+    .section__projects_box {
+        padding: 25px;
+        height: 400px;
+        width: 400px;
+        margin: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
