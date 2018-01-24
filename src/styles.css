@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+
+}
+
+body {
+    background-image: url(https://cdn.decoist.com/wp-content/uploads/2015/05/Thriving-green-grass.jpg);
+}
