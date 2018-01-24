@@ -1,0 +1,161 @@
+.welcomeHeader {
+    display: flex;
+    justify-content: center;
+    border: solid slategray 3px;
+}
+
+.aboutMe {
+    display: flex;
+    border: solid slategray 3px;
+    border-top: 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutMe__profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe__info {
+    display: flex;
+    align-self: center;
+}
+
+.aboutMe__header {
+    text-align: center;
+}
+
+.aboutMe__picture {
+    align-self: center;
+    display: flex;
+    height: 216px;
+    width: 244px;
+}
+
+.secondaryInfo {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: solid slategray 3px;
+    border-right: 0;
+    border-top: 0px;
+}
+
+.projects__heading {
+    display: flex;
+    align-self: center;
+}
+
+.projects__info {
+    display: flex;
+    align-self: center;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: solid slategray 3px;
+    border-top: 0px;
+}
+
+.contactInfo__heading {
+    display: flex;
+    align-self: center;
+}
+
+.contactInfo__list {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+@media (max-width: 900px) {
+    .welcomeHeader {
+        display: flex;
+        justify-content: center;
+        border: solid slategray 3px;
+    }
+    
+    .aboutMe {
+        display: flex;
+        border: solid slategray 3px;
+        border-top: 0px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .aboutMe__profile {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aboutMe__info {
+        display: flex;
+        align-self: center;
+    }
+    
+    .aboutMe__header {
+        text-align: center;
+    }
+    
+    .aboutMe__picture {
+        align-self: center;
+        display: flex;
+        height: 216px;
+        width: 244px;
+    }
+    
+    .secondaryInfo {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .projects {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        border: solid slategray 3px;
+        border-top: 0px;
+    }
+    
+    .projects__heading {
+        display: flex;
+        align-self: center;
+    }
+    
+    .projects__info {
+        display: flex;
+        align-self: center;
+    }
+    
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        border: solid slategray 3px;
+        border-top: 0px;
+    }
+    
+    .contactInfo__heading {
+        display: flex;
+        align-self: center;
+    }
+    
+    .contactInfo__list {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+}
