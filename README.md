@@ -1,7 +1,7 @@
 **HTML/CSS**
 ----------------------------------
 
-Topics:  
+Topics:
 * Box Model
 * Flex Box
 * BEM Naming Conventions
@@ -50,6 +50,6 @@ If you don't know where to begin, you may follow the mockup below instead of cre
 </table>
 
 
-**References:**  
-[HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)  
+**References:**
+[HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works)
