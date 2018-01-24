@@ -1,0 +1,45 @@
+.header {
+    background-color:#46B29D;
+}
+.header__navbar {
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.header__title {
+    background:url(../images/tulsa.webp) center;
+    background-size: cover;
+    margin:0;
+}
+.menu__link {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.menu__link:hover {
+    background-color: white;
+    color:#46B29D;
+}
+.menu {
+    -webkit-padding-start: 0;
+    text-align:center;
+    margin: 0;
+}
+.menu__item {
+    display:block;
+    padding: 15px 20px;
+    list-style: none;
+    margin-right:10px;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+@media screen and (min-width:767px) {
+    .menu__item {
+        display:inline-block;
+    }
+}
