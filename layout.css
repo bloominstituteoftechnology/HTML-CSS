@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #2a2a2a;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .navbar__menu-item {
+    padding: 15px 0;
+  }
+  
+  .navbar__item-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar__item-link:hover {
+    cursor: pointer;
+  }
+  
+  .navbar--item-coral {
+    color: #f08080;
+  }
+  
+  .banner {
+    background-color: #d3d3d3;
+  }
+  
+  .banner__title {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .about {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  
+  .title {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .about__image {
+    width: 30%;
+    min-width: 250px;
+    height: 30%;
+  }
+  
+  .about__text {
+    max-width: 65%;
+    margin-top: 0;
+    padding: 0px 20px 20px 20px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: #d3d3d3;
+  }
+  
+  .projects__links {
+    width: 33.333%;
+    height: 33.333%;
+    flex-shrink: 1.5;
+  }
+  
+  .projects__links-placeholders {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    background-color: #2a2a2a;
+  }
+  
+  .projects__links-placeholders:hover {
+    cursor: pointer;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .contact__item {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .footer {
+    height: 100px;
+    background-color: #2a2a2a;
+  }
+  
+  @media (max-width: 800px) {
+  
+    .about, contact, project {
+      flex-direction: column;
+    } 
+  
+    .about__image {
+      margin: 0 auto;
+    }
+  
+    .about__text {
+      margin: 0 auto;
+      padding-top: 20px
+    }
+  
+    .projects {
+      justify-content: space-between;
+    }
+  
+    .projects__links {
+      width: 100%;
+      margin: 20px auto;
+    }
+  
+  }
+  
+  @media (max-width: 500px) {
+    .navbar__menu {
+      flex-direction: column; 
+      padding-left: 0; 
+      text-align: center;
+    }
+  
+    .banner__title {
+      font-size: 2.5em;
+    }
+  
+  }
+  
