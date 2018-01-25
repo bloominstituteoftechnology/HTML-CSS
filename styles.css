@@ -35,7 +35,7 @@ a:hover {
 
 .welcome__title {
     font-family: 'Roboto', sans-serif;
-    background-color: #C4B2B2;
+    background-color: #E0CBCB;
     padding: 8px 0 0 5px;
 }
 
@@ -46,18 +46,28 @@ a:hover {
 
 .about__title {
     font-family: 'Roboto', sans-serif;
-    background-color: #C4B2B2;
+    background-color: #E0CBCB;
     padding: 8px 0 0 5px;
 }
 
 .about--section {
     font-family: 'Roboto', sans-serif;
     margin: 0 0 50px 0;
+    display: inline-flex;
+}
+
+.about__photo {
+    width: 200px;
+    height: 200px;
+}
+
+.about__msg {
+    margin: 0 0 0 10px;
 }
 
 .projects__title {
     font-family: 'Roboto', sans-serif;
-    background-color: #C4B2B2;
+    background-color: #E0CBCB;
     padding: 8px 0 0 5px;
 }
 
@@ -172,7 +182,7 @@ a:hover {
 
 .contact__title {
     font-family: 'Roboto', sans-serif;
-    background-color: #C4B2B2;
+    background-color: #E0CBCB;
     padding: 8px 0 0 5px;
 }
 
