@@ -1,0 +1,81 @@
+h2 {
+    position: relative;
+    display: block;
+    width:auto;
+    height:auto;
+    background: lightskyblue;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.Menu {
+    position: relative;
+    display: block;
+    width:auto;
+    height:auto;
+    background: deepskyblue;
+    padding: 25px;
+    text-align: center;
+
+}
+
+a.Menu {
+    padding: 10px;
+    word-wrap: normal;
+    display: inline-block;
+}
+
+img {
+    clear: right;
+    height: 5%;
+    width: 5%;
+    text-wrap: normal;
+}
+
+.link1 {
+    align-self: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 10px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+    background-color: grey;
+ }
+
+.link2 {
+    align-self: center;
+    display: inline-block;
+    margin: 120px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+    background-color: grey;
+}
+
+.link3 {
+    align-self: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 10px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+    background-color: grey;
+}
+
+.Footer {
+    position: relative;
+    display: block;
+    width:auto;
+    height:auto;
+    background: darkgrey;
+    text-align: center;
+}
